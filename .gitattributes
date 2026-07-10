@@ -1,0 +1,2 @@
+framework/mem0[[:space:]]-[[:space:]]Copy/evaluation/models/**/*.safetensors filter=lfs diff=lfs merge=lfs -text
+framework/mem0[[:space:]]-[[:space:]]Copy/evaluation/results/evaluation_amem_global_linked_top14_openaiemb_5conv_judge5/amem_global_linked_top14_openaiemb_5conv.json filter=lfs diff=lfs merge=lfs -text
