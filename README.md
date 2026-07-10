@@ -1,96 +1,185 @@
 # Nghiên cứu và Đánh giá Framework bộ nhớ dài hạn cho LLM Agent: Đề xuất pipeline cải tiến cho Mem0
 
-Repo này chứa workspace thực nghiệm cho bài toán long-term memory trên LoCoMo, gồm Mem0 local, Mem0 QASE, A-MEM reproduction, RAG baseline, bộ đánh giá unified metrics và demo chat trực quan.
+Repo này chứa mã nguồn và artifact thực nghiệm cho đề tài nghiên cứu framework bộ nhớ dài hạn trong LLM Agent. Trọng tâm của repo là benchmark local trên LoCoMo, so sánh Mem0 local, A-MEM local, RAG baseline và đề xuất một pipeline cải tiến cho Mem0 ở pha truy hồi memory.
 
-Mục tiêu chính của repo là phục vụ benchmark/reproduction và trình bày kết quả báo cáo, không phải một hệ thống production hoàn chỉnh.
+Repo phục vụ mục tiêu nghiên cứu, reproduction và báo cáo thực nghiệm. Đây không phải một deployment production hoàn chỉnh.
 
-## Thành Phần Chính
+## Mục Tiêu
 
-- **Mem0 local**: bản Mem0 OSS/local dùng làm baseline và nền để triển khai evaluation wrapper.
-- **Mem0 QASE**: lớp truy hồi/chọn evidence query-aware đặt giữa Mem0 semantic retrieval và answer prompt.
-- **A-MEM local**: reproduction của A-MEM để so sánh với Mem0 trong cùng điều kiện thực nghiệm.
-- **RAG baseline**: baseline chunk-based retrieval với chunk size/k cố định.
-- **Unified evaluator**: tính EM, F1, BLEU-1, LLM judge, latency, token và cost estimate.
-- **Live demo**: giao diện chat hiển thị retrieved memories, updated memories, rolling summary và chi phí từng lượt trả lời.
-- **Planner models**: model nhỏ DistilRoBERTa cho question type và target speaker classification.
+Đề tài tập trung vào ba mục tiêu chính:
 
-## Cấu Trúc Thư Mục
+- nghiên cứu cách các framework long-term memory lưu trữ, cập nhật và truy hồi memory cho LLM Agent;
+- triển khai benchmark local để so sánh Mem0, A-MEM và RAG trong cùng điều kiện thực nghiệm;
+- đề xuất Mem0 QASE, một lớp query-aware retrieval nhằm giảm context dư thừa của Mem0 nhưng vẫn giữ chất lượng trả lời gần baseline.
+
+## Cấu Trúc Repo
 
 ```text
-C:\Viettel
-├── framework
-│   ├── mem0 - Copy
-│   │   ├── mem0/                         # Mem0 OSS/local source
-│   │   ├── evaluation/
-│   │   │   ├── dataset/                  # LoCoMo + dữ liệu train planner
-│   │   │   ├── metrics/                  # Judge/metric helpers
-│   │   │   ├── models/                   # Planner models, quản lý bằng Git LFS
-│   │   │   ├── results/                  # Summary/metrics/checkpoint cần giữ
-│   │   │   ├── run_mem0_local_locomo.py  # Mem0 baseline + Mem0 QASE runner
-│   │   │   ├── run_amem_local_locomo.py  # A-MEM runner
-│   │   │   ├── run_rag_local_locomo.py   # RAG runner
-│   │   │   ├── evaluate_unified_memory.py
-│   │   │   ├── demo_qase_live_chat.py
-│   │   │   ├── mem0_question_aware_budget.py
-│   │   │   ├── paper_update_memory.py
-│   │   │   └── prompts.py
-│   │   └── ...
-│   └── A-mem-paper-repro-src             # A-MEM reproduction source
-└── README.md
+C:/Viettel
+|-- framework/
+|   |-- mem0 - Copy/
+|   |   |-- mem0/                         # Mem0 OSS/local source
+|   |   |-- evaluation/
+|   |   |   |-- dataset/                  # LoCoMo + dữ liệu train planner
+|   |   |   |-- metrics/                  # Metric/judge helpers
+|   |   |   |-- models/                   # Planner models thử nghiệm
+|   |   |   |-- results/                  # Summary/metrics/checkpoint cần giữ
+|   |   |   |-- run_mem0_local_locomo.py  # Mem0 baseline + Mem0 QASE runner
+|   |   |   |-- run_amem_local_locomo.py  # A-MEM runner
+|   |   |   |-- run_rag_local_locomo.py   # RAG runner
+|   |   |   |-- evaluate_unified_memory.py
+|   |   |   |-- demo_qase_live_chat.py
+|   |   |   |-- mem0_question_aware_budget.py
+|   |   |   |-- paper_update_memory.py
+|   |   |   `-- prompts.py
+|   |   `-- ...
+|   `-- A-mem-paper-repro-src/            # A-MEM reproduction source
+`-- README.md
 ```
 
-## Mem0 QASE
+## Các Thành Phần Chính
 
-QASE là viết tắt của **Query-Aware & Self-Evaluating**. Trong repo này, QASE không thay lõi Mem0, mà bổ sung một lớp điều phối ở pha QA:
+### Mem0 Local
 
-1. Phân loại câu hỏi.
-2. Xác định target speaker.
-3. Lấy candidate memories bằng Mem0 semantic retriever.
-4. Chấm lại candidate pool bằng các tín hiệu như semantic score, lexical BM25, speaker prior và time signal.
-5. Cắt evidence pack bằng budget/cutoff theo nhóm câu hỏi.
-6. Đưa evidence pack vào answer prompt.
-
-Các nhóm câu hỏi trong bản báo cáo:
-
-- `single_hop`
-- `temporal`
-- `multi_hop`
-- `fallback_ambiguous`
-
-Category 5/adversarial của LoCoMo thường không được đưa vào bảng benchmark chính.
-
-## Evaluation Wrapper Cho Mem0
-
-Wrapper trong `paper_update_memory.py` và `run_mem0_local_locomo.py` bổ sung các thành phần gần với mô tả trong paper:
+Mem0 local được dùng làm baseline chính. Bản OSS/local trong repo được bọc thêm một evaluation wrapper để gần hơn với mô tả trong paper Mem0:
 
 - xử lý hội thoại theo message pair;
-- rolling summary;
-- recent context;
-- candidate memory extraction;
+- duy trì rolling summary;
+- truyền recent context khi trích xuất memory;
+- trích xuất candidate memories;
 - tìm memory tương tự trước khi update;
-- bốn thao tác `ADD`, `UPDATE`, `DELETE`, `NOOP`;
-- chuẩn hóa timestamp/session time;
-- answer prompt theo hướng paper-style.
+- áp dụng bốn thao tác `ADD`, `UPDATE`, `DELETE`, `NOOP`;
+- gắn metadata thời gian như `observed_at`, `event_at`, `event_time_text` khi trích xuất được.
 
-Memory được lưu theo speaker/user namespace trong local JSON store/checkpoint, giúp truy hồi và attribution theo speaker rõ ràng hơn.
+Trong thực nghiệm local, memory được lưu theo từng speaker/user namespace và persist bằng checkpoint JSON trên ổ đĩa. Cách này phù hợp để benchmark và tái sử dụng trạng thái memory, nhưng không tương đương deployment production với database/vector database chuyên dụng.
 
-## Baseline
+### A-MEM Local
 
-### Mem0 Baseline
+A-MEM được chạy từ repo reproduction công khai. Hệ thống tổ chức memory thành các memory note thay vì fact ngắn theo speaker namespace như Mem0. Một note có thể chứa content, keywords, context, tags, links, timestamp và metadata truy hồi.
 
-Mem0 baseline dùng semantic retrieval thuần. Trong báo cáo, cấu hình thường dùng `top_k=7` cho mỗi speaker, tương đương tối đa khoảng 14 memory khi truy hồi cả hai speaker.
-
-### A-MEM Baseline
-
-A-MEM local tổ chức memory thành các memory note thay vì fact text tách riêng theo speaker namespace. Note có thể chứa content, keywords, context, tags, links, timestamp và metadata truy hồi. Embedding của A-MEM được lưu riêng bằng NumPy.
+Trong thực nghiệm, A-MEM dùng robust implementation của repo: logic chính của A-MEM vẫn được giữ, nhưng prompt/parser có thể khác paper để chạy ổn định hơn với endpoint OpenAI-compatible. Memory note được giữ trong RAM khi chạy, persist thành `memories.pkl`, còn embedding matrix được lưu bằng NumPy.
 
 ### RAG Baseline
 
-RAG baseline tách hội thoại thành chunk token, embed các chunk, retrieve top-k chunk và đưa chunk vào answer prompt. Bản báo cáo có cấu hình chunk 600, k=1.
+RAG baseline là baseline đơn giản, tách hội thoại thành chunk token, embed chunk, retrieve top-k chunk và đưa chunk vào answer prompt. Trong báo cáo, cấu hình RAG dùng chunk size khoảng 600 và `k=1`.
+
+## Mem0 QASE
+
+Mem0 QASE là viết tắt của **Query-Aware Self-Evaluating**. Trong báo cáo, QASE không thay lõi lưu trữ/cập nhật memory của Mem0, mà được đặt ở pha QA, giữa bước semantic retrieval và answer prompt.
+
+Pipeline tổng quát:
+
+```text
+User Question
+-> Question Planner
+-> Semantic Candidate Retrieval
+-> Evidence Selector
+-> Final Memory Pack
+-> Answer Prompt
+-> LLM Answer
+```
+
+QASE có ba ý tưởng chính:
+
+- phân loại câu hỏi để chọn retrieval budget phù hợp;
+- chấm lại semantic candidates bằng các tín hiệu nhẹ;
+- cắt final memory pack để giảm context dư thừa trước khi đưa vào prompt.
+
+### Question Planner
+
+Question Planner trong kết quả báo cáo chính là rule-based, không dùng LLM, không dùng ground-truth answer, judge label, sample id hoặc category id của LoCoMo.
+
+Bốn nhóm câu hỏi:
+
+- `single_hop`: hỏi một fact trực tiếp về một speaker;
+- `temporal`: hỏi thời gian, mốc sự kiện hoặc thay đổi theo thời gian;
+- `multi_hop`: cần nối nhiều mảnh thông tin, danh sách, so sánh hoặc suy luận;
+- `fallback_ambiguous`: không rõ target speaker hoặc không khớp mạnh với các nhóm trên.
+
+Nếu một câu hỏi khớp nhiều nhóm, planner ưu tiên `multi_hop`, sau đó đến `temporal`, `single_hop`, cuối cùng là `fallback_ambiguous`.
+
+### Candidate Retrieval Và Selector
+
+Trong bản được trình bày ở báo cáo, semantic retrieval vẫn là bước truy hồi chính. QASE lấy semantic candidates từ Mem0 theo từng speaker namespace, gộp candidates của hai speaker vào một pool chung, rồi dùng global selector để chọn final memory pack.
+
+BM25 không được dùng như một retriever độc lập để lấy thêm memory ngoài semantic pool trong bản báo cáo chính. BM25 chỉ đóng vai trò lexical reranking feature trên các memory đã được semantic retriever lấy ra.
+
+Điểm chọn lọc:
+
+```text
+Score(q, m) = S_sem(q, m)
+            + 0.30 * S_lex(q, m)
+            + B_speaker(q, m)
+            + B_time(q, m)
+```
+
+Trong đó:
+
+- `S_sem`: semantic similarity do Mem0 retriever trả về;
+- `S_lex`: BM25 score đã chuẩn hóa trong phạm vi candidate pool của speaker tương ứng;
+- `B_speaker`: cộng nhẹ nếu memory thuộc target speaker;
+- `B_time`: cộng nhẹ cho câu hỏi temporal nếu memory có tín hiệu thời gian trong text, hoặc có `event_at`/`event_time_text`.
+
+Sau khi chấm điểm, QASE dùng largest-gap cutoff để cắt final memory pack. Các nhóm đơn giản như single-hop và temporal có ngưỡng cắt thấp hơn để tạo context gọn hơn; multi-hop và fallback/ambiguous giữ evidence rộng hơn.
+
+## Thiết Lập Thực Nghiệm
+
+Benchmark trong báo cáo dùng subset 5 conversations của LoCoMo, gồm 762 câu hỏi sau khi loại category 5/adversarial. Category 5 không được đưa vào benchmark chính vì trong file dataset thực nghiệm, nhóm này không có trường đáp án chuẩn tương ứng như các category còn lại.
+
+Thiết lập chính:
+
+- dataset: LoCoMo 5 conversations;
+- answer model: `deepseek-v4-flash`;
+- judge model: `deepseek-v4-flash`;
+- embedding model: `text-embedding-3-small`;
+- judge mode: LLM-as-a-Judge, 5 runs, temperature 0;
+- metrics: EM, F1, BLEU-1, LLM judge, latency, retrieved tokens, number of memories.
+
+Các kết quả latency là kết quả benchmark local. Chúng nên được hiểu là so sánh tương đối trong cùng môi trường thực nghiệm, không phải số đo production hoặc số đo đối chiếu tuyệt đối với paper gốc.
+
+## Kết Quả Chính
+
+### So Sánh Framework
+
+Trong benchmark giữa Mem0, A-MEM và RAG:
+
+- A-MEM đạt overall judge cao nhất, đặc biệt mạnh ở nhóm multi-hop;
+- Mem0 tốt hơn A-MEM ở single-hop và temporal, nhờ memory fact ngắn, gọn và theo speaker namespace;
+- RAG baseline thấp hơn rõ rệt do chỉ dùng chunk retrieval đơn giản;
+- A-MEM đánh đổi chất lượng multi-hop bằng context dài hơn và latency cao hơn.
+
+Kết quả overall judge trong báo cáo:
+
+| Method | Overall Judge |
+|---|---:|
+| Mem0 local | 64.75 |
+| A-MEM local | 71.08 |
+| RAG chunk=600, k=1 | 36.75 |
+
+### Mem0 QASE So Với Mem0
+
+Mem0 QASE giữ chất lượng gần baseline trong khi giảm context đưa vào prompt.
+
+| Metric | Mem0 | Mem0 QASE |
+|---|---:|---:|
+| Overall EM | 19.16 | 21.13 |
+| Overall F1 | 43.11 | 43.65 |
+| Overall BLEU-1 | 37.25 | 38.02 |
+| Overall Judge | 64.75 | 64.99 |
+| Avg retrieved tokens | 610 | 463 |
+| Avg retrieved memories | 14.00 | 10.37 |
+
+Kết quả chính:
+
+- retrieved tokens giảm khoảng 24.1%;
+- số memory trung bình giảm khoảng 25.9%;
+- single-hop cải thiện rõ nhất;
+- temporal và open-domain cải thiện nhẹ;
+- multi-hop giảm nhẹ, cho thấy QASE vẫn cần cơ chế chọn/mở rộng evidence tốt hơn cho câu hỏi cần nối nhiều mảnh thông tin.
 
 ## Dataset
 
-Các file dataset nằm trong:
+Dataset nằm trong:
 
 ```text
 framework/mem0 - Copy/evaluation/dataset/
@@ -98,71 +187,66 @@ framework/mem0 - Copy/evaluation/dataset/
 
 Các file đáng chú ý:
 
-- `locomo10.json`: LoCoMo 10 conversations.
-- `locomo10_rag.json`: dữ liệu dùng cho RAG baseline.
-- `locomo10_last5.json`: subset 5 conversations cuối, dùng cho planner training.
-- `qase_planner_finetune/`: dữ liệu train/test planner.
+- `locomo10.json`: dữ liệu LoCoMo 10 conversations;
+- `locomo10_last5.json`: subset 5 conversations cuối, dùng cho một số thử nghiệm/training planner;
+- `qase_planner_finetune/`: dữ liệu train/test planner từ LoCoMo;
 - `qase_planner_finetune_with_longmemeval/`: dữ liệu planner có bổ sung LongMemEval.
 
 ## Planner Models
 
-Planner model nằm trong:
+Repo có lưu planner models thử nghiệm trong:
 
 ```text
 framework/mem0 - Copy/evaluation/models/qase_planner_distilroberta/
 ```
 
-Gồm hai classifier:
-
-- `qase_question_type_distilroberta`: phân loại loại câu hỏi.
-- `qase_target_speaker_distilroberta`: xác định speaker được hỏi chính.
-
-Model weight dùng Git LFS vì file `.safetensors` lớn.
+Các model này dùng DistilRoBERTa để thử phân loại question type và target speaker. Tuy nhiên, trong kết quả QASE chính của báo cáo, planner vẫn là rule-based. Planner model nên được xem là hướng thử nghiệm/phát triển tiếp theo, không phải cấu hình chính tạo ra bảng kết quả Mem0 QASE trong báo cáo.
 
 ## Results
 
-Kết quả báo cáo nằm trong:
+Kết quả chính được lưu trong:
 
 ```text
 framework/mem0 - Copy/evaluation/results/
 ```
 
-Các artifact quan trọng:
+Các artifact cần đọc:
 
-- `*_unified_metrics.csv`: metric theo từng câu hỏi.
-- `*_unified_summary.json`: summary overall/category.
+- `*_unified_metrics.csv`: metric theo từng câu hỏi;
+- `*_unified_summary.json`: summary overall/category;
 - `mem0_paper_memory_5conv.reuse_checkpoint.json`: checkpoint memory đã ingest để tái sử dụng khi chạy QA-only.
 
-Raw result JSON lớn và judge cache có thể bị loại khỏi repo nếu không cần reproduce chi tiết. Repo ưu tiên giữ các file đủ để đọc bảng kết quả báo cáo.
+Repo ưu tiên giữ các summary/metrics phục vụ báo cáo. Raw result JSON lớn, log và judge cache có thể không được commit nếu không cần tái dựng chi tiết từng câu hỏi.
 
 ## Live Demo
 
-File demo:
+Demo nằm ở:
 
 ```text
 framework/mem0 - Copy/evaluation/demo_qase_live_chat.py
 ```
 
-Demo là giao diện chat độc lập với LoCoMo. Mỗi lượt chat:
+Demo là giao diện chat độc lập với LoCoMo. Mỗi lượt chat có thể hiển thị:
 
-- truy hồi memory liên quan;
-- hiển thị retrieved memories;
-- trả lời bằng answer model;
-- extract/update memory từ tin nhắn mới;
-- hiển thị updated memories;
-- cập nhật rolling summary;
-- hiển thị memory tokens, QASE retrieval latency và answer latency.
+- retrieved memories dùng để trả lời;
+- updated memories sau bước memory update;
+- rolling summary hiện tại;
+- memory tokens;
+- QASE retrieval latency;
+- answer latency.
+
+Demo chủ yếu phục vụ minh họa pipeline memory cho người xem, không phải benchmark chính.
 
 ## API Và Runtime
 
-Các script cần biến môi trường:
+Các script dùng API OpenAI-compatible cho chat/judge và OpenAI embedding. Biến môi trường thường dùng:
 
-- `BEEKNOEE_API_KEY`: key cho chat/judge endpoint OpenAI-compatible.
-- `BEEKNOEE_BASE_URL`: base URL cho chat/judge endpoint.
-- `OPENAI_API_KEY`: key cho embedding OpenAI.
-- `MODEL`: answer model mặc định.
-- `JUDGE_MODEL`: judge model mặc định.
-- `EMBEDDING_MODEL`: embedding model mặc định.
+- `BEEKNOEE_API_KEY`
+- `BEEKNOEE_BASE_URL`
+- `OPENAI_API_KEY`
+- `MODEL`
+- `JUDGE_MODEL`
+- `EMBEDDING_MODEL`
 
 File `.env` local không được commit.
 
@@ -170,35 +254,27 @@ File `.env` local không được commit.
 
 Không commit:
 
-- `.env`
-- `.venv`, `.venv311_gpu`
-- `__pycache__`
-- log file;
-- raw cache hoặc raw output rất lớn nếu không cần báo cáo;
+- `.env`;
+- virtual environment như `.venv`, `.venv311_gpu`;
+- `__pycache__`;
+- log runtime;
+- raw cache hoặc raw output lớn không phục vụ báo cáo;
 - file chứa key hoặc thông tin private.
 
-Đã dùng Git LFS cho các file model weight lớn. Khi clone repo mới, cần đảm bảo Git LFS được bật để tải đủ model.
+Model weight lớn được quản lý bằng Git LFS khi cần.
 
-## Ghi Chú Về Latency
+## Hạn Chế Và Hướng Phát Triển
 
-Latency trong repo là latency của pipeline local. Nó không nên được đối chiếu tuyệt đối với paper gốc vì có thể chịu ảnh hưởng bởi:
+Các hạn chế chính trong báo cáo:
 
-- backend local thay vì database/vector database production;
-- API/network của model;
-- checkpoint/logging;
-- warm-up/caching;
-- mức độ song song hóa thấp hơn production.
+- benchmark mới chạy trên subset 5 conversations do giới hạn thời gian và chi phí API;
+- QASE cải thiện context efficiency nhưng còn yếu ở multi-hop;
+- latency local chịu ảnh hưởng bởi runtime, checkpoint/logging, API và môi trường chạy;
+- prompt nội bộ của Mem0/A-MEM paper không được công bố đầy đủ nên reproduction không thể khớp tuyệt đối.
 
-Do đó latency nên được hiểu là so sánh tương đối trong cùng môi trường benchmark.
+Các hướng phát triển:
 
-## Trạng Thái Repo
-
-Repo này đã được dọn để giữ các thành phần cần thiết cho:
-
-- chạy lại benchmark chính;
-- đọc kết quả báo cáo;
-- demo live chat;
-- sử dụng planner model;
-- tham chiếu A-MEM/RAG/Mem0 baseline.
-
-Các file runtime/private được giữ local và bị ignore bởi `.gitignore`.
+- thay rule-based planner bằng model phân loại câu hỏi nhỏ được train trên dữ liệu đa dạng hơn;
+- cải thiện multi-hop bằng controlled expansion hoặc multi-step retrieval;
+- nghiên cứu memory theo nhiều tầng, ví dụ short-term/session/long-term memory;
+- đánh giá thêm trên nhiều dataset và nhiều LLM khác nhau.
