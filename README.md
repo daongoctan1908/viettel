@@ -1,4 +1,4 @@
-# Viettel Memory Benchmark Workspace
+# Nghiên cứu và Đánh giá Framework bộ nhớ dài hạn cho LLM Agent: Đề xuất pipeline cải tiến cho Mem0
 
 Repo này chứa workspace thực nghiệm cho bài toán long-term memory trên LoCoMo, gồm Mem0 local, Mem0 QASE, A-MEM reproduction, RAG baseline, bộ đánh giá unified metrics và demo chat trực quan.
 
