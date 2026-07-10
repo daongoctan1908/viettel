@@ -1,0 +1,647 @@
+{
+  "summary": {
+    "method": "mem0_semantic_top7",
+    "run_id": "20260626_224609",
+    "llm_model": "deepseek-v4-flash",
+    "embedding_model": "text-embedding-3-small",
+    "memory_update_mode": "paper_update_wrapper",
+    "memory_wrapper_store": "json_local",
+    "update_similar_top_k": 10,
+    "input_file": "mem0 - Copy\\evaluation\\results\\mem0_semantic_top7_5conv.json",
+    "num_questions": 762,
+    "judge_mode": "paper_binary",
+    "judge_model": "deepseek-v4-flash",
+    "judge_model_env_var": "JUDGE_MODEL",
+    "chat_client": {
+      "provider": "beeknoee",
+      "uses_beeknoee_api_key": true,
+      "uses_openai_api_key_for_chat": false,
+      "base_url_configured": true,
+      "max_retries": 10,
+      "timeout_sec": 600.0
+    },
+    "judge_runs": 5,
+    "judge_runs_requested": 5,
+    "judge_runs_effective_avg": 5,
+    "judge_cache_file": ".\\mem0 - Copy\\evaluation\\results\\evaluation_mem0_semantic_top7_5conv_judge1\\judge_cache.json",
+    "judge_cache_num_items": 762,
+    "exact_match_avg": 0.19160104986876642,
+    "f1_avg": 0.43105588739740475,
+    "bleu1_avg": 0.3724545128208291,
+    "judge_score_avg": 0.64750656167979,
+    "judge_score_run_means": [
+      0.6469816272965879,
+      0.652230971128609,
+      0.6417322834645669,
+      0.6469816272965879,
+      0.6496062992125984
+    ],
+    "judge_score_mean_across_runs": 0.64750656167979,
+    "judge_score_std_across_runs": 0.00389301757852792,
+    "num_judged": 762,
+    "search_latency_avg": 0.5758596943432265,
+    "search_latency_p50": 0.5209120512008667,
+    "search_latency_p95": 1.040118944644928,
+    "search_latency_trimmed_avg_without_max": 0.5717413090218383,
+    "generation_latency_avg": 3.272727964118397,
+    "generation_latency_p50": 2.418481469154358,
+    "generation_latency_p95": 7.849442553520199,
+    "total_latency_avg": 3.848587658461623,
+    "total_latency_p50": 3.0476008653640747,
+    "total_latency_p95": 8.404609882831572,
+    "total_latency_trimmed_avg_without_max": 3.8039078605942596,
+    "max_latency_question": {
+      "sample_id": "conv-42",
+      "qa_index": 55,
+      "category": "2",
+      "question": "When was Joanna's second movie script shown on the big screens?",
+      "search_latency_sec": 0.5349025726318359,
+      "generation_latency_sec": 37.31501126289368,
+      "total_latency_sec": 37.84991383552551
+    },
+    "retrieved_memory_tokens_avg": 610.3425196850394,
+    "retrieved_memory_tokens_p50": 605.0,
+    "retrieved_memory_tokens_p95": 733.0,
+    "retrieved_memory_tokens_total": 465081,
+    "retrieved_memory_tokens_pre_trim_avg": 610.3425196850394,
+    "retrieved_memory_tokens_pre_trim_p50": 605.0,
+    "retrieved_memory_tokens_pre_trim_p95": 733.0,
+    "retrieved_memory_tokens_pre_trim_total": 465081,
+    "answer_prompt_tokens": 920772,
+    "answer_completion_tokens": 175635,
+    "answer_total_tokens": 1096407,
+    "judge_prompt_tokens": 1277388,
+    "judge_completion_tokens": 325899,
+    "judge_total_tokens": 1603287,
+    "estimated_answer_cost_usd": 0.2434968,
+    "estimated_judge_cost_usd": 0.3871476,
+    "estimated_total_logged_cost_usd": 0.6306444,
+    "note": "Cost estimate includes only logged answer-generation and judge tokens. It does not include internal framework calls during memory.add/search unless the runner logs them."
+  },
+  "category_summary": {
+    "1": {
+      "num_questions": 142,
+      "exact_match_avg": 0.056338028169014086,
+      "f1_avg": 0.3710702170678207,
+      "bleu1_avg": 0.29483750341850845,
+      "judge_score_avg": 0.5985915492957746,
+      "judge_score_run_means": [
+        0.5985915492957746,
+        0.6056338028169014,
+        0.5774647887323944,
+        0.6197183098591549,
+        0.5915492957746479
+      ],
+      "judge_score_std_across_runs": 0.015746957588026668,
+      "search_latency_avg": 0.586426553591876,
+      "search_latency_p50": 0.5212161540985107,
+      "search_latency_p95": 1.0112157702445979,
+      "search_latency_trimmed_avg_without_max": 0.5732491997116846,
+      "generation_latency_avg": 3.5313643670417894,
+      "total_latency_avg": 4.117790920633666,
+      "total_latency_p50": 3.307952880859375,
+      "total_latency_p95": 9.068102025985713,
+      "total_latency_trimmed_avg_without_max": 4.04725865607566,
+      "max_latency_question": {
+        "sample_id": "conv-26",
+        "qa_index": 56,
+        "category": "1",
+        "question": "What subject have Caroline and Melanie both painted?",
+        "search_latency_sec": 0.4121887683868408,
+        "generation_latency_sec": 13.650651454925537,
+        "total_latency_sec": 14.062840223312378
+      },
+      "retrieved_memory_tokens_avg": 582.6760563380282,
+      "retrieved_memory_tokens_p50": 579.0,
+      "retrieved_memory_tokens_p95": 697.75,
+      "retrieved_memory_tokens_total": 82740,
+      "retrieved_memory_tokens_pre_trim_avg": 582.6760563380282,
+      "retrieved_memory_tokens_pre_trim_p50": 579.0,
+      "retrieved_memory_tokens_pre_trim_p95": 697.75,
+      "retrieved_memory_tokens_pre_trim_total": 82740,
+      "total_tokens": 202882
+    },
+    "2": {
+      "num_questions": 156,
+      "exact_match_avg": 0.28205128205128205,
+      "f1_avg": 0.5993691493691494,
+      "bleu1_avg": 0.541091762071629,
+      "judge_score_avg": 0.7884615384615384,
+      "judge_score_run_means": [
+        0.7884615384615384,
+        0.7884615384615384,
+        0.7884615384615384,
+        0.782051282051282,
+        0.7948717948717948
+      ],
+      "judge_score_std_across_runs": 0.004532735776836827,
+      "search_latency_avg": 0.5713314658556229,
+      "search_latency_p50": 0.5266841650009155,
+      "search_latency_p95": 0.9766687750816345,
+      "search_latency_trimmed_avg_without_max": 0.5510823080616613,
+      "generation_latency_avg": 3.4631261305931287,
+      "total_latency_avg": 4.0344575964487515,
+      "total_latency_p50": 2.811495542526245,
+      "total_latency_p95": 8.49353289604187,
+      "total_latency_trimmed_avg_without_max": 3.8162933626482562,
+      "max_latency_question": {
+        "sample_id": "conv-42",
+        "qa_index": 55,
+        "category": "2",
+        "question": "When was Joanna's second movie script shown on the big screens?",
+        "search_latency_sec": 0.5349025726318359,
+        "generation_latency_sec": 37.31501126289368,
+        "total_latency_sec": 37.84991383552551
+      },
+      "retrieved_memory_tokens_avg": 652.5064102564103,
+      "retrieved_memory_tokens_p50": 655.5,
+      "retrieved_memory_tokens_p95": 753.5,
+      "retrieved_memory_tokens_total": 101791,
+      "retrieved_memory_tokens_pre_trim_avg": 652.5064102564103,
+      "retrieved_memory_tokens_pre_trim_p50": 655.5,
+      "retrieved_memory_tokens_pre_trim_p95": 753.5,
+      "retrieved_memory_tokens_pre_trim_total": 101791,
+      "total_tokens": 235255
+    },
+    "3": {
+      "num_questions": 46,
+      "exact_match_avg": 0.08695652173913043,
+      "f1_avg": 0.21716798429251027,
+      "bleu1_avg": 0.17680041861360363,
+      "judge_score_avg": 0.4217391304347826,
+      "judge_score_run_means": [
+        0.41304347826086957,
+        0.41304347826086957,
+        0.41304347826086957,
+        0.43478260869565216,
+        0.43478260869565216
+      ],
+      "judge_score_std_across_runs": 0.011907012119677516,
+      "search_latency_avg": 0.5690643528233403,
+      "search_latency_p50": 0.5121759176254272,
+      "search_latency_p95": 0.9248073697090149,
+      "search_latency_trimmed_avg_without_max": 0.5520042790306939,
+      "generation_latency_avg": 3.2545532661935557,
+      "total_latency_avg": 3.823617619016896,
+      "total_latency_p50": 3.0837281942367554,
+      "total_latency_p95": 7.301878094673157,
+      "total_latency_trimmed_avg_without_max": 3.624790970484416,
+      "max_latency_question": {
+        "sample_id": "conv-43",
+        "qa_index": 33,
+        "category": "3",
+        "question": "Which US states might Tim be in during September 2023 based on his plans of visiting Universal Studios?",
+        "search_latency_sec": 0.8488552570343018,
+        "generation_latency_sec": 11.921961545944214,
+        "total_latency_sec": 12.770816802978516
+      },
+      "retrieved_memory_tokens_avg": 587.4130434782609,
+      "retrieved_memory_tokens_p50": 578.5,
+      "retrieved_memory_tokens_p95": 706.5,
+      "retrieved_memory_tokens_total": 27021,
+      "retrieved_memory_tokens_pre_trim_avg": 587.4130434782609,
+      "retrieved_memory_tokens_pre_trim_p50": 578.5,
+      "retrieved_memory_tokens_pre_trim_p95": 706.5,
+      "retrieved_memory_tokens_pre_trim_total": 27021,
+      "total_tokens": 60815
+    },
+    "4": {
+      "num_questions": 418,
+      "exact_match_avg": 0.215311004784689,
+      "f1_avg": 0.412156221995572,
+      "bleu1_avg": 0.35741693575273603,
+      "judge_score_avg": 0.6363636363636364,
+      "judge_score_run_means": [
+        0.6363636363636364,
+        0.6435406698564593,
+        0.6339712918660287,
+        0.6291866028708134,
+        0.638755980861244
+      ],
+      "judge_score_std_across_runs": 0.005349444922248279,
+      "search_latency_avg": 0.5747077693209124,
+      "search_latency_p50": 0.5207474231719971,
+      "search_latency_p95": 1.062659752368926,
+      "search_latency_trimmed_avg_without_max": 0.5708249404276018,
+      "generation_latency_avg": 3.115808234260413,
+      "total_latency_avg": 3.6905160035813256,
+      "total_latency_p50": 2.9898170232772827,
+      "total_latency_p95": 8.18383771181106,
+      "total_latency_trimmed_avg_without_max": 3.652094417338749,
+      "max_latency_question": {
+        "sample_id": "conv-41",
+        "qa_index": 88,
+        "category": "4",
+        "question": "Where did John explore on a road trip last year?",
+        "search_latency_sec": 0.6905186176300049,
+        "generation_latency_sec": 19.021798849105835,
+        "total_latency_sec": 19.71231746673584
+      },
+      "retrieved_memory_tokens_avg": 606.5287081339712,
+      "retrieved_memory_tokens_p50": 599.5,
+      "retrieved_memory_tokens_p95": 733.0,
+      "retrieved_memory_tokens_total": 253529,
+      "retrieved_memory_tokens_pre_trim_avg": 606.5287081339712,
+      "retrieved_memory_tokens_pre_trim_p50": 599.5,
+      "retrieved_memory_tokens_pre_trim_p95": 733.0,
+      "retrieved_memory_tokens_pre_trim_total": 253529,
+      "total_tokens": 597455
+    }
+  },
+  "add_summary": {
+    "num_add_operations": 0,
+    "total_add_latency_sec": 0,
+    "avg_add_latency_sec": 0.0,
+    "p50_add_latency_sec": 0.0,
+    "p95_add_latency_sec": 0.0,
+    "total_num_message_instances_added": 0,
+    "total_num_target_messages": 0,
+    "total_num_context_messages_available": 0,
+    "total_num_context_messages_in_window": 0,
+    "total_num_context_messages_sent": 0,
+    "total_num_memories": 0,
+    "add_event_counts": {
+      "ADD": 0,
+      "UPDATE": 0,
+      "DELETE": 0,
+      "NOOP": 0,
+      "UNKNOWN": 0
+    },
+    "add_event_counts_by_sample": {
+      "conv-26": {
+        "total": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        },
+        "Caroline": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        },
+        "Melanie": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        }
+      },
+      "conv-30": {
+        "total": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        },
+        "Jon": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        },
+        "Gina": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        }
+      },
+      "conv-41": {
+        "total": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        },
+        "John": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        },
+        "Maria": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        }
+      },
+      "conv-42": {
+        "total": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        },
+        "Joanna": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        },
+        "Nate": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        }
+      },
+      "conv-43": {
+        "total": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        },
+        "Tim": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        },
+        "John": {
+          "ADD": 0,
+          "UPDATE": 0,
+          "DELETE": 0,
+          "NOOP": 0,
+          "UNKNOWN": 0
+        }
+      }
+    },
+    "note": "Message counts are perspective/batch instances sent to memory.add or paper_update_wrapper, not raw LOCOMO dialogue turns. For the paper-style local runner each raw dialogue can appear in both speaker perspectives. Context messages available/in-window are logged separately from context messages actually sent to the memory update path."
+  },
+  "memory_add_output_summary": {
+    "num_samples": 5,
+    "memory_add_output_tokens_total": 0,
+    "memory_add_output_tokens_avg_per_sample": 0,
+    "memory_add_output_tokens_p50": 0.0,
+    "memory_add_output_tokens_p95": 0.0,
+    "by_sample": {
+      "conv-26": {
+        "Caroline": 0,
+        "Melanie": 0,
+        "total": 0,
+        "num_memories": {
+          "Caroline": 0,
+          "Melanie": 0,
+          "total": 0
+        },
+        "token_encoding": "cl100k_base",
+        "note": "Counts memory operation outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is also separate from retrieved prompt tokens."
+      },
+      "conv-30": {
+        "Jon": 0,
+        "Gina": 0,
+        "total": 0,
+        "num_memories": {
+          "Jon": 0,
+          "Gina": 0,
+          "total": 0
+        },
+        "token_encoding": "cl100k_base",
+        "note": "Counts memory operation outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is also separate from retrieved prompt tokens."
+      },
+      "conv-41": {
+        "John": 0,
+        "Maria": 0,
+        "total": 0,
+        "num_memories": {
+          "John": 0,
+          "Maria": 0,
+          "total": 0
+        },
+        "token_encoding": "cl100k_base",
+        "note": "Counts memory operation outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is also separate from retrieved prompt tokens."
+      },
+      "conv-42": {
+        "Joanna": 0,
+        "Nate": 0,
+        "total": 0,
+        "num_memories": {
+          "Joanna": 0,
+          "Nate": 0,
+          "total": 0
+        },
+        "token_encoding": "cl100k_base",
+        "note": "Counts memory operation outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is also separate from retrieved prompt tokens."
+      },
+      "conv-43": {
+        "Tim": 0,
+        "John": 0,
+        "total": 0,
+        "num_memories": {
+          "Tim": 0,
+          "John": 0,
+          "total": 0
+        },
+        "token_encoding": "cl100k_base",
+        "note": "Counts memory operation outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is also separate from retrieved prompt tokens."
+      }
+    },
+    "note": "Counts memory outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is separate from retrieved_memory_tokens per QA."
+  },
+  "memory_store_summary": {
+    "num_samples": 5,
+    "memory_add_output_tokens_total": 0,
+    "memory_add_output_tokens_avg_per_sample": 0,
+    "memory_add_output_tokens_p50": 0.0,
+    "memory_add_output_tokens_p95": 0.0,
+    "by_sample": {
+      "conv-26": {
+        "Caroline": 0,
+        "Melanie": 0,
+        "total": 0,
+        "num_memories": {
+          "Caroline": 0,
+          "Melanie": 0,
+          "total": 0
+        },
+        "token_encoding": "cl100k_base",
+        "note": "Counts memory operation outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is also separate from retrieved prompt tokens."
+      },
+      "conv-30": {
+        "Jon": 0,
+        "Gina": 0,
+        "total": 0,
+        "num_memories": {
+          "Jon": 0,
+          "Gina": 0,
+          "total": 0
+        },
+        "token_encoding": "cl100k_base",
+        "note": "Counts memory operation outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is also separate from retrieved prompt tokens."
+      },
+      "conv-41": {
+        "John": 0,
+        "Maria": 0,
+        "total": 0,
+        "num_memories": {
+          "John": 0,
+          "Maria": 0,
+          "total": 0
+        },
+        "token_encoding": "cl100k_base",
+        "note": "Counts memory operation outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is also separate from retrieved prompt tokens."
+      },
+      "conv-42": {
+        "Joanna": 0,
+        "Nate": 0,
+        "total": 0,
+        "num_memories": {
+          "Joanna": 0,
+          "Nate": 0,
+          "total": 0
+        },
+        "token_encoding": "cl100k_base",
+        "note": "Counts memory operation outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is also separate from retrieved prompt tokens."
+      },
+      "conv-43": {
+        "Tim": 0,
+        "John": 0,
+        "total": 0,
+        "num_memories": {
+          "Tim": 0,
+          "John": 0,
+          "total": 0
+        },
+        "token_encoding": "cl100k_base",
+        "note": "Counts memory operation outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is also separate from retrieved prompt tokens."
+      }
+    },
+    "note": "Counts memory outputs returned by memory.add or paper_update_wrapper, not necessarily the final persisted memory store if UPDATE/DELETE/NOOP operations occurred. It is separate from retrieved_memory_tokens per QA."
+  },
+  "final_memory_store_summary": {
+    "fetch_supported": true,
+    "fetch_warnings": [],
+    "num_samples": 5,
+    "final_memory_store_tokens_total": 19459,
+    "final_memory_store_tokens_avg_per_sample": 3891.8,
+    "final_memory_store_tokens_p50": 4121.0,
+    "final_memory_store_tokens_p95": 4949.0,
+    "tokens_by_sample": {
+      "conv-26": {
+        "Caroline": 1711,
+        "Melanie": 1827,
+        "total": 3538,
+        "token_encoding": "cl100k_base",
+        "note": "Counts final persisted memories in LocalPaperMemoryStore after sample ingestion."
+      },
+      "conv-30": {
+        "Jon": 1063,
+        "Gina": 1040,
+        "total": 2103,
+        "token_encoding": "cl100k_base",
+        "note": "Counts final persisted memories in LocalPaperMemoryStore after sample ingestion."
+      },
+      "conv-41": {
+        "John": 2337,
+        "Maria": 1784,
+        "total": 4121,
+        "token_encoding": "cl100k_base",
+        "note": "Counts final persisted memories in LocalPaperMemoryStore after sample ingestion."
+      },
+      "conv-42": {
+        "Joanna": 2582,
+        "Nate": 2434,
+        "total": 5016,
+        "token_encoding": "cl100k_base",
+        "note": "Counts final persisted memories in LocalPaperMemoryStore after sample ingestion."
+      },
+      "conv-43": {
+        "Tim": 2072,
+        "John": 2609,
+        "total": 4681,
+        "token_encoding": "cl100k_base",
+        "note": "Counts final persisted memories in LocalPaperMemoryStore after sample ingestion."
+      }
+    },
+    "num_memories_by_sample": {
+      "conv-26": {
+        "Caroline": 68,
+        "Melanie": 85,
+        "total": 153
+      },
+      "conv-30": {
+        "Jon": 58,
+        "Gina": 51,
+        "total": 109
+      },
+      "conv-41": {
+        "John": 111,
+        "Maria": 87,
+        "total": 198
+      },
+      "conv-42": {
+        "Joanna": 126,
+        "Nate": 118,
+        "total": 244
+      },
+      "conv-43": {
+        "Tim": 103,
+        "John": 130,
+        "total": 233
+      }
+    },
+    "note": "Counts final persisted memories fetched with Memory.get_all for sdk_additive or from LocalPaperMemoryStore for paper_update_wrapper when available."
+  },
+  "wrapper_summary": {
+    "memory_update_mode": "paper_update_wrapper",
+    "paper_update_wrapper_note": "Mem0-inspired local prototype; not official Mem0 SDK implementation and not an exact paper reproduction.",
+    "update_similar_top_k": 10,
+    "candidate_extraction_tokens_total": 0,
+    "candidate_extraction_usage_totals": {
+      "candidate_extraction_prompt_tokens": 0,
+      "candidate_extraction_completion_tokens": 0,
+      "candidate_extraction_total_tokens": 0,
+      "candidate_extraction_reasoning_tokens": 0,
+      "candidate_extraction_latency_sec": 0.0
+    },
+    "update_decision_tokens_total": 0,
+    "update_decision_usage_totals": {
+      "update_decision_prompt_tokens": 0,
+      "update_decision_completion_tokens": 0,
+      "update_decision_total_tokens": 0,
+      "update_decision_reasoning_tokens": 0,
+      "update_decision_latency_sec": 0.0
+    },
+    "wrapper_add_update_delete_noop_counts": {
+      "ADD": 0,
+      "UPDATE": 0,
+      "DELETE": 0,
+      "NOOP": 0,
+      "UNKNOWN": 0
+    },
+    "wrapper_latency_summary": {
+      "candidate_extraction_latency_sec": 0.0,
+      "update_decision_latency_sec": 0.0,
+      "information_content_guard_latency_sec": 0.0,
+      "store_operation_latency_sec": 0.0,
+      "total_wrapper_latency_sec": 0.0,
+      "num_candidate_extractions": 0,
+      "num_candidates": 0,
+      "num_update_decisions": 0,
+      "num_information_content_guards": 0,
+      "avg_candidate_extraction_latency_sec": 0.0,
+      "avg_update_decision_latency_sec": 0.0,
+      "avg_information_content_guard_latency_sec": 0.0,
+      "avg_total_wrapper_latency_per_candidate_sec": 0.0
+    },
+    "num_paper_update_logs": 0
+  }
+}
