@@ -24,7 +24,6 @@ framework/mem0 - Copy/evaluation/results/*
 
 # Keep small report artifacts from the best run
 !framework/mem0 - Copy/evaluation/results/
-!framework/mem0 - Copy/evaluation/results/locomo_subset_question_distribution.md
 !framework/mem0 - Copy/evaluation/results/evaluation_mem0_qase_clean_bm25_profile_v1_5conv_judge5_best_result/
 !framework/mem0 - Copy/evaluation/results/evaluation_mem0_qase_clean_bm25_profile_v1_5conv_judge5_best_result/mem0_qase_clean_bm25_profile_v1_5conv_unified_metrics.csv
 !framework/mem0 - Copy/evaluation/results/evaluation_mem0_qase_clean_bm25_profile_v1_5conv_judge5_best_result/mem0_qase_clean_bm25_profile_v1_5conv_unified_summary.json
