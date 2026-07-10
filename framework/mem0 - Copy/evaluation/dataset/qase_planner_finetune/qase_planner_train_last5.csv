@@ -1,0 +1,2335 @@
+id,split,sample_id,qa_index,speaker_a,speaker_b,question,text,locomo_category,question_type,target_speaker
+conv-44_qa_1,train,conv-44,1,Audrey,Andrew,Which year did Audrey adopt the first three of her dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Which year did Audrey adopt the first three of her dogs?",2,temporal,speaker_a
+conv-44_qa_2,train,conv-44,2,Audrey,Andrew,When did Andrew start his new job as a financial analyst?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Andrew start his new job as a financial analyst?",2,temporal,speaker_b
+conv-44_qa_3,train,conv-44,3,Audrey,Andrew,What kind of indoor activities has Andrew pursued with his girlfriend?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What kind of indoor activities has Andrew pursued with his girlfriend?",1,single_hop,speaker_b
+conv-44_qa_4,train,conv-44,4,Audrey,Andrew,What kind of places have Andrew and his girlfriend checked out around the city?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What kind of places have Andrew and his girlfriend checked out around the city?",1,single_hop,speaker_b
+conv-44_qa_5,train,conv-44,5,Audrey,Andrew,When did Audrey make muffins for herself?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Audrey make muffins for herself?",2,temporal,speaker_a
+conv-44_qa_6,train,conv-44,6,Audrey,Andrew,When did Audrey see a hummingbird?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Audrey see a hummingbird?",2,temporal,speaker_a
+conv-44_qa_7,train,conv-44,7,Audrey,Andrew,When did Audrey adopt Pixie?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Audrey adopt Pixie?",2,temporal,speaker_a
+conv-44_qa_8,train,conv-44,8,Audrey,Andrew,How many years passed between Audrey adopting Pixie and her other three dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How many years passed between Audrey adopting Pixie and her other three dogs?",2,temporal,speaker_a
+conv-44_qa_9,train,conv-44,9,Audrey,Andrew,Did Andrew have a pet dog during March 2023?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Did Andrew have a pet dog during March 2023?",2,temporal,speaker_b
+conv-44_qa_10,train,conv-44,10,Audrey,Andrew,What kind of classes or groups has Audrey joined to take better care of her dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What kind of classes or groups has Audrey joined to take better care of her dogs?",1,single_hop,speaker_a
+conv-44_qa_11,train,conv-44,11,Audrey,Andrew,When did Audrey's positive reinforcement training course for dogs take place?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Audrey's positive reinforcement training course for dogs take place?",2,temporal,speaker_a
+conv-44_qa_12,train,conv-44,12,Audrey,Andrew,When did Andrew go rock climbing?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Andrew go rock climbing?",2,temporal,speaker_b
+conv-44_qa_13,train,conv-44,13,Audrey,Andrew,What outdoor activities has Andrew done other than hiking in nature?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What outdoor activities has Andrew done other than hiking in nature?",1,single_hop,speaker_b
+conv-44_qa_14,train,conv-44,14,Audrey,Andrew,When did Audrey move to a new place?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Audrey move to a new place?",2,temporal,speaker_a
+conv-44_qa_15,train,conv-44,15,Audrey,Andrew,What is something that Andrew really misses while working in the city?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What is something that Andrew really misses while working in the city?",1,single_hop,speaker_b
+conv-44_qa_16,train,conv-44,16,Audrey,Andrew,What is a shared frustration regarding dog ownership for Audrey and Andrew?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What is a shared frustration regarding dog ownership for Audrey and Andrew?",1,single_hop,both
+conv-44_qa_17,train,conv-44,17,Audrey,Andrew,When is Andrew going to go hiking with Audrey?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When is Andrew going to go hiking with Audrey?",2,temporal,both
+conv-44_qa_18,train,conv-44,18,Audrey,Andrew,How many times did Audrey and Andew plan to hike together?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How many times did Audrey and Andew plan to hike together?",1,single_hop,speaker_a
+conv-44_qa_19,train,conv-44,19,Audrey,Andrew,Where did Audrey get Pixie from?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Where did Audrey get Pixie from?",1,single_hop,speaker_a
+conv-44_qa_20,train,conv-44,20,Audrey,Andrew,What is an indoor activity that Andrew would enjoy doing while make his dog happy?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What is an indoor activity that Andrew would enjoy doing while make his dog happy?",3,multi_hop,speaker_b
+conv-44_qa_21,train,conv-44,21,Audrey,Andrew,Which meat does Audrey prefer eating more than others?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Which meat does Audrey prefer eating more than others?",3,multi_hop,speaker_a
+conv-44_qa_22,train,conv-44,22,Audrey,Andrew,What are the classes that Audrey took for her dogs to?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What are the classes that Audrey took for her dogs to?",1,single_hop,speaker_a
+conv-44_qa_23,train,conv-44,23,Audrey,Andrew,Where did Andrew go during the first weekend of August 2023?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Where did Andrew go during the first weekend of August 2023?",2,temporal,speaker_b
+conv-44_qa_24,train,conv-44,24,Audrey,Andrew,What are some problems that Andrew faces before he adopted Toby?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What are some problems that Andrew faces before he adopted Toby?",1,single_hop,speaker_b
+conv-44_qa_25,train,conv-44,25,Audrey,Andrew,Did Audrey and Andrew grow up with a pet dog?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Did Audrey and Andrew grow up with a pet dog?",1,single_hop,both
+conv-44_qa_26,train,conv-44,26,Audrey,Andrew,When did Andrew and his girlfriend go fishing?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Andrew and his girlfriend go fishing?",2,temporal,speaker_b
+conv-44_qa_27,train,conv-44,27,Audrey,Andrew,What is the biggest stressor in Andrew's life besides not being able to hike frequently?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What is the biggest stressor in Andrew's life besides not being able to hike frequently?",1,single_hop,speaker_b
+conv-44_qa_28,train,conv-44,28,Audrey,Andrew,How does Andrew feel about his current work?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How does Andrew feel about his current work?",1,single_hop,speaker_b
+conv-44_qa_29,train,conv-44,29,Audrey,Andrew,What is something that Audrey often dresses up her dogs with?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What is something that Audrey often dresses up her dogs with?",1,single_hop,speaker_a
+conv-44_qa_30,train,conv-44,30,Audrey,Andrew,What are the names of Audrey's dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What are the names of Audrey's dogs?",1,single_hop,speaker_a
+conv-44_qa_31,train,conv-44,31,Audrey,Andrew,When is Andrew planning to go to the beach with his girlfriend?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When is Andrew planning to go to the beach with his girlfriend?",2,temporal,speaker_b
+conv-44_qa_32,train,conv-44,32,Audrey,Andrew,What has Andrew done with his dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What has Andrew done with his dogs?",1,single_hop,speaker_b
+conv-44_qa_33,train,conv-44,33,Audrey,Andrew,What kind of tattoo does Audrey have on her arm?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What kind of tattoo does Audrey have on her arm?",1,single_hop,speaker_a
+conv-44_qa_34,train,conv-44,34,Audrey,Andrew,What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What can Andrew potentially do to improve his stress and accomodate his living situation with his dogs?",3,multi_hop,speaker_b
+conv-44_qa_35,train,conv-44,35,Audrey,Andrew,How many months passed between Andrew adopting Toby and Buddy?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How many months passed between Andrew adopting Toby and Buddy?",2,temporal,speaker_b
+conv-44_qa_36,train,conv-44,36,Audrey,Andrew,What are the names of Andrew's dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What are the names of Andrew's dogs?",1,single_hop,speaker_b
+conv-44_qa_37,train,conv-44,37,Audrey,Andrew,What are some foods that Audrey likes eating?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What are some foods that Audrey likes eating?",1,single_hop,speaker_a
+conv-44_qa_38,train,conv-44,38,Audrey,Andrew,When did Audrey get into an accident in the park?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Audrey get into an accident in the park?",2,temporal,speaker_a
+conv-44_qa_39,train,conv-44,39,Audrey,Andrew,When did Andrew and his girlfriend go on a wine tasting trip?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Andrew and his girlfriend go on a wine tasting trip?",2,temporal,speaker_b
+conv-44_qa_40,train,conv-44,40,Audrey,Andrew,What did Audrey get wtih having so many dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Audrey get wtih having so many dogs?",1,single_hop,speaker_a
+conv-44_qa_41,train,conv-44,41,Audrey,Andrew,What is a good place for dogs to run around freely and meet new friends?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What is a good place for dogs to run around freely and meet new friends?",1,single_hop,unknown
+conv-44_qa_42,train,conv-44,42,Audrey,Andrew,What are the breeds of Audrey's dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What are the breeds of Audrey's dogs?",1,single_hop,speaker_a
+conv-44_qa_43,train,conv-44,43,Audrey,Andrew,What technique is Audrey using to discipline her dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What technique is Audrey using to discipline her dogs?",1,single_hop,speaker_a
+conv-44_qa_44,train,conv-44,44,Audrey,Andrew,Which US state do Audrey and Andrew potentially live in?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Which US state do Audrey and Andrew potentially live in?",3,multi_hop,both
+conv-44_qa_45,train,conv-44,45,Audrey,Andrew,Which national park could Audrey and Andrew be referring to in their conversations?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Which national park could Audrey and Andrew be referring to in their conversations?",3,multi_hop,both
+conv-44_qa_46,train,conv-44,46,Audrey,Andrew,"How many pets will Andrew have, as of December 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: How many pets will Andrew have, as of December 2023?",2,temporal,speaker_b
+conv-44_qa_47,train,conv-44,47,Audrey,Andrew,"How many pets did Andrew have, as of September 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: How many pets did Andrew have, as of September 2023?",2,temporal,speaker_b
+conv-44_qa_48,train,conv-44,48,Audrey,Andrew,How many months passed between Andrew adopting Buddy and Scout,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How many months passed between Andrew adopting Buddy and Scout",2,temporal,speaker_b
+conv-44_qa_49,train,conv-44,49,Audrey,Andrew,What does Andrew view his pets as?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What does Andrew view his pets as?",1,single_hop,speaker_b
+conv-44_qa_50,train,conv-44,50,Audrey,Andrew,What does Audrey view her pets as?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What does Audrey view her pets as?",1,single_hop,speaker_a
+conv-44_qa_51,train,conv-44,51,Audrey,Andrew,What is a skill that Audrey learned to take care of her dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What is a skill that Audrey learned to take care of her dogs?",1,single_hop,speaker_a
+conv-44_qa_52,train,conv-44,52,Audrey,Andrew,What items has Audrey bought or made for her dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What items has Audrey bought or made for her dogs?",1,single_hop,speaker_a
+conv-44_qa_53,train,conv-44,53,Audrey,Andrew,What is something that Andrew could do to make birdwatching hobby to fit in his city schedule?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What is something that Andrew could do to make birdwatching hobby to fit in his city schedule?",3,multi_hop,speaker_b
+conv-44_qa_54,train,conv-44,54,Audrey,Andrew,What is a career that Andrew could potentially pursue with his love for animals and nature?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What is a career that Andrew could potentially pursue with his love for animals and nature?",3,multi_hop,speaker_b
+conv-44_qa_55,train,conv-44,55,Audrey,Andrew,What activity do Audrey's dogs like to do in the dog park?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What activity do Audrey's dogs like to do in the dog park?",1,single_hop,speaker_a
+conv-44_qa_56,train,conv-44,56,Audrey,Andrew,When did Andrew make his dogs a fun indoor area?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Andrew make his dogs a fun indoor area?",2,temporal,speaker_b
+conv-44_qa_57,train,conv-44,57,Audrey,Andrew,Has Andrew moved into a new apartment for his dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Has Andrew moved into a new apartment for his dogs?",1,single_hop,speaker_b
+conv-44_qa_58,train,conv-44,58,Audrey,Andrew,When did Andrew adopt Scout?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: When did Andrew adopt Scout?",2,temporal,speaker_b
+conv-44_qa_59,train,conv-44,59,Audrey,Andrew,"What did Audrey eat for dinner on October 24, 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Audrey eat for dinner on October 24, 2023?",2,temporal,speaker_a
+conv-44_qa_60,train,conv-44,60,Audrey,Andrew,"How long has it been since Andrew adopted his first pet, as of November 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: How long has it been since Andrew adopted his first pet, as of November 2023?",2,temporal,speaker_b
+conv-44_qa_61,train,conv-44,61,Audrey,Andrew,How many dogs does Andrew have?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How many dogs does Andrew have?",1,single_hop,speaker_b
+conv-44_qa_62,train,conv-44,62,Audrey,Andrew,Which specific type of bird mesmerizes Andrew?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Which specific type of bird mesmerizes Andrew?",4,fallback_ambiguous,speaker_b
+conv-44_qa_63,train,conv-44,63,Audrey,Andrew,What did Andrew express missing about exploring nature trails with his family's dog?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Andrew express missing about exploring nature trails with his family's dog?",4,fallback_ambiguous,speaker_b
+conv-44_qa_64,train,conv-44,64,Audrey,Andrew,What kind of pastries did Andrew and his girlfriend have at the cafe?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What kind of pastries did Andrew and his girlfriend have at the cafe?",4,fallback_ambiguous,speaker_b
+conv-44_qa_65,train,conv-44,65,Audrey,Andrew,What kind of flowers does Audrey have a tattoo of?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What kind of flowers does Audrey have a tattoo of?",4,fallback_ambiguous,speaker_a
+conv-44_qa_66,train,conv-44,66,Audrey,Andrew,What does Audrey do during dog playdates in the park?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What does Audrey do during dog playdates in the park?",4,fallback_ambiguous,speaker_a
+conv-44_qa_67,train,conv-44,67,Audrey,Andrew,What type of dog was Andrew looking to adopt based on his living space?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What type of dog was Andrew looking to adopt based on his living space?",4,fallback_ambiguous,speaker_b
+conv-44_qa_68,train,conv-44,68,Audrey,Andrew,"Where does Andrew want to live to give their dog a large, open space to run around?","Speaker A: Audrey
+Speaker B: Andrew
+Question: Where does Andrew want to live to give their dog a large, open space to run around?",4,fallback_ambiguous,speaker_b
+conv-44_qa_69,train,conv-44,69,Audrey,Andrew,Why did Audrey sign up for a workshop about bonding with pets?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Why did Audrey sign up for a workshop about bonding with pets?",4,fallback_ambiguous,speaker_a
+conv-44_qa_70,train,conv-44,70,Audrey,Andrew,How did Audrey hear about the workshop on bonding with pets?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How did Audrey hear about the workshop on bonding with pets?",4,fallback_ambiguous,speaker_a
+conv-44_qa_71,train,conv-44,71,Audrey,Andrew,What type of training was the workshop Audrey signed up for in May 2023?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What type of training was the workshop Audrey signed up for in May 2023?",4,fallback_ambiguous,speaker_a
+conv-44_qa_72,train,conv-44,72,Audrey,Andrew,How did Audrey describe she dog he met at the pet store?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How did Audrey describe she dog he met at the pet store?",4,fallback_ambiguous,speaker_a
+conv-44_qa_73,train,conv-44,73,Audrey,Andrew,Why did Audrey think positive reinforcement training is important for pets?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Why did Audrey think positive reinforcement training is important for pets?",4,fallback_ambiguous,speaker_a
+conv-44_qa_74,train,conv-44,74,Audrey,Andrew,What challenge is Andrew facing in their search for a pet?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What challenge is Andrew facing in their search for a pet?",4,fallback_ambiguous,speaker_b
+conv-44_qa_75,train,conv-44,75,Audrey,Andrew,How does Andrew feel about their search for a pet-friendly place?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How does Andrew feel about their search for a pet-friendly place?",4,fallback_ambiguous,speaker_b
+conv-44_qa_76,train,conv-44,76,Audrey,Andrew,What outdoor activities does Andrew plan on trying after the rock climbing class?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What outdoor activities does Andrew plan on trying after the rock climbing class?",4,fallback_ambiguous,speaker_b
+conv-44_qa_77,train,conv-44,77,Audrey,Andrew,How long does Audrey typically walk her dogs for?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How long does Audrey typically walk her dogs for?",4,fallback_ambiguous,speaker_a
+conv-44_qa_78,train,conv-44,78,Audrey,Andrew,"What did Audrey set up in the backyard for their dogs on June 26, 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Audrey set up in the backyard for their dogs on June 26, 2023?",4,fallback_ambiguous,speaker_a
+conv-44_qa_79,train,conv-44,79,Audrey,Andrew,"What did Audrey and her friends stumble across during a hike a few years back, as mentioned on June 26, 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Audrey and her friends stumble across during a hike a few years back, as mentioned on June 26, 2023?",4,fallback_ambiguous,speaker_a
+conv-44_qa_80,train,conv-44,80,Audrey,Andrew,"What is Audrey's favorite recipe that she shares with Andrew on 3 July, 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: What is Audrey's favorite recipe that she shares with Andrew on 3 July, 2023?",4,fallback_ambiguous,both
+conv-44_qa_81,train,conv-44,81,Audrey,Andrew,"What dish is one of Audrey's favorite dishes that includes garlic and is shared with Andrew on 3 July, 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: What dish is one of Audrey's favorite dishes that includes garlic and is shared with Andrew on 3 July, 2023?",4,fallback_ambiguous,both
+conv-44_qa_82,train,conv-44,82,Audrey,Andrew,"What did Andrew and his GF do on the Monday before July 24, 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Andrew and his GF do on the Monday before July 24, 2023?",4,fallback_ambiguous,speaker_b
+conv-44_qa_83,train,conv-44,83,Audrey,Andrew,What is the name of Audrey's childhood dog?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What is the name of Audrey's childhood dog?",4,fallback_ambiguous,speaker_a
+conv-44_qa_84,train,conv-44,84,Audrey,Andrew,"What special memories does Audrey have with her childhood dog, Max?","Speaker A: Audrey
+Speaker B: Andrew
+Question: What special memories does Audrey have with her childhood dog, Max?",4,fallback_ambiguous,speaker_a
+conv-44_qa_85,train,conv-44,85,Audrey,Andrew,What are some of the personalities of Audrey's four fur babies?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What are some of the personalities of Audrey's four fur babies?",4,fallback_ambiguous,speaker_a
+conv-44_qa_86,train,conv-44,86,Audrey,Andrew,"What type of classes did Audrey start with her pups recently on 4 August, 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: What type of classes did Audrey start with her pups recently on 4 August, 2023?",4,fallback_ambiguous,speaker_a
+conv-44_qa_87,train,conv-44,87,Audrey,Andrew,How often does Audrey take her pups to the park for practice?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How often does Audrey take her pups to the park for practice?",4,fallback_ambiguous,speaker_a
+conv-44_qa_88,train,conv-44,88,Audrey,Andrew,How long did the trail hike that Audrey went on with her pups take?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How long did the trail hike that Audrey went on with her pups take?",4,fallback_ambiguous,speaker_a
+conv-44_qa_89,train,conv-44,89,Audrey,Andrew,What advice did Audrey give to Andrew regarding grooming Toby?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What advice did Audrey give to Andrew regarding grooming Toby?",4,fallback_ambiguous,both
+conv-44_qa_90,train,conv-44,90,Audrey,Andrew,What is essential to keep the dogs looking good according to Audrey?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What is essential to keep the dogs looking good according to Audrey?",4,fallback_ambiguous,speaker_a
+conv-44_qa_91,train,conv-44,91,Audrey,Andrew,What did Audrey organize with the neighbors' dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Audrey organize with the neighbors' dogs?",4,fallback_ambiguous,speaker_a
+conv-44_qa_92,train,conv-44,92,Audrey,Andrew,What did Audrey do to give her dogs extra comfort as the weather cooled down?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Audrey do to give her dogs extra comfort as the weather cooled down?",4,fallback_ambiguous,speaker_a
+conv-44_qa_93,train,conv-44,93,Audrey,Andrew,How does Audrey describe the new beds for her dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How does Audrey describe the new beds for her dogs?",4,fallback_ambiguous,speaker_a
+conv-44_qa_94,train,conv-44,94,Audrey,Andrew,How did Audrey calm down her dog after the leash incident?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How did Audrey calm down her dog after the leash incident?",4,fallback_ambiguous,speaker_a
+conv-44_qa_95,train,conv-44,95,Audrey,Andrew,How often does Audrey take her dogs for walks?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How often does Audrey take her dogs for walks?",4,fallback_ambiguous,speaker_a
+conv-44_qa_96,train,conv-44,96,Audrey,Andrew,What kind of flowers does Audrey take care of?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What kind of flowers does Audrey take care of?",4,fallback_ambiguous,speaker_a
+conv-44_qa_97,train,conv-44,97,Audrey,Andrew,What did Andrew learn from reading books about ecological systems?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Andrew learn from reading books about ecological systems?",4,fallback_ambiguous,speaker_b
+conv-44_qa_98,train,conv-44,98,Audrey,Andrew,What did Andrew suggest as a way to reduce carbon footprint?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Andrew suggest as a way to reduce carbon footprint?",4,fallback_ambiguous,speaker_b
+conv-44_qa_99,train,conv-44,99,Audrey,Andrew,How does Andrew suggest helping the planet while also training the body?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How does Andrew suggest helping the planet while also training the body?",4,fallback_ambiguous,speaker_b
+conv-44_qa_100,train,conv-44,100,Audrey,Andrew,"What did Audrey do with her pups over the weekend before 4th October, 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Audrey do with her pups over the weekend before 4th October, 2023?",4,fallback_ambiguous,speaker_a
+conv-44_qa_101,train,conv-44,101,Audrey,Andrew,What was the reason Audrey couldn't walk her dogs for a period of time?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What was the reason Audrey couldn't walk her dogs for a period of time?",4,fallback_ambiguous,speaker_a
+conv-44_qa_102,train,conv-44,102,Audrey,Andrew,What type of jewelry does Audrey make?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What type of jewelry does Audrey make?",4,fallback_ambiguous,speaker_a
+conv-44_qa_103,train,conv-44,103,Audrey,Andrew,Why does Audrey make jewelry out of recycled objects?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Why does Audrey make jewelry out of recycled objects?",4,fallback_ambiguous,speaker_a
+conv-44_qa_104,train,conv-44,104,Audrey,Andrew,What organization does Audrey donate a portion of his profits to?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What organization does Audrey donate a portion of his profits to?",4,fallback_ambiguous,speaker_a
+conv-44_qa_105,train,conv-44,105,Audrey,Andrew,How does Audrey help out the animal shelter?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How does Audrey help out the animal shelter?",4,fallback_ambiguous,speaker_a
+conv-44_qa_106,train,conv-44,106,Audrey,Andrew,What type of games do Audrey's dogs like to play at the park?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What type of games do Audrey's dogs like to play at the park?",4,fallback_ambiguous,speaker_a
+conv-44_qa_107,train,conv-44,107,Audrey,Andrew,What did Audrey make to thank her neighbors?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Audrey make to thank her neighbors?",4,fallback_ambiguous,speaker_a
+conv-44_qa_108,train,conv-44,108,Audrey,Andrew,How do Audrey's dogs react to snow?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How do Audrey's dogs react to snow?",4,fallback_ambiguous,speaker_a
+conv-44_qa_109,train,conv-44,109,Audrey,Andrew,How does Audrey describe her dogs' response to snow?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How does Audrey describe her dogs' response to snow?",4,fallback_ambiguous,speaker_a
+conv-44_qa_110,train,conv-44,110,Audrey,Andrew,What kind of experiences are Audrey's dogs the best companions for?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What kind of experiences are Audrey's dogs the best companions for?",4,fallback_ambiguous,speaker_a
+conv-44_qa_111,train,conv-44,111,Audrey,Andrew,What activity do Andrew and Buddy enjoy doing together?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What activity do Andrew and Buddy enjoy doing together?",4,fallback_ambiguous,speaker_b
+conv-44_qa_112,train,conv-44,112,Audrey,Andrew,What do Andrew and Buddy like doing on walks?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What do Andrew and Buddy like doing on walks?",4,fallback_ambiguous,speaker_b
+conv-44_qa_113,train,conv-44,113,Audrey,Andrew,What cuisine did Andrew recently try at a new spot in town?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What cuisine did Andrew recently try at a new spot in town?",4,fallback_ambiguous,speaker_b
+conv-44_qa_114,train,conv-44,114,Audrey,Andrew,Which type of sushi did Audrey suggest trying first to someone new to sushi?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: Which type of sushi did Audrey suggest trying first to someone new to sushi?",4,fallback_ambiguous,speaker_a
+conv-44_qa_115,train,conv-44,115,Audrey,Andrew,What type of date is Andrew going on Sunday?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What type of date is Andrew going on Sunday?",4,fallback_ambiguous,speaker_b
+conv-44_qa_116,train,conv-44,116,Audrey,Andrew,"What did Andrew and Audrey plan to do on the Saturday after October 28, 2023?","Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Andrew and Audrey plan to do on the Saturday after October 28, 2023?",4,fallback_ambiguous,both
+conv-44_qa_117,train,conv-44,117,Audrey,Andrew,What aspect of autumn does Andrew find beautiful?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What aspect of autumn does Andrew find beautiful?",4,fallback_ambiguous,speaker_b
+conv-44_qa_118,train,conv-44,118,Audrey,Andrew,What did Audrey do in November 2023 to better take care of her dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Audrey do in November 2023 to better take care of her dogs?",4,fallback_ambiguous,speaker_a
+conv-44_qa_119,train,conv-44,119,Audrey,Andrew,How often does Audrey meet up with other dog owners for tips and playdates?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: How often does Audrey meet up with other dog owners for tips and playdates?",4,fallback_ambiguous,speaker_a
+conv-44_qa_120,train,conv-44,120,Audrey,Andrew,What did Audrey share to show ways to keep dogs active in the city?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Audrey share to show ways to keep dogs active in the city?",4,fallback_ambiguous,speaker_a
+conv-44_qa_121,train,conv-44,121,Audrey,Andrew,What type of activities does Audrey suggest for mental stimulation of the dogs?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What type of activities does Audrey suggest for mental stimulation of the dogs?",4,fallback_ambiguous,speaker_a
+conv-44_qa_122,train,conv-44,122,Audrey,Andrew,"What is Andrew planning to do with Scout, Toby, and Buddy?","Speaker A: Audrey
+Speaker B: Andrew
+Question: What is Andrew planning to do with Scout, Toby, and Buddy?",4,fallback_ambiguous,speaker_b
+conv-44_qa_123,train,conv-44,123,Audrey,Andrew,What did Andrew get for Scout to create a safe and fun space for them?,"Speaker A: Audrey
+Speaker B: Andrew
+Question: What did Andrew get for Scout to create a safe and fun space for them?",4,fallback_ambiguous,speaker_b
+conv-47_qa_1,train,conv-47,1,James,John,What are John's suspected health problems?,"Speaker A: James
+Speaker B: John
+Question: What are John's suspected health problems?",3,multi_hop,speaker_b
+conv-47_qa_2,train,conv-47,2,James,John,"Which recreational activity was James pursuing on March 16, 2022?","Speaker A: James
+Speaker B: John
+Question: Which recreational activity was James pursuing on March 16, 2022?",2,temporal,speaker_a
+conv-47_qa_3,train,conv-47,3,James,John,Which places or events have John and James planned to meet at?,"Speaker A: James
+Speaker B: John
+Question: Which places or events have John and James planned to meet at?",1,single_hop,both
+conv-47_qa_4,train,conv-47,4,James,John,Do both James and John have pets?,"Speaker A: James
+Speaker B: John
+Question: Do both James and John have pets?",1,single_hop,both
+conv-47_qa_5,train,conv-47,5,James,John,When did John resume playing drums in his adulthood?,"Speaker A: James
+Speaker B: John
+Question: When did John resume playing drums in his adulthood?",2,temporal,speaker_b
+conv-47_qa_6,train,conv-47,6,James,John,What are John and James' favorite games?,"Speaker A: James
+Speaker B: John
+Question: What are John and James' favorite games?",1,single_hop,both
+conv-47_qa_7,train,conv-47,7,James,John,Does James live in Connecticut?,"Speaker A: James
+Speaker B: John
+Question: Does James live in Connecticut?",3,multi_hop,speaker_a
+conv-47_qa_8,train,conv-47,8,James,John,In which state is the shelter from which James adopted the puppy?,"Speaker A: James
+Speaker B: John
+Question: In which state is the shelter from which James adopted the puppy?",3,multi_hop,speaker_a
+conv-47_qa_9,train,conv-47,9,James,John,How many pets does James have?,"Speaker A: James
+Speaker B: John
+Question: How many pets does James have?",1,single_hop,speaker_a
+conv-47_qa_10,train,conv-47,10,James,John,What are the names of James's dogs?,"Speaker A: James
+Speaker B: John
+Question: What are the names of James's dogs?",1,single_hop,speaker_a
+conv-47_qa_11,train,conv-47,11,James,John,When did James adopt Ned?,"Speaker A: James
+Speaker B: John
+Question: When did James adopt Ned?",2,temporal,speaker_a
+conv-47_qa_12,train,conv-47,12,James,John,"How was John feeling on April 10, 2022?","Speaker A: James
+Speaker B: John
+Question: How was John feeling on April 10, 2022?",2,temporal,speaker_b
+conv-47_qa_13,train,conv-47,13,James,John,Did James have a girlfriend during April 2022?,"Speaker A: James
+Speaker B: John
+Question: Did James have a girlfriend during April 2022?",3,multi_hop,speaker_a
+conv-47_qa_14,train,conv-47,14,James,John,When did James visit Italy?,"Speaker A: James
+Speaker B: John
+Question: When did James visit Italy?",2,temporal,speaker_a
+conv-47_qa_15,train,conv-47,15,James,John,When did James buy himself a new adventure book?,"Speaker A: James
+Speaker B: John
+Question: When did James buy himself a new adventure book?",2,temporal,speaker_a
+conv-47_qa_16,train,conv-47,16,James,John,When did James start playing Civilization VI?,"Speaker A: James
+Speaker B: John
+Question: When did James start playing Civilization VI?",2,temporal,speaker_a
+conv-47_qa_17,train,conv-47,17,James,John,What is the game with different colored cards that was John talking about with James?,"Speaker A: James
+Speaker B: John
+Question: What is the game with different colored cards that was John talking about with James?",3,multi_hop,both
+conv-47_qa_18,train,conv-47,18,James,John,What is the board game where you have to find the imposter that John mentions to James?,"Speaker A: James
+Speaker B: John
+Question: What is the board game where you have to find the imposter that John mentions to James?",3,multi_hop,both
+conv-47_qa_19,train,conv-47,19,James,John,Which books has John recommended to James?,"Speaker A: James
+Speaker B: John
+Question: Which books has John recommended to James?",1,single_hop,both
+conv-47_qa_20,train,conv-47,20,James,John,Was James feeling lonely before meeting Samantha?,"Speaker A: James
+Speaker B: John
+Question: Was James feeling lonely before meeting Samantha?",3,multi_hop,speaker_a
+conv-47_qa_21,train,conv-47,21,James,John,How many charity tournaments has John organized till date?,"Speaker A: James
+Speaker B: John
+Question: How many charity tournaments has John organized till date?",1,single_hop,speaker_b
+conv-47_qa_22,train,conv-47,22,James,John,When did John first organize a charity tournament with his friends?,"Speaker A: James
+Speaker B: John
+Question: When did John first organize a charity tournament with his friends?",2,temporal,speaker_b
+conv-47_qa_23,train,conv-47,23,James,John,Who or which organizations have been the beneficiaries of John's charity tournaments?,"Speaker A: James
+Speaker B: John
+Question: Who or which organizations have been the beneficiaries of John's charity tournaments?",1,single_hop,speaker_b
+conv-47_qa_24,train,conv-47,24,James,John,When will John start his new job?,"Speaker A: James
+Speaker B: John
+Question: When will John start his new job?",2,temporal,speaker_b
+conv-47_qa_25,train,conv-47,25,James,John,What kind of games has James tried to develop?,"Speaker A: James
+Speaker B: John
+Question: What kind of games has James tried to develop?",1,single_hop,speaker_a
+conv-47_qa_26,train,conv-47,26,James,John,Are John and James fans of the same football team?,"Speaker A: James
+Speaker B: John
+Question: Are John and James fans of the same football team?",3,multi_hop,both
+conv-47_qa_27,train,conv-47,27,James,John,Which countries has James visited?,"Speaker A: James
+Speaker B: John
+Question: Which countries has James visited?",1,single_hop,speaker_a
+conv-47_qa_28,train,conv-47,28,James,John,What kind of classes has James joined?,"Speaker A: James
+Speaker B: John
+Question: What kind of classes has James joined?",1,single_hop,speaker_a
+conv-47_qa_29,train,conv-47,29,James,John,When did James volunteer at an organization?,"Speaker A: James
+Speaker B: John
+Question: When did James volunteer at an organization?",2,temporal,speaker_a
+conv-47_qa_30,train,conv-47,30,James,John,When did James depart for his trip to Canada?,"Speaker A: James
+Speaker B: John
+Question: When did James depart for his trip to Canada?",2,temporal,speaker_a
+conv-47_qa_31,train,conv-47,31,James,John,Which country did James book tickets for in July 2022?,"Speaker A: James
+Speaker B: John
+Question: Which country did James book tickets for in July 2022?",3,multi_hop,speaker_a
+conv-47_qa_32,train,conv-47,32,James,John,How many days did James plan to spend on his trip in Canada?,"Speaker A: James
+Speaker B: John
+Question: How many days did James plan to spend on his trip in Canada?",2,temporal,speaker_a
+conv-47_qa_33,train,conv-47,33,James,John,"Where was James at on July 12, 2022?","Speaker A: James
+Speaker B: John
+Question: Where was James at on July 12, 2022?",2,temporal,speaker_a
+conv-47_qa_34,train,conv-47,34,James,John,Did John and James study together?,"Speaker A: James
+Speaker B: John
+Question: Did John and James study together?",3,multi_hop,both
+conv-47_qa_35,train,conv-47,35,James,John,Which countries did James visit in July 2022?,"Speaker A: James
+Speaker B: John
+Question: Which countries did James visit in July 2022?",1,single_hop,speaker_a
+conv-47_qa_36,train,conv-47,36,James,John,What additional country did James visit during his trip to Canada?,"Speaker A: James
+Speaker B: John
+Question: What additional country did James visit during his trip to Canada?",3,multi_hop,speaker_a
+conv-47_qa_37,train,conv-47,37,James,John,Who is Jill?,"Speaker A: James
+Speaker B: John
+Question: Who is Jill?",3,multi_hop,unknown
+conv-47_qa_38,train,conv-47,38,James,John,When did John spend time with his sister and dogs?,"Speaker A: James
+Speaker B: John
+Question: When did John spend time with his sister and dogs?",2,temporal,speaker_b
+conv-47_qa_39,train,conv-47,39,James,John,What happened to John's job situation in 2022?,"Speaker A: James
+Speaker B: John
+Question: What happened to John's job situation in 2022?",1,single_hop,speaker_b
+conv-47_qa_40,train,conv-47,40,James,John,When did John start his job in IT?,"Speaker A: James
+Speaker B: John
+Question: When did John start his job in IT?",2,temporal,speaker_b
+conv-47_qa_41,train,conv-47,41,James,John,What kind of tricks do James's pets know?,"Speaker A: James
+Speaker B: John
+Question: What kind of tricks do James's pets know?",1,single_hop,speaker_a
+conv-47_qa_42,train,conv-47,42,James,John,When did James meet Samantha?,"Speaker A: James
+Speaker B: John
+Question: When did James meet Samantha?",2,temporal,speaker_a
+conv-47_qa_43,train,conv-47,43,James,John,When did James take his 3 dogs to the beach?,"Speaker A: James
+Speaker B: John
+Question: When did James take his 3 dogs to the beach?",2,temporal,speaker_a
+conv-47_qa_44,train,conv-47,44,James,John,When did John plan his next meeting with his siblings?,"Speaker A: James
+Speaker B: John
+Question: When did John plan his next meeting with his siblings?",2,temporal,speaker_b
+conv-47_qa_45,train,conv-47,45,James,John,Why didn't John want to go to Starbucks?,"Speaker A: James
+Speaker B: John
+Question: Why didn't John want to go to Starbucks?",3,multi_hop,speaker_b
+conv-47_qa_46,train,conv-47,46,James,John,What kind of beer does McGee's bar serve?,"Speaker A: James
+Speaker B: John
+Question: What kind of beer does McGee's bar serve?",1,single_hop,unknown
+conv-47_qa_47,train,conv-47,47,James,John,When did John and James meet at McGee's bar?,"Speaker A: James
+Speaker B: John
+Question: When did John and James meet at McGee's bar?",2,temporal,both
+conv-47_qa_48,train,conv-47,48,James,John,When did James ask Samantha to be his girlfriend?,"Speaker A: James
+Speaker B: John
+Question: When did James ask Samantha to be his girlfriend?",2,temporal,speaker_a
+conv-47_qa_49,train,conv-47,49,James,John,"When did James, Samantha and John go to the baseball game together?","Speaker A: James
+Speaker B: John
+Question: When did James, Samantha and John go to the baseball game together?",2,temporal,both
+conv-47_qa_50,train,conv-47,50,James,John,What gaming equipments did John buy or refurbish?,"Speaker A: James
+Speaker B: John
+Question: What gaming equipments did John buy or refurbish?",1,single_hop,speaker_b
+conv-47_qa_51,train,conv-47,51,James,John,When did James start taking cooking classes?,"Speaker A: James
+Speaker B: John
+Question: When did James start taking cooking classes?",2,temporal,speaker_a
+conv-47_qa_52,train,conv-47,52,James,John,Which new games did John start play during the course of the conversation with James?,"Speaker A: James
+Speaker B: John
+Question: Which new games did John start play during the course of the conversation with James?",1,single_hop,both
+conv-47_qa_53,train,conv-47,53,James,John,When did John start working on his 2D Adventure mobile game?,"Speaker A: James
+Speaker B: John
+Question: When did John start working on his 2D Adventure mobile game?",2,temporal,speaker_b
+conv-47_qa_54,train,conv-47,54,James,John,How long did it take for James to complete his Witcher-inspired game?,"Speaker A: James
+Speaker B: John
+Question: How long did it take for James to complete his Witcher-inspired game?",2,temporal,speaker_a
+conv-47_qa_55,train,conv-47,55,James,John,What kind of programming-related events has John hosted?,"Speaker A: James
+Speaker B: John
+Question: What kind of programming-related events has John hosted?",1,single_hop,speaker_b
+conv-47_qa_56,train,conv-47,56,James,John,When did John and his programming friends host an online programming competition?,"Speaker A: James
+Speaker B: John
+Question: When did John and his programming friends host an online programming competition?",2,temporal,speaker_b
+conv-47_qa_57,train,conv-47,57,James,John,Which of James's family members have visited him in the last year?,"Speaker A: James
+Speaker B: John
+Question: Which of James's family members have visited him in the last year?",1,single_hop,speaker_a
+conv-47_qa_58,train,conv-47,58,James,John,When did James' mother and her friend visit him?,"Speaker A: James
+Speaker B: John
+Question: When did James' mother and her friend visit him?",2,temporal,speaker_a
+conv-47_qa_59,train,conv-47,59,James,John,When did James try Cyberpunk 2077 game?,"Speaker A: James
+Speaker B: John
+Question: When did James try Cyberpunk 2077 game?",2,temporal,speaker_a
+conv-47_qa_60,train,conv-47,60,James,John,When did John and his gaming friends organize the charity tournament?,"Speaker A: James
+Speaker B: John
+Question: When did John and his gaming friends organize the charity tournament?",2,temporal,speaker_b
+conv-47_qa_61,train,conv-47,61,James,John,What games has John played with his friends at charity tournaments?,"Speaker A: James
+Speaker B: John
+Question: What games has John played with his friends at charity tournaments?",1,single_hop,speaker_b
+conv-47_qa_62,train,conv-47,62,James,John,What was James' big moment with Samantha in October 2023?,"Speaker A: James
+Speaker B: John
+Question: What was James' big moment with Samantha in October 2023?",2,temporal,speaker_a
+conv-47_qa_63,train,conv-47,63,James,John,How long did James and Samantha date for before deciding to move in together?,"Speaker A: James
+Speaker B: John
+Question: How long did James and Samantha date for before deciding to move in together?",2,temporal,speaker_a
+conv-47_qa_64,train,conv-47,64,James,John,"When did James, his family and his dogs start on a road trip together?","Speaker A: James
+Speaker B: John
+Question: When did James, his family and his dogs start on a road trip together?",2,temporal,speaker_a
+conv-47_qa_65,train,conv-47,65,James,John,How long did John practice chess for before winning the chess tournament?,"Speaker A: James
+Speaker B: John
+Question: How long did John practice chess for before winning the chess tournament?",2,temporal,speaker_b
+conv-47_qa_66,train,conv-47,66,James,John,When did James and his family visit Mark and Josh?,"Speaker A: James
+Speaker B: John
+Question: When did James and his family visit Mark and Josh?",2,temporal,speaker_a
+conv-47_qa_67,train,conv-47,67,James,John,When did John work with a game developer on a project?,"Speaker A: James
+Speaker B: John
+Question: When did John work with a game developer on a project?",2,temporal,speaker_b
+conv-47_qa_68,train,conv-47,68,James,John,What programming languages has James worked with?,"Speaker A: James
+Speaker B: John
+Question: What programming languages has James worked with?",4,fallback_ambiguous,speaker_a
+conv-47_qa_69,train,conv-47,69,James,John,What type of mobile application does James plan to build with John?,"Speaker A: James
+Speaker B: John
+Question: What type of mobile application does James plan to build with John?",4,fallback_ambiguous,both
+conv-47_qa_70,train,conv-47,70,James,John,How does James plan to make his dog-sitting app unique?,"Speaker A: James
+Speaker B: John
+Question: How does James plan to make his dog-sitting app unique?",4,fallback_ambiguous,speaker_a
+conv-47_qa_71,train,conv-47,71,James,John,What has John mostly found with the metal detector so far?,"Speaker A: James
+Speaker B: John
+Question: What has John mostly found with the metal detector so far?",4,fallback_ambiguous,speaker_b
+conv-47_qa_72,train,conv-47,72,James,John,What did James offer to do for John regarding pets?,"Speaker A: James
+Speaker B: John
+Question: What did James offer to do for John regarding pets?",4,fallback_ambiguous,both
+conv-47_qa_73,train,conv-47,73,James,John,"What instrument is John learning to play as of 27 March, 2022?","Speaker A: James
+Speaker B: John
+Question: What instrument is John learning to play as of 27 March, 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_74,train,conv-47,74,James,John,"How long has John been playing the drums as of 27 March, 2022?","Speaker A: James
+Speaker B: John
+Question: How long has John been playing the drums as of 27 March, 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_75,train,conv-47,75,James,John,What game did John play in an intense tournament at the gaming convention in March 2022?,"Speaker A: James
+Speaker B: John
+Question: What game did John play in an intense tournament at the gaming convention in March 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_76,train,conv-47,76,James,John,What game was James playing in the online gaming tournament in April 2022?,"Speaker A: James
+Speaker B: John
+Question: What game was James playing in the online gaming tournament in April 2022?",4,fallback_ambiguous,speaker_a
+conv-47_qa_77,train,conv-47,77,James,John,How does James communicate with his gaming team?,"Speaker A: James
+Speaker B: John
+Question: How does James communicate with his gaming team?",4,fallback_ambiguous,speaker_a
+conv-47_qa_78,train,conv-47,78,James,John,What advice did James receive from the famous players he met at the tournament?,"Speaker A: James
+Speaker B: John
+Question: What advice did James receive from the famous players he met at the tournament?",4,fallback_ambiguous,speaker_a
+conv-47_qa_79,train,conv-47,79,James,John,What did James adopt in April 2022?,"Speaker A: James
+Speaker B: John
+Question: What did James adopt in April 2022?",4,fallback_ambiguous,speaker_a
+conv-47_qa_80,train,conv-47,80,James,John,What is the name of the pup that was adopted by James?,"Speaker A: James
+Speaker B: John
+Question: What is the name of the pup that was adopted by James?",4,fallback_ambiguous,speaker_a
+conv-47_qa_81,train,conv-47,81,James,John,Why did James embody the appearance of the game character from the woman he saw during a walk?,"Speaker A: James
+Speaker B: John
+Question: Why did James embody the appearance of the game character from the woman he saw during a walk?",4,fallback_ambiguous,speaker_a
+conv-47_qa_82,train,conv-47,82,James,John,What inspired James to create the game character in the virtual world?,"Speaker A: James
+Speaker B: John
+Question: What inspired James to create the game character in the virtual world?",4,fallback_ambiguous,speaker_a
+conv-47_qa_83,train,conv-47,83,James,John,Which country did James visit in 2021?,"Speaker A: James
+Speaker B: John
+Question: Which country did James visit in 2021?",4,fallback_ambiguous,speaker_a
+conv-47_qa_84,train,conv-47,84,James,John,What impresses John about Japan?,"Speaker A: James
+Speaker B: John
+Question: What impresses John about Japan?",4,fallback_ambiguous,speaker_b
+conv-47_qa_85,train,conv-47,85,James,John,What kind of assignment was giving John a hard time at work?,"Speaker A: James
+Speaker B: John
+Question: What kind of assignment was giving John a hard time at work?",4,fallback_ambiguous,speaker_b
+conv-47_qa_86,train,conv-47,86,James,John,"What breed is Daisy, one of James' dogs?","Speaker A: James
+Speaker B: John
+Question: What breed is Daisy, one of James' dogs?",4,fallback_ambiguous,speaker_a
+conv-47_qa_87,train,conv-47,87,James,John,What type of pizza is James' favorite?,"Speaker A: James
+Speaker B: John
+Question: What type of pizza is James' favorite?",4,fallback_ambiguous,speaker_a
+conv-47_qa_88,train,conv-47,88,James,John,What type of pizza is John's favorite?,"Speaker A: James
+Speaker B: John
+Question: What type of pizza is John's favorite?",4,fallback_ambiguous,speaker_b
+conv-47_qa_89,train,conv-47,89,James,John,"What did John organize with his friends on May 8, 2022?","Speaker A: James
+Speaker B: John
+Question: What did John organize with his friends on May 8, 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_90,train,conv-47,90,James,John,What did John and his friends do with the remaining money after helping the dog shelter?,"Speaker A: James
+Speaker B: John
+Question: What did John and his friends do with the remaining money after helping the dog shelter?",4,fallback_ambiguous,speaker_b
+conv-47_qa_91,train,conv-47,91,James,John,What was the main goal of the money raised from the charity tournament organized by John and his friends in May 2022?,"Speaker A: James
+Speaker B: John
+Question: What was the main goal of the money raised from the charity tournament organized by John and his friends in May 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_92,train,conv-47,92,James,John,What did the system John created help the charitable foundation with?,"Speaker A: James
+Speaker B: John
+Question: What did the system John created help the charitable foundation with?",4,fallback_ambiguous,speaker_b
+conv-47_qa_93,train,conv-47,93,James,John,What did John create for the charitable foundation that helped generate reports for analysis?,"Speaker A: James
+Speaker B: John
+Question: What did John create for the charitable foundation that helped generate reports for analysis?",4,fallback_ambiguous,speaker_b
+conv-47_qa_94,train,conv-47,94,James,John,What did John receive for achieving second place in the tournament?,"Speaker A: James
+Speaker B: John
+Question: What did John receive for achieving second place in the tournament?",4,fallback_ambiguous,speaker_b
+conv-47_qa_95,train,conv-47,95,James,John,What project is James working on in his game design course?,"Speaker A: James
+Speaker B: John
+Question: What project is James working on in his game design course?",4,fallback_ambiguous,speaker_a
+conv-47_qa_96,train,conv-47,96,James,John,Who does James support in football matches?,"Speaker A: James
+Speaker B: John
+Question: Who does James support in football matches?",4,fallback_ambiguous,speaker_a
+conv-47_qa_97,train,conv-47,97,James,John,Which football club does John support?,"Speaker A: James
+Speaker B: John
+Question: Which football club does John support?",4,fallback_ambiguous,speaker_b
+conv-47_qa_98,train,conv-47,98,James,John,What disagreement do James and John have about their football teams?,"Speaker A: James
+Speaker B: John
+Question: What disagreement do James and John have about their football teams?",4,fallback_ambiguous,both
+conv-47_qa_99,train,conv-47,99,James,John,What is Max good at doing according to James?,"Speaker A: James
+Speaker B: John
+Question: What is Max good at doing according to James?",4,fallback_ambiguous,speaker_a
+conv-47_qa_100,train,conv-47,100,James,John,What is the main focus of the organization that James volunteered with?,"Speaker A: James
+Speaker B: John
+Question: What is the main focus of the organization that James volunteered with?",4,fallback_ambiguous,speaker_a
+conv-47_qa_101,train,conv-47,101,James,John,Will there be an interview required to volunteer with the organization James volunteered for?,"Speaker A: James
+Speaker B: John
+Question: Will there be an interview required to volunteer with the organization James volunteered for?",4,fallback_ambiguous,speaker_a
+conv-47_qa_102,train,conv-47,102,James,John,"How did John relax in his free time on 9 July, 2022?","Speaker A: James
+Speaker B: John
+Question: How did John relax in his free time on 9 July, 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_103,train,conv-47,103,James,John,What did James enjoy doing on cold winter days?,"Speaker A: James
+Speaker B: John
+Question: What did James enjoy doing on cold winter days?",4,fallback_ambiguous,speaker_a
+conv-47_qa_104,train,conv-47,104,James,John,"What new hobby did James become interested in on 9 July, 2022?","Speaker A: James
+Speaker B: John
+Question: What new hobby did James become interested in on 9 July, 2022?",4,fallback_ambiguous,speaker_a
+conv-47_qa_105,train,conv-47,105,James,John,Where did James plan to visit after Toronto?,"Speaker A: James
+Speaker B: John
+Question: Where did James plan to visit after Toronto?",4,fallback_ambiguous,speaker_a
+conv-47_qa_106,train,conv-47,106,James,John,When did James plan to return from his trip to Toronto and Vancouver?,"Speaker A: James
+Speaker B: John
+Question: When did James plan to return from his trip to Toronto and Vancouver?",4,fallback_ambiguous,speaker_a
+conv-47_qa_107,train,conv-47,107,James,John,What online game did John start playing recently for improving strategy?,"Speaker A: James
+Speaker B: John
+Question: What online game did John start playing recently for improving strategy?",4,fallback_ambiguous,speaker_b
+conv-47_qa_108,train,conv-47,108,James,John,What made John leave his IT job?,"Speaker A: James
+Speaker B: John
+Question: What made John leave his IT job?",4,fallback_ambiguous,speaker_b
+conv-47_qa_109,train,conv-47,109,James,John,Which game tournaments does John plan to organize besides CS:GO?,"Speaker A: James
+Speaker B: John
+Question: Which game tournaments does John plan to organize besides CS:GO?",4,fallback_ambiguous,speaker_b
+conv-47_qa_110,train,conv-47,110,James,John,What happened to James's puppy during the recent visit to the clinic?,"Speaker A: James
+Speaker B: John
+Question: What happened to James's puppy during the recent visit to the clinic?",4,fallback_ambiguous,speaker_a
+conv-47_qa_111,train,conv-47,111,James,John,What game genre did John start exploring instead of shooters?,"Speaker A: James
+Speaker B: John
+Question: What game genre did John start exploring instead of shooters?",4,fallback_ambiguous,speaker_b
+conv-47_qa_112,train,conv-47,112,James,John,"Which RPG game is John playing and enjoying on 10 August, 2022?","Speaker A: James
+Speaker B: John
+Question: Which RPG game is John playing and enjoying on 10 August, 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_113,train,conv-47,113,James,John,"What aspect of ""The Witcher 3"" does John find immersive?","Speaker A: James
+Speaker B: John
+Question: What aspect of ""The Witcher 3"" does John find immersive?",4,fallback_ambiguous,speaker_b
+conv-47_qa_114,train,conv-47,114,James,John,Whose phone number did James receive during the beach outing?,"Speaker A: James
+Speaker B: John
+Question: Whose phone number did James receive during the beach outing?",4,fallback_ambiguous,speaker_a
+conv-47_qa_115,train,conv-47,115,James,John,What is James planning to do after receiving Samantha's phone number?,"Speaker A: James
+Speaker B: John
+Question: What is James planning to do after receiving Samantha's phone number?",4,fallback_ambiguous,speaker_a
+conv-47_qa_116,train,conv-47,116,James,John,What is John organizing with his siblings?,"Speaker A: James
+Speaker B: John
+Question: What is John organizing with his siblings?",4,fallback_ambiguous,speaker_b
+conv-47_qa_117,train,conv-47,117,James,John,What type of beer does John not like?,"Speaker A: James
+Speaker B: John
+Question: What type of beer does John not like?",4,fallback_ambiguous,speaker_b
+conv-47_qa_118,train,conv-47,118,James,John,What were some difficulties James faced during the development of his game?,"Speaker A: James
+Speaker B: John
+Question: What were some difficulties James faced during the development of his game?",4,fallback_ambiguous,speaker_a
+conv-47_qa_119,train,conv-47,119,James,John,What has John been teaching his siblings?,"Speaker A: James
+Speaker B: John
+Question: What has John been teaching his siblings?",4,fallback_ambiguous,speaker_b
+conv-47_qa_120,train,conv-47,120,James,John,What kind of programs are John's siblings making?,"Speaker A: James
+Speaker B: John
+Question: What kind of programs are John's siblings making?",4,fallback_ambiguous,speaker_b
+conv-47_qa_121,train,conv-47,121,James,John,Which company's headphones did John choose for gaming?,"Speaker A: James
+Speaker B: John
+Question: Which company's headphones did John choose for gaming?",4,fallback_ambiguous,speaker_b
+conv-47_qa_122,train,conv-47,122,James,John,What did James and Samantha discover they both enjoy at McGee's bar?,"Speaker A: James
+Speaker B: John
+Question: What did James and Samantha discover they both enjoy at McGee's bar?",4,fallback_ambiguous,speaker_a
+conv-47_qa_123,train,conv-47,123,James,John,How much does James pay per cooking class?,"Speaker A: James
+Speaker B: John
+Question: How much does James pay per cooking class?",4,fallback_ambiguous,speaker_a
+conv-47_qa_124,train,conv-47,124,James,John,What did James learn to make in the cooking class besides omelette and meringue?,"Speaker A: James
+Speaker B: John
+Question: What did James learn to make in the cooking class besides omelette and meringue?",4,fallback_ambiguous,speaker_a
+conv-47_qa_125,train,conv-47,125,James,John,Why did James sign up for a cooking class?,"Speaker A: James
+Speaker B: John
+Question: Why did James sign up for a cooking class?",4,fallback_ambiguous,speaker_a
+conv-47_qa_126,train,conv-47,126,James,John,What did James prepare for the first time in the cooking class?,"Speaker A: James
+Speaker B: John
+Question: What did James prepare for the first time in the cooking class?",4,fallback_ambiguous,speaker_a
+conv-47_qa_127,train,conv-47,127,James,John,What is the name of the board game John tried in September 2022?,"Speaker A: James
+Speaker B: John
+Question: What is the name of the board game John tried in September 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_128,train,conv-47,128,James,John,Where does James get his ideas from?,"Speaker A: James
+Speaker B: John
+Question: Where does James get his ideas from?",4,fallback_ambiguous,speaker_a
+conv-47_qa_129,train,conv-47,129,James,John,What kind of dream did James have recently?,"Speaker A: James
+Speaker B: John
+Question: What kind of dream did James have recently?",4,fallback_ambiguous,speaker_a
+conv-47_qa_130,train,conv-47,130,James,John,What kind of music does John like?,"Speaker A: James
+Speaker B: John
+Question: What kind of music does John like?",4,fallback_ambiguous,speaker_b
+conv-47_qa_131,train,conv-47,131,James,John,What instrument did James used to play when he was younger?,"Speaker A: James
+Speaker B: John
+Question: What instrument did James used to play when he was younger?",4,fallback_ambiguous,speaker_a
+conv-47_qa_132,train,conv-47,132,James,John,What did John use to play when he was younger to let off steam?,"Speaker A: James
+Speaker B: John
+Question: What did John use to play when he was younger to let off steam?",4,fallback_ambiguous,speaker_b
+conv-47_qa_133,train,conv-47,133,James,John,What career milestone did John achieve recently in September 2022?,"Speaker A: James
+Speaker B: John
+Question: What career milestone did John achieve recently in September 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_134,train,conv-47,134,James,John,What type of game is John's upcoming mobile game?,"Speaker A: James
+Speaker B: John
+Question: What type of game is John's upcoming mobile game?",4,fallback_ambiguous,speaker_b
+conv-47_qa_135,train,conv-47,135,James,John,What does John do to stay informed and constantly learn about game design?,"Speaker A: James
+Speaker B: John
+Question: What does John do to stay informed and constantly learn about game design?",4,fallback_ambiguous,speaker_b
+conv-47_qa_136,train,conv-47,136,James,John,What kind of gig was John offered at the game dev non-profit organization?,"Speaker A: James
+Speaker B: John
+Question: What kind of gig was John offered at the game dev non-profit organization?",4,fallback_ambiguous,speaker_b
+conv-47_qa_137,train,conv-47,137,James,John,What does John feel about starting the journey as a programming mentor for game developers?,"Speaker A: James
+Speaker B: John
+Question: What does John feel about starting the journey as a programming mentor for game developers?",4,fallback_ambiguous,speaker_b
+conv-47_qa_138,train,conv-47,138,James,John,What kind of games is James excited to play with his new video card?,"Speaker A: James
+Speaker B: John
+Question: What kind of games is James excited to play with his new video card?",4,fallback_ambiguous,speaker_a
+conv-47_qa_139,train,conv-47,139,James,John,What inspired James to create his game?,"Speaker A: James
+Speaker B: John
+Question: What inspired James to create his game?",4,fallback_ambiguous,speaker_a
+conv-47_qa_140,train,conv-47,140,James,John,What sparked James' passion for gaming when he was a kid?,"Speaker A: James
+Speaker B: John
+Question: What sparked James' passion for gaming when he was a kid?",4,fallback_ambiguous,speaker_a
+conv-47_qa_141,train,conv-47,141,James,John,What did James lose progress on due to a power outage?,"Speaker A: James
+Speaker B: John
+Question: What did James lose progress on due to a power outage?",4,fallback_ambiguous,speaker_a
+conv-47_qa_142,train,conv-47,142,James,John,"What games were played at the gaming tournament organized by John on 31 October, 2022?","Speaker A: James
+Speaker B: John
+Question: What games were played at the gaming tournament organized by John on 31 October, 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_143,train,conv-47,143,James,John,"What was the purpose of the gaming tournament organized by John on 31 October, 2022?","Speaker A: James
+Speaker B: John
+Question: What was the purpose of the gaming tournament organized by John on 31 October, 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_144,train,conv-47,144,James,John,"What decision did James and Samantha make on 31 October, 2022?","Speaker A: James
+Speaker B: John
+Question: What decision did James and Samantha make on 31 October, 2022?",4,fallback_ambiguous,speaker_a
+conv-47_qa_145,train,conv-47,145,James,John,"Where did James and Samantha decide to live together on 31 October, 2022?","Speaker A: James
+Speaker B: John
+Question: Where did James and Samantha decide to live together on 31 October, 2022?",4,fallback_ambiguous,speaker_a
+conv-47_qa_146,train,conv-47,146,James,John,Why did James and Samantha choose an apartment near McGee's bar?,"Speaker A: James
+Speaker B: John
+Question: Why did James and Samantha choose an apartment near McGee's bar?",4,fallback_ambiguous,speaker_a
+conv-47_qa_147,train,conv-47,147,James,John,"What game is John hooked on playing on 5 November, 2022?","Speaker A: James
+Speaker B: John
+Question: What game is John hooked on playing on 5 November, 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_148,train,conv-47,148,James,John,What did John suggest James practice before playing FIFA 23 together?,"Speaker A: James
+Speaker B: John
+Question: What did John suggest James practice before playing FIFA 23 together?",4,fallback_ambiguous,both
+conv-47_qa_149,train,conv-47,149,James,John,"What project did John work on with a game developer by 7 November, 2022?","Speaker A: James
+Speaker B: John
+Question: What project did John work on with a game developer by 7 November, 2022?",4,fallback_ambiguous,speaker_b
+conv-47_qa_150,train,conv-47,150,James,John,What is the name of John's cousin's dog?,"Speaker A: James
+Speaker B: John
+Question: What is the name of John's cousin's dog?",4,fallback_ambiguous,speaker_b
+conv-48_qa_1,train,conv-48,1,Deborah,Jolene,What kind of project was Jolene working on in the beginning of January 2023?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What kind of project was Jolene working on in the beginning of January 2023?",2,temporal,speaker_b
+conv-48_qa_2,train,conv-48,2,Deborah,Jolene,Which of Deborah`s family and friends have passed away?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which of Deborah`s family and friends have passed away?",1,single_hop,speaker_a
+conv-48_qa_3,train,conv-48,3,Deborah,Jolene,When did Deborah`s mother pass away?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah`s mother pass away?",2,temporal,speaker_a
+conv-48_qa_4,train,conv-48,4,Deborah,Jolene,When did Jolene`s mother pass away?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene`s mother pass away?",2,temporal,speaker_b
+conv-48_qa_5,train,conv-48,5,Deborah,Jolene,When did Jolene's mom gift her a pendant?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene's mom gift her a pendant?",2,temporal,speaker_b
+conv-48_qa_6,train,conv-48,6,Deborah,Jolene,In what country did Jolene's mother buy her the pendant?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: In what country did Jolene's mother buy her the pendant?",3,multi_hop,speaker_b
+conv-48_qa_7,train,conv-48,7,Deborah,Jolene,What symbolic gifts do Deborah and Jolene have from their mothers?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What symbolic gifts do Deborah and Jolene have from their mothers?",1,single_hop,both
+conv-48_qa_8,train,conv-48,8,Deborah,Jolene,Which country were Jolene and her mother visiting in 2010?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which country were Jolene and her mother visiting in 2010?",2,temporal,speaker_b
+conv-48_qa_9,train,conv-48,9,Deborah,Jolene,What helped Deborah find peace when grieving deaths of her loved ones?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What helped Deborah find peace when grieving deaths of her loved ones?",1,single_hop,speaker_a
+conv-48_qa_10,train,conv-48,10,Deborah,Jolene,When did Deborah's father pass away?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah's father pass away?",2,temporal,speaker_a
+conv-48_qa_11,train,conv-48,11,Deborah,Jolene,When was Deborah's parents' wedding?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When was Deborah's parents' wedding?",2,temporal,speaker_a
+conv-48_qa_12,train,conv-48,12,Deborah,Jolene,Is Deborah married?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Is Deborah married?",3,multi_hop,speaker_a
+conv-48_qa_13,train,conv-48,13,Deborah,Jolene,When did Deborah receive an appreciation letter from her community?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah receive an appreciation letter from her community?",2,temporal,speaker_a
+conv-48_qa_14,train,conv-48,14,Deborah,Jolene,What places give Deborah peace?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What places give Deborah peace?",1,single_hop,speaker_a
+conv-48_qa_15,train,conv-48,15,Deborah,Jolene,What were Deborah's mother's hobbies?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What were Deborah's mother's hobbies?",1,single_hop,speaker_a
+conv-48_qa_16,train,conv-48,16,Deborah,Jolene,What pets does Jolene have?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What pets does Jolene have?",4,fallback_ambiguous,speaker_b
+conv-48_qa_17,train,conv-48,17,Deborah,Jolene,What are the names of Jolene's snakes?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What are the names of Jolene's snakes?",4,fallback_ambiguous,speaker_b
+conv-48_qa_18,train,conv-48,18,Deborah,Jolene,When did Jolene buy her pet Seraphim?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene buy her pet Seraphim?",2,temporal,speaker_b
+conv-48_qa_19,train,conv-48,19,Deborah,Jolene,In what country did Jolene buy snake Seraphim?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: In what country did Jolene buy snake Seraphim?",3,multi_hop,speaker_b
+conv-48_qa_20,train,conv-48,20,Deborah,Jolene,How many times has Jolene been to France?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How many times has Jolene been to France?",1,single_hop,speaker_b
+conv-48_qa_21,train,conv-48,21,Deborah,Jolene,Which games have Jolene and her partner played together?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which games have Jolene and her partner played together?",1,single_hop,speaker_b
+conv-48_qa_22,train,conv-48,22,Deborah,Jolene,"When do Jolene and her partner plan to complete the game ""Walking Dead""?","Speaker A: Deborah
+Speaker B: Jolene
+Question: When do Jolene and her partner plan to complete the game ""Walking Dead""?",2,temporal,speaker_b
+conv-48_qa_23,train,conv-48,23,Deborah,Jolene,When did Deborah meet Anna?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah meet Anna?",2,temporal,speaker_a
+conv-48_qa_24,train,conv-48,24,Deborah,Jolene,Why did Jolene sometimes put off doing yoga?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Why did Jolene sometimes put off doing yoga?",3,multi_hop,speaker_b
+conv-48_qa_25,train,conv-48,25,Deborah,Jolene,What new yoga poses did Deborah try?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What new yoga poses did Deborah try?",1,single_hop,speaker_a
+conv-48_qa_26,train,conv-48,26,Deborah,Jolene,What are Jolene's favorite books?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What are Jolene's favorite books?",4,fallback_ambiguous,speaker_b
+conv-48_qa_27,train,conv-48,27,Deborah,Jolene,Which book did Jolene read in January 2023?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which book did Jolene read in January 2023?",2,temporal,speaker_b
+conv-48_qa_28,train,conv-48,28,Deborah,Jolene,When was Jolene in Bogota?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When was Jolene in Bogota?",2,temporal,speaker_b
+conv-48_qa_29,train,conv-48,29,Deborah,Jolene,In what country was Jolene during summer 2022?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: In what country was Jolene during summer 2022?",3,multi_hop,speaker_b
+conv-48_qa_30,train,conv-48,30,Deborah,Jolene,When did Jolene have a mini-retreat to reflect on her career?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene have a mini-retreat to reflect on her career?",2,temporal,speaker_b
+conv-48_qa_31,train,conv-48,31,Deborah,Jolene,When did Jolene have a dinner and drinks with her friends?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene have a dinner and drinks with her friends?",2,temporal,speaker_b
+conv-48_qa_32,train,conv-48,32,Deborah,Jolene,When was the last photo of Deborah and Karlie taken?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When was the last photo of Deborah and Karlie taken?",2,temporal,speaker_a
+conv-48_qa_33,train,conv-48,33,Deborah,Jolene,When was Deborah in Bali?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When was Deborah in Bali?",2,temporal,speaker_a
+conv-48_qa_34,train,conv-48,34,Deborah,Jolene,How long have Jolene and her partner been together?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How long have Jolene and her partner been together?",4,fallback_ambiguous,speaker_b
+conv-48_qa_35,train,conv-48,35,Deborah,Jolene,Which year did Jolene and her partner start dating?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which year did Jolene and her partner start dating?",2,temporal,speaker_b
+conv-48_qa_36,train,conv-48,36,Deborah,Jolene,When did Deborah go for her first morning jog in a nearby park?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah go for her first morning jog in a nearby park?",2,temporal,speaker_a
+conv-48_qa_37,train,conv-48,37,Deborah,Jolene,How old is Jolene?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How old is Jolene?",3,multi_hop,speaker_b
+conv-48_qa_38,train,conv-48,38,Deborah,Jolene,When did Jolene take Seraphim to the park?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene take Seraphim to the park?",2,temporal,speaker_b
+conv-48_qa_39,train,conv-48,39,Deborah,Jolene,When did Deborah start the yoga class in the neighborhood?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah start the yoga class in the neighborhood?",2,temporal,speaker_a
+conv-48_qa_40,train,conv-48,40,Deborah,Jolene,What time management techniques do Deborah and Jolene use?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What time management techniques do Deborah and Jolene use?",1,single_hop,both
+conv-48_qa_41,train,conv-48,41,Deborah,Jolene,Does Deborah live close to the beach or the mountains?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Does Deborah live close to the beach or the mountains?",3,multi_hop,speaker_a
+conv-48_qa_42,train,conv-48,42,Deborah,Jolene,What ways do Deborah and Jolene use to enhance their yoga practice?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What ways do Deborah and Jolene use to enhance their yoga practice?",1,single_hop,both
+conv-48_qa_43,train,conv-48,43,Deborah,Jolene,What music pieces does Deborah listen to during her yoga practice?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What music pieces does Deborah listen to during her yoga practice?",4,fallback_ambiguous,speaker_a
+conv-48_qa_44,train,conv-48,44,Deborah,Jolene,When did Deborah go for a bicycle ride with Anna?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah go for a bicycle ride with Anna?",2,temporal,speaker_a
+conv-48_qa_45,train,conv-48,45,Deborah,Jolene,When did Deborah go to an art show with Anna?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah go to an art show with Anna?",2,temporal,speaker_a
+conv-48_qa_46,train,conv-48,46,Deborah,Jolene,When did Jolene finish her robotics project?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene finish her robotics project?",2,temporal,speaker_b
+conv-48_qa_47,train,conv-48,47,Deborah,Jolene,How long did Jolene work on the robotics project given to her by her Professor?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How long did Jolene work on the robotics project given to her by her Professor?",2,temporal,speaker_b
+conv-48_qa_48,train,conv-48,48,Deborah,Jolene,When did Jolene do yoga at Talkeetna?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene do yoga at Talkeetna?",2,temporal,speaker_b
+conv-48_qa_49,train,conv-48,49,Deborah,Jolene,Which US state did Jolene visit during her internship?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which US state did Jolene visit during her internship?",3,multi_hop,speaker_b
+conv-48_qa_50,train,conv-48,50,Deborah,Jolene,How long has Jolene been doing yoga and meditation?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How long has Jolene been doing yoga and meditation?",4,fallback_ambiguous,speaker_b
+conv-48_qa_51,train,conv-48,51,Deborah,Jolene,Which year did Jolene start practicing yoga?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which year did Jolene start practicing yoga?",2,temporal,speaker_b
+conv-48_qa_52,train,conv-48,52,Deborah,Jolene,When did Jolene buy a new aquarium for Seraphim?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene buy a new aquarium for Seraphim?",2,temporal,speaker_b
+conv-48_qa_53,train,conv-48,53,Deborah,Jolene,When did Jolene lose a lot of progress in her work?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene lose a lot of progress in her work?",2,temporal,speaker_b
+conv-48_qa_54,train,conv-48,54,Deborah,Jolene,When did Jolene adopt her snake Susie?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene adopt her snake Susie?",2,temporal,speaker_b
+conv-48_qa_55,train,conv-48,55,Deborah,Jolene,Which pet did Jolene adopt first - Susie or Seraphim?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which pet did Jolene adopt first - Susie or Seraphim?",2,temporal,speaker_b
+conv-48_qa_56,train,conv-48,56,Deborah,Jolene,Which pet did Jolene adopt more recently - Susie or Seraphim?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which pet did Jolene adopt more recently - Susie or Seraphim?",2,temporal,speaker_b
+conv-48_qa_57,train,conv-48,57,Deborah,Jolene,When did Deborah lead a meditation session during the sunset?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah lead a meditation session during the sunset?",2,temporal,speaker_a
+conv-48_qa_58,train,conv-48,58,Deborah,Jolene,When did Jolene gift her partner a new console?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene gift her partner a new console?",2,temporal,speaker_b
+conv-48_qa_59,train,conv-48,59,Deborah,Jolene,What games does Jolene recommend for Deborah?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What games does Jolene recommend for Deborah?",4,fallback_ambiguous,both
+conv-48_qa_60,train,conv-48,60,Deborah,Jolene,What do Deborah and her husband do together?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What do Deborah and her husband do together?",4,fallback_ambiguous,speaker_a
+conv-48_qa_61,train,conv-48,61,Deborah,Jolene,When did Deborah go to a yoga retreat near her mom's place?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah go to a yoga retreat near her mom's place?",2,temporal,speaker_a
+conv-48_qa_62,train,conv-48,62,Deborah,Jolene,What projects is Jolene planning for next year?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What projects is Jolene planning for next year?",4,fallback_ambiguous,speaker_b
+conv-48_qa_63,train,conv-48,63,Deborah,Jolene,Where did Deborah get her cats?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Where did Deborah get her cats?",4,fallback_ambiguous,speaker_a
+conv-48_qa_64,train,conv-48,64,Deborah,Jolene,How old are Deborah's cats?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How old are Deborah's cats?",4,fallback_ambiguous,speaker_a
+conv-48_qa_65,train,conv-48,65,Deborah,Jolene,Does Deborah like cats?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Does Deborah like cats?",4,fallback_ambiguous,speaker_a
+conv-48_qa_66,train,conv-48,66,Deborah,Jolene,Which country was Jolene located in during the last week of August 2023?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which country was Jolene located in during the last week of August 2023?",2,temporal,speaker_b
+conv-48_qa_67,train,conv-48,67,Deborah,Jolene,When did Jolene and her partner return home from Rio de Janeiro?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene and her partner return home from Rio de Janeiro?",2,temporal,speaker_b
+conv-48_qa_68,train,conv-48,68,Deborah,Jolene,What was Jolene doing with her partner in Rio de Janeiro?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What was Jolene doing with her partner in Rio de Janeiro?",4,fallback_ambiguous,speaker_b
+conv-48_qa_69,train,conv-48,69,Deborah,Jolene,When did Deborah visit Brazil?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah visit Brazil?",2,temporal,speaker_a
+conv-48_qa_70,train,conv-48,70,Deborah,Jolene,Have Deborah and Jolene been to Rio de Janeiro?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Have Deborah and Jolene been to Rio de Janeiro?",4,fallback_ambiguous,both
+conv-48_qa_71,train,conv-48,71,Deborah,Jolene,Is the friend who wrote Deborah the motivational quote no longer alive?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Is the friend who wrote Deborah the motivational quote no longer alive?",3,multi_hop,speaker_a
+conv-48_qa_72,train,conv-48,72,Deborah,Jolene,When did Deborah go to a community meetup?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Deborah go to a community meetup?",2,temporal,speaker_a
+conv-48_qa_73,train,conv-48,73,Deborah,Jolene,When did Jolene's parents give her first console?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene's parents give her first console?",4,fallback_ambiguous,speaker_b
+conv-48_qa_74,train,conv-48,74,Deborah,Jolene,Did Jolene teach herself how to play the console?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Did Jolene teach herself how to play the console?",1,single_hop,speaker_b
+conv-48_qa_75,train,conv-48,75,Deborah,Jolene,What do Deborah and Jolene plan to try when they meet in a new cafe?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What do Deborah and Jolene plan to try when they meet in a new cafe?",4,fallback_ambiguous,both
+conv-48_qa_76,train,conv-48,76,Deborah,Jolene,What card game is Deborah talking about?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What card game is Deborah talking about?",3,multi_hop,speaker_a
+conv-48_qa_77,train,conv-48,77,Deborah,Jolene,When did Jolene and her partner try scuba diving lessons?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene and her partner try scuba diving lessons?",2,temporal,speaker_b
+conv-48_qa_78,train,conv-48,78,Deborah,Jolene,Where did Jolene and her partner find a cool diving spot?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Where did Jolene and her partner find a cool diving spot?",1,single_hop,speaker_b
+conv-48_qa_79,train,conv-48,79,Deborah,Jolene,Where did Jolene and her partner spend most of September 2023?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Where did Jolene and her partner spend most of September 2023?",2,temporal,speaker_b
+conv-48_qa_80,train,conv-48,80,Deborah,Jolene,Has Deborah tried surfing?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Has Deborah tried surfing?",1,single_hop,speaker_a
+conv-48_qa_81,train,conv-48,81,Deborah,Jolene,Has Jolene tried surfing?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Has Jolene tried surfing?",1,single_hop,speaker_b
+conv-48_qa_82,train,conv-48,82,Deborah,Jolene,When did the Deboran and Jolene agree to go surfing?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did the Deboran and Jolene agree to go surfing?",2,temporal,speaker_b
+conv-48_qa_83,train,conv-48,83,Deborah,Jolene,Which locations does Deborah practice her yoga at?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which locations does Deborah practice her yoga at?",1,single_hop,speaker_a
+conv-48_qa_84,train,conv-48,84,Deborah,Jolene,What kind of professional activities does Jolene participate in to gain more experience in her field?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What kind of professional activities does Jolene participate in to gain more experience in her field?",1,single_hop,speaker_b
+conv-48_qa_85,train,conv-48,85,Deborah,Jolene,What kind of engineering projects has Jolene worked on?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What kind of engineering projects has Jolene worked on?",1,single_hop,speaker_b
+conv-48_qa_86,train,conv-48,86,Deborah,Jolene,Which community activities have Deborah and Anna participated in?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which community activities have Deborah and Anna participated in?",1,single_hop,speaker_a
+conv-48_qa_87,train,conv-48,87,Deborah,Jolene,What gifts has Deborah received?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What gifts has Deborah received?",1,single_hop,speaker_a
+conv-48_qa_88,train,conv-48,88,Deborah,Jolene,Which countries has Deborah traveled to?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which countries has Deborah traveled to?",1,single_hop,speaker_a
+conv-48_qa_89,train,conv-48,89,Deborah,Jolene,What activities does Deborah pursue besides practicing and teaching yoga?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What activities does Deborah pursue besides practicing and teaching yoga?",1,single_hop,speaker_a
+conv-48_qa_90,train,conv-48,90,Deborah,Jolene,What are the names of Jolene's snakes?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What are the names of Jolene's snakes?",4,fallback_ambiguous,speaker_b
+conv-48_qa_91,train,conv-48,91,Deborah,Jolene,What are Jolene's favorite books?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What are Jolene's favorite books?",4,fallback_ambiguous,speaker_b
+conv-48_qa_92,train,conv-48,92,Deborah,Jolene,What music pieces does Deborah listen to during her yoga practice?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What music pieces does Deborah listen to during her yoga practice?",4,fallback_ambiguous,speaker_a
+conv-48_qa_93,train,conv-48,93,Deborah,Jolene,What games does Jolene recommend for Deborah?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What games does Jolene recommend for Deborah?",4,fallback_ambiguous,both
+conv-48_qa_94,train,conv-48,94,Deborah,Jolene,What projects is Jolene planning for next year?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What projects is Jolene planning for next year?",4,fallback_ambiguous,speaker_b
+conv-48_qa_95,train,conv-48,95,Deborah,Jolene,Where did Deborah get her cats?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Where did Deborah get her cats?",4,fallback_ambiguous,speaker_a
+conv-48_qa_96,train,conv-48,96,Deborah,Jolene,How old are Deborah's cats?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How old are Deborah's cats?",4,fallback_ambiguous,speaker_a
+conv-48_qa_97,train,conv-48,97,Deborah,Jolene,What was Jolene doing with her partner in Rio de Janeiro?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What was Jolene doing with her partner in Rio de Janeiro?",4,fallback_ambiguous,speaker_b
+conv-48_qa_98,train,conv-48,98,Deborah,Jolene,Have Deborah and Jolene been to Rio de Janeiro?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Have Deborah and Jolene been to Rio de Janeiro?",4,fallback_ambiguous,both
+conv-48_qa_99,train,conv-48,99,Deborah,Jolene,When did Jolene's parents give her first console?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene's parents give her first console?",4,fallback_ambiguous,speaker_b
+conv-48_qa_100,train,conv-48,100,Deborah,Jolene,What do Deborah and Jolene plan to try when they meet in a new cafe?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What do Deborah and Jolene plan to try when they meet in a new cafe?",4,fallback_ambiguous,both
+conv-48_qa_101,train,conv-48,101,Deborah,Jolene,"What project did Jolene finish last week before 23 January, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What project did Jolene finish last week before 23 January, 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_102,train,conv-48,102,Deborah,Jolene,When did Jolene buy her pet snake?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: When did Jolene buy her pet snake?",4,fallback_ambiguous,speaker_b
+conv-48_qa_103,train,conv-48,103,Deborah,Jolene,"What project was Jolene working on as of 1 February, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What project was Jolene working on as of 1 February, 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_104,train,conv-48,104,Deborah,Jolene,Where did Deborah meet her new neighbor Anna?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Where did Deborah meet her new neighbor Anna?",4,fallback_ambiguous,speaker_a
+conv-48_qa_105,train,conv-48,105,Deborah,Jolene,What activity did Jolene and her partner plan to do together instead of resuming yoga?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What activity did Jolene and her partner plan to do together instead of resuming yoga?",4,fallback_ambiguous,speaker_b
+conv-48_qa_106,train,conv-48,106,Deborah,Jolene,"What milestone did Jolene achieve recently on 4 February, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What milestone did Jolene achieve recently on 4 February, 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_107,train,conv-48,107,Deborah,Jolene,"What is Jolene's favorite book which she mentioned on 4 February, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What is Jolene's favorite book which she mentioned on 4 February, 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_108,train,conv-48,108,Deborah,Jolene,What does Deborah bring with her whenever she comes to reflect on her mom?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What does Deborah bring with her whenever she comes to reflect on her mom?",4,fallback_ambiguous,speaker_a
+conv-48_qa_109,train,conv-48,109,Deborah,Jolene,"What new outlook did Jolene gain after her mini retreat on 9 February, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What new outlook did Jolene gain after her mini retreat on 9 February, 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_110,train,conv-48,110,Deborah,Jolene,"What cool stuff did Jolene accomplish at the retreat on 9 February, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What cool stuff did Jolene accomplish at the retreat on 9 February, 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_111,train,conv-48,111,Deborah,Jolene,"What idea did Jolene have to help underprivileged kids learn about STEM subjects on 9 February, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What idea did Jolene have to help underprivileged kids learn about STEM subjects on 9 February, 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_112,train,conv-48,112,Deborah,Jolene,How does Jolene plan to involve local engineers in her idea of teaching STEM to underprivileged kids?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How does Jolene plan to involve local engineers in her idea of teaching STEM to underprivileged kids?",4,fallback_ambiguous,speaker_b
+conv-48_qa_113,train,conv-48,113,Deborah,Jolene,What gave Deborah peace in the garden she visited?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What gave Deborah peace in the garden she visited?",4,fallback_ambiguous,speaker_a
+conv-48_qa_114,train,conv-48,114,Deborah,Jolene,Why did Deborah spend time in the garden?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Why did Deborah spend time in the garden?",4,fallback_ambiguous,speaker_a
+conv-48_qa_115,train,conv-48,115,Deborah,Jolene,How did Jolene and her partner initially meet?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How did Jolene and her partner initially meet?",4,fallback_ambiguous,speaker_b
+conv-48_qa_116,train,conv-48,116,Deborah,Jolene,What activity does Deborah incorporate into her daily routine after going for a morning jog in the park?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What activity does Deborah incorporate into her daily routine after going for a morning jog in the park?",4,fallback_ambiguous,speaker_a
+conv-48_qa_117,train,conv-48,117,Deborah,Jolene,"According to Jolene, what does exercise help her to feel?","Speaker A: Deborah
+Speaker B: Jolene
+Question: According to Jolene, what does exercise help her to feel?",4,fallback_ambiguous,speaker_b
+conv-48_qa_118,train,conv-48,118,Deborah,Jolene,"What did Deb share a photo of, which brought a smile to Jolene's face?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Deb share a photo of, which brought a smile to Jolene's face?",4,fallback_ambiguous,speaker_b
+conv-48_qa_119,train,conv-48,119,Deborah,Jolene,What is one of Jolene's favorite dishes?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What is one of Jolene's favorite dishes?",4,fallback_ambiguous,speaker_b
+conv-48_qa_120,train,conv-48,120,Deborah,Jolene,What picture did Jolene share related to feeling overwhelmed?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What picture did Jolene share related to feeling overwhelmed?",4,fallback_ambiguous,speaker_b
+conv-48_qa_121,train,conv-48,121,Deborah,Jolene,What did Jolene and Deb discuss as a helpful strategy for studying and time management?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Jolene and Deb discuss as a helpful strategy for studying and time management?",4,fallback_ambiguous,speaker_b
+conv-48_qa_122,train,conv-48,122,Deborah,Jolene,"What did Jolene ask Deb to help with on 13 March, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Jolene ask Deb to help with on 13 March, 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_123,train,conv-48,123,Deborah,Jolene,What method does Deb suggest Jolene to try for organizing tasks based on importance and urgency?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What method does Deb suggest Jolene to try for organizing tasks based on importance and urgency?",4,fallback_ambiguous,speaker_b
+conv-48_qa_124,train,conv-48,124,Deborah,Jolene,What did Jolene and Anna discuss while watching the sunset by the sea?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Jolene and Anna discuss while watching the sunset by the sea?",4,fallback_ambiguous,speaker_b
+conv-48_qa_125,train,conv-48,125,Deborah,Jolene,How does Jolene plan to pursue her dream of learning to surf?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How does Jolene plan to pursue her dream of learning to surf?",4,fallback_ambiguous,speaker_b
+conv-48_qa_126,train,conv-48,126,Deborah,Jolene,What did Deborah buy to enhance her yoga practice besides the props?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Deborah buy to enhance her yoga practice besides the props?",4,fallback_ambiguous,speaker_a
+conv-48_qa_127,train,conv-48,127,Deborah,Jolene,What type of music does Deborah find helpful during her yoga practice?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What type of music does Deborah find helpful during her yoga practice?",4,fallback_ambiguous,speaker_a
+conv-48_qa_128,train,conv-48,128,Deborah,Jolene,Who are the musicians mentioned by Jolene that she enjoys listening to during her yoga practice?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Who are the musicians mentioned by Jolene that she enjoys listening to during her yoga practice?",4,fallback_ambiguous,speaker_b
+conv-48_qa_129,train,conv-48,129,Deborah,Jolene,What album does Deborah recommend for meditation and deep relaxation?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What album does Deborah recommend for meditation and deep relaxation?",4,fallback_ambiguous,speaker_a
+conv-48_qa_130,train,conv-48,130,Deborah,Jolene,"Which show did Deborah go to with a friend on 9 April, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: Which show did Deborah go to with a friend on 9 April, 2023?",4,fallback_ambiguous,speaker_a
+conv-48_qa_131,train,conv-48,131,Deborah,Jolene,What does Deborah find comforting about going to art shows?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What does Deborah find comforting about going to art shows?",4,fallback_ambiguous,speaker_a
+conv-48_qa_132,train,conv-48,132,Deborah,Jolene,How does Jolene describe the time spent with her snakes and partner?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How does Jolene describe the time spent with her snakes and partner?",4,fallback_ambiguous,speaker_b
+conv-48_qa_133,train,conv-48,133,Deborah,Jolene,What does Jolene enjoy doing with her partner after a long day?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What does Jolene enjoy doing with her partner after a long day?",4,fallback_ambiguous,speaker_b
+conv-48_qa_134,train,conv-48,134,Deborah,Jolene,What is Jolene currently doing in June 2023?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What is Jolene currently doing in June 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_135,train,conv-48,135,Deborah,Jolene,For how long has Jolene had Seraphim as a pet?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: For how long has Jolene had Seraphim as a pet?",4,fallback_ambiguous,speaker_b
+conv-48_qa_136,train,conv-48,136,Deborah,Jolene,How does Jolene feel when spending time with Seraphim?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How does Jolene feel when spending time with Seraphim?",4,fallback_ambiguous,speaker_b
+conv-48_qa_137,train,conv-48,137,Deborah,Jolene,Which new yoga pose did Deborah share a photo of?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which new yoga pose did Deborah share a photo of?",4,fallback_ambiguous,speaker_a
+conv-48_qa_138,train,conv-48,138,Deborah,Jolene,What group activity did Deborah start with Anna?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What group activity did Deborah start with Anna?",4,fallback_ambiguous,speaker_a
+conv-48_qa_139,train,conv-48,139,Deborah,Jolene,What made being part of the running group easy for Deborah to stay motivated?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What made being part of the running group easy for Deborah to stay motivated?",4,fallback_ambiguous,speaker_a
+conv-48_qa_140,train,conv-48,140,Deborah,Jolene,Why did Jolene decide to get a snake as a pet?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Why did Jolene decide to get a snake as a pet?",4,fallback_ambiguous,speaker_b
+conv-48_qa_141,train,conv-48,141,Deborah,Jolene,What is the favorite game Jolene plays with her partner?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What is the favorite game Jolene plays with her partner?",4,fallback_ambiguous,speaker_b
+conv-48_qa_142,train,conv-48,142,Deborah,Jolene,What activity does Deborah do with her cats?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What activity does Deborah do with her cats?",4,fallback_ambiguous,speaker_a
+conv-48_qa_143,train,conv-48,143,Deborah,Jolene,How does Jolene describe the feeling of finding her snake snuggled under the bed after it got out?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How does Jolene describe the feeling of finding her snake snuggled under the bed after it got out?",4,fallback_ambiguous,speaker_b
+conv-48_qa_144,train,conv-48,144,Deborah,Jolene,Why does Deborah take her cats out for a run in the park every day?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Why does Deborah take her cats out for a run in the park every day?",4,fallback_ambiguous,speaker_a
+conv-48_qa_145,train,conv-48,145,Deborah,Jolene,"How did Jolene come to have her pet, Susie?","Speaker A: Deborah
+Speaker B: Jolene
+Question: How did Jolene come to have her pet, Susie?",4,fallback_ambiguous,speaker_b
+conv-48_qa_146,train,conv-48,146,Deborah,Jolene,What activities have been helping Jolene stay distracted during tough times?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What activities have been helping Jolene stay distracted during tough times?",4,fallback_ambiguous,speaker_b
+conv-48_qa_147,train,conv-48,147,Deborah,Jolene,What kind of yoga routine does Deborah recommend to Jolene?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What kind of yoga routine does Deborah recommend to Jolene?",4,fallback_ambiguous,both
+conv-48_qa_148,train,conv-48,148,Deborah,Jolene,What did Jolene design inspired by their love for space and engines?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Jolene design inspired by their love for space and engines?",4,fallback_ambiguous,speaker_b
+conv-48_qa_149,train,conv-48,149,Deborah,Jolene,What journal has Jolene been using to help track tasks and stay organized?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What journal has Jolene been using to help track tasks and stay organized?",4,fallback_ambiguous,speaker_b
+conv-48_qa_150,train,conv-48,150,Deborah,Jolene,What game did Jolene recommend for being calming and cute?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What game did Jolene recommend for being calming and cute?",4,fallback_ambiguous,speaker_b
+conv-48_qa_151,train,conv-48,151,Deborah,Jolene,What game did Jolene suggest as an awesome open-world game for the Nintendo Switch?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What game did Jolene suggest as an awesome open-world game for the Nintendo Switch?",4,fallback_ambiguous,speaker_b
+conv-48_qa_152,train,conv-48,152,Deborah,Jolene,What did Deborah and her husband use to play to bond and make memories?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Deborah and her husband use to play to bond and make memories?",4,fallback_ambiguous,speaker_a
+conv-48_qa_153,train,conv-48,153,Deborah,Jolene,What is special about the bench at the park near Deborah's house?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What is special about the bench at the park near Deborah's house?",4,fallback_ambiguous,speaker_a
+conv-48_qa_154,train,conv-48,154,Deborah,Jolene,What did Deborah and her mom chat about at their special bench in the park?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Deborah and her mom chat about at their special bench in the park?",4,fallback_ambiguous,speaker_a
+conv-48_qa_155,train,conv-48,155,Deborah,Jolene,What feeling does Deborah get when she thinks about the time spent with her mom at their special spot?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What feeling does Deborah get when she thinks about the time spent with her mom at their special spot?",4,fallback_ambiguous,speaker_a
+conv-48_qa_156,train,conv-48,156,Deborah,Jolene,What habits does Jolene practice to feel balanced?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What habits does Jolene practice to feel balanced?",4,fallback_ambiguous,speaker_b
+conv-48_qa_157,train,conv-48,157,Deborah,Jolene,Which yoga pose is Jolene a fan of for rest and calmness?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Which yoga pose is Jolene a fan of for rest and calmness?",4,fallback_ambiguous,speaker_b
+conv-48_qa_158,train,conv-48,158,Deborah,Jolene,How long has Jolene been doing yoga?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How long has Jolene been doing yoga?",4,fallback_ambiguous,speaker_b
+conv-48_qa_159,train,conv-48,159,Deborah,Jolene,What did Jolene participate in recently that provided her with a rewarding experience?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Jolene participate in recently that provided her with a rewarding experience?",4,fallback_ambiguous,speaker_b
+conv-48_qa_160,train,conv-48,160,Deborah,Jolene,How did Jolene feel after receiving positive feedback at the virtual conference?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How did Jolene feel after receiving positive feedback at the virtual conference?",4,fallback_ambiguous,speaker_b
+conv-48_qa_161,train,conv-48,161,Deborah,Jolene,What kind of event did Jolene present at recently?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What kind of event did Jolene present at recently?",4,fallback_ambiguous,speaker_b
+conv-48_qa_162,train,conv-48,162,Deborah,Jolene,"What did Jolene's mom stress the value of, which she wants to keep in mind for her engineering projects?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Jolene's mom stress the value of, which she wants to keep in mind for her engineering projects?",4,fallback_ambiguous,speaker_b
+conv-48_qa_163,train,conv-48,163,Deborah,Jolene,What type of projects is Jolene interested in getting involved in the future?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What type of projects is Jolene interested in getting involved in the future?",4,fallback_ambiguous,speaker_b
+conv-48_qa_164,train,conv-48,164,Deborah,Jolene,"How did Deborah get Luna, one of her cats?","Speaker A: Deborah
+Speaker B: Jolene
+Question: How did Deborah get Luna, one of her cats?",4,fallback_ambiguous,speaker_a
+conv-48_qa_165,train,conv-48,165,Deborah,Jolene,How old is Max?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How old is Max?",4,fallback_ambiguous,unknown
+conv-48_qa_166,train,conv-48,166,Deborah,Jolene,"What type of classes did Jolene and her partner check out during their trip to Rio de Janeiro on 30 August, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What type of classes did Jolene and her partner check out during their trip to Rio de Janeiro on 30 August, 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_167,train,conv-48,167,Deborah,Jolene,What type of place does Jolene visit to meditate?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What type of place does Jolene visit to meditate?",4,fallback_ambiguous,speaker_b
+conv-48_qa_168,train,conv-48,168,Deborah,Jolene,"What was the new plant Jolene got used as a reminder for on 30 August, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What was the new plant Jolene got used as a reminder for on 30 August, 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_169,train,conv-48,169,Deborah,Jolene,"Why did Jolene get the new plant on 30 August, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: Why did Jolene get the new plant on 30 August, 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_170,train,conv-48,170,Deborah,Jolene,What has Jolene been focusing on lately besides studying?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What has Jolene been focusing on lately besides studying?",4,fallback_ambiguous,speaker_b
+conv-48_qa_171,train,conv-48,171,Deborah,Jolene,How did Deborah's mom support her yoga practice when she first started?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How did Deborah's mom support her yoga practice when she first started?",4,fallback_ambiguous,speaker_a
+conv-48_qa_172,train,conv-48,172,Deborah,Jolene,What was the video game console that Jolene's parents got her at age 10?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What was the video game console that Jolene's parents got her at age 10?",4,fallback_ambiguous,speaker_b
+conv-48_qa_173,train,conv-48,173,Deborah,Jolene,What was one of Jolene's favorite games to play with her mom on the nintendo wii game system?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What was one of Jolene's favorite games to play with her mom on the nintendo wii game system?",4,fallback_ambiguous,speaker_b
+conv-48_qa_174,train,conv-48,174,Deborah,Jolene,What course did Jolene sign up for on 6 September 2023?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What course did Jolene sign up for on 6 September 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_175,train,conv-48,175,Deborah,Jolene,"Why did Jolene have to reschedule their meeting with Deborah on September 8, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: Why did Jolene have to reschedule their meeting with Deborah on September 8, 2023?",4,fallback_ambiguous,both
+conv-48_qa_176,train,conv-48,176,Deborah,Jolene,Where did Jolene and her partner travel for a few weeks in September 2023?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Where did Jolene and her partner travel for a few weeks in September 2023?",4,fallback_ambiguous,speaker_b
+conv-48_qa_177,train,conv-48,177,Deborah,Jolene,What was the main focus of the session that stood out to Jolene during the retreat?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What was the main focus of the session that stood out to Jolene during the retreat?",4,fallback_ambiguous,speaker_b
+conv-48_qa_178,train,conv-48,178,Deborah,Jolene,How did Jolene feel about her progress in practicing mindfulness and gratitude?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How did Jolene feel about her progress in practicing mindfulness and gratitude?",4,fallback_ambiguous,speaker_b
+conv-48_qa_179,train,conv-48,179,Deborah,Jolene,What positive change did Jolene experience during the retreat?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What positive change did Jolene experience during the retreat?",4,fallback_ambiguous,speaker_b
+conv-48_qa_180,train,conv-48,180,Deborah,Jolene,What did Jolene recently play that she described to Deb?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Jolene recently play that she described to Deb?",4,fallback_ambiguous,speaker_b
+conv-48_qa_181,train,conv-48,181,Deborah,Jolene,What did Deborah do with their mom's old friends?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Deborah do with their mom's old friends?",4,fallback_ambiguous,speaker_a
+conv-48_qa_182,train,conv-48,182,Deborah,Jolene,Where did Deborah get married?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: Where did Deborah get married?",4,fallback_ambiguous,speaker_a
+conv-48_qa_183,train,conv-48,183,Deborah,Jolene,What does yoga on the beach provide for Deborah?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What does yoga on the beach provide for Deborah?",4,fallback_ambiguous,speaker_a
+conv-48_qa_184,train,conv-48,184,Deborah,Jolene,How does Jolene describe their home room?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: How does Jolene describe their home room?",4,fallback_ambiguous,speaker_b
+conv-48_qa_185,train,conv-48,185,Deborah,Jolene,"What new activity did Deborah and her neighbor organize for the community on 16 September, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What new activity did Deborah and her neighbor organize for the community on 16 September, 2023?",4,fallback_ambiguous,speaker_a
+conv-48_qa_186,train,conv-48,186,Deborah,Jolene,What was Deborah's mom passionate about?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What was Deborah's mom passionate about?",4,fallback_ambiguous,speaker_a
+conv-48_qa_187,train,conv-48,187,Deborah,Jolene,What food did Deborah's mom make for her on birthdays?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What food did Deborah's mom make for her on birthdays?",4,fallback_ambiguous,speaker_a
+conv-48_qa_188,train,conv-48,188,Deborah,Jolene,What kind of cookies did Jolene used to bake with someone close to her?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What kind of cookies did Jolene used to bake with someone close to her?",4,fallback_ambiguous,speaker_b
+conv-48_qa_189,train,conv-48,189,Deborah,Jolene,What outdoor activity did Jolene suggest doing together with Deborah?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What outdoor activity did Jolene suggest doing together with Deborah?",4,fallback_ambiguous,both
+conv-48_qa_190,train,conv-48,190,Deborah,Jolene,"What activity did Deborah enjoy at the music festival with their pals on September 20, 2023?","Speaker A: Deborah
+Speaker B: Jolene
+Question: What activity did Deborah enjoy at the music festival with their pals on September 20, 2023?",4,fallback_ambiguous,speaker_a
+conv-48_qa_191,train,conv-48,191,Deborah,Jolene,What did Deborah find freeing at the music festival?,"Speaker A: Deborah
+Speaker B: Jolene
+Question: What did Deborah find freeing at the music festival?",4,fallback_ambiguous,speaker_a
+conv-49_qa_1,train,conv-49,1,Evan,Sam,What kind of car does Evan drive?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kind of car does Evan drive?",1,single_hop,speaker_a
+conv-49_qa_2,train,conv-49,2,Evan,Sam,What kinds of things did Evan have broken?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kinds of things did Evan have broken?",1,single_hop,speaker_a
+conv-49_qa_3,train,conv-49,3,Evan,Sam,Where has Evan been on roadtrips with his family?,"Speaker A: Evan
+Speaker B: Sam
+Question: Where has Evan been on roadtrips with his family?",1,single_hop,speaker_a
+conv-49_qa_4,train,conv-49,4,Evan,Sam,How many Prius has Evan owned?,"Speaker A: Evan
+Speaker B: Sam
+Question: How many Prius has Evan owned?",1,single_hop,speaker_a
+conv-49_qa_5,train,conv-49,5,Evan,Sam,Which hobby did Sam take up in May 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which hobby did Sam take up in May 2023?",2,temporal,speaker_b
+conv-49_qa_6,train,conv-49,6,Evan,Sam,Which country was Evan visiting in May 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which country was Evan visiting in May 2023?",3,multi_hop,speaker_a
+conv-49_qa_7,train,conv-49,7,Evan,Sam,How many roadtrips did Evan take in May 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: How many roadtrips did Evan take in May 2023?",1,single_hop,speaker_a
+conv-49_qa_8,train,conv-49,8,Evan,Sam,What new hobbies did Sam consider trying?,"Speaker A: Evan
+Speaker B: Sam
+Question: What new hobbies did Sam consider trying?",1,single_hop,speaker_b
+conv-49_qa_9,train,conv-49,9,Evan,Sam,What hobby did Evan start practicing a few years ago that he enjoys?,"Speaker A: Evan
+Speaker B: Sam
+Question: What hobby did Evan start practicing a few years ago that he enjoys?",1,single_hop,speaker_a
+conv-49_qa_10,train,conv-49,10,Evan,Sam,When did Evan go to Jasper with his family?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan go to Jasper with his family?",2,temporal,speaker_a
+conv-49_qa_11,train,conv-49,11,Evan,Sam,"Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?","Speaker A: Evan
+Speaker B: Sam
+Question: Which type of vacation would Evan prefer with his family, walking tours in metropolitan cities or camping trip in the outdoors?",3,multi_hop,speaker_a
+conv-49_qa_12,train,conv-49,12,Evan,Sam,What health issue did Sam face that motivated him to change his lifestyle?,"Speaker A: Evan
+Speaker B: Sam
+Question: What health issue did Sam face that motivated him to change his lifestyle?",1,single_hop,speaker_b
+conv-49_qa_13,train,conv-49,13,Evan,Sam,When did Sam first go to the doctor and find out he had a weight problem?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Sam first go to the doctor and find out he had a weight problem?",2,temporal,speaker_b
+conv-49_qa_14,train,conv-49,14,Evan,Sam,When did Evan have his sudden heart palpitation incident that really shocked him up?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan have his sudden heart palpitation incident that really shocked him up?",2,temporal,speaker_a
+conv-49_qa_15,train,conv-49,15,Evan,Sam,What is Evan's favorite food?,"Speaker A: Evan
+Speaker B: Sam
+Question: What is Evan's favorite food?",1,single_hop,speaker_a
+conv-49_qa_16,train,conv-49,16,Evan,Sam,What kind of unhealthy snacks does Sam enjoy eating?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kind of unhealthy snacks does Sam enjoy eating?",1,single_hop,speaker_b
+conv-49_qa_17,train,conv-49,17,Evan,Sam,What recurring issue frustrates Sam at the grocery store?,"Speaker A: Evan
+Speaker B: Sam
+Question: What recurring issue frustrates Sam at the grocery store?",1,single_hop,speaker_b
+conv-49_qa_18,train,conv-49,18,Evan,Sam,When did Sam's friends mock him for being overweight?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Sam's friends mock him for being overweight?",2,temporal,speaker_b
+conv-49_qa_19,train,conv-49,19,Evan,Sam,What kind of healthy food suggestions has Evan given to Sam?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kind of healthy food suggestions has Evan given to Sam?",1,single_hop,both
+conv-49_qa_20,train,conv-49,20,Evan,Sam,"Considering their conversations and personal growth, what advice might Evan and Sam give to someone facing a major life transition or challenge?","Speaker A: Evan
+Speaker B: Sam
+Question: Considering their conversations and personal growth, what advice might Evan and Sam give to someone facing a major life transition or challenge?",3,multi_hop,both
+conv-49_qa_21,train,conv-49,21,Evan,Sam,"In light of the health and dietary changes discussed, what would be an appropriate gift for both Evan and Sam to encourage their healthy lifestyles?","Speaker A: Evan
+Speaker B: Sam
+Question: In light of the health and dietary changes discussed, what would be an appropriate gift for both Evan and Sam to encourage their healthy lifestyles?",3,multi_hop,both
+conv-49_qa_22,train,conv-49,22,Evan,Sam,How does Evan describe the woman and his feelings for her that he met in Canada?,"Speaker A: Evan
+Speaker B: Sam
+Question: How does Evan describe the woman and his feelings for her that he met in Canada?",1,single_hop,speaker_a
+conv-49_qa_23,train,conv-49,23,Evan,Sam,When Evan did meet his future wife?,"Speaker A: Evan
+Speaker B: Sam
+Question: When Evan did meet his future wife?",2,temporal,speaker_a
+conv-49_qa_24,train,conv-49,24,Evan,Sam,When did Sam start working out at the gym?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Sam start working out at the gym?",2,temporal,speaker_b
+conv-49_qa_25,train,conv-49,25,Evan,Sam,What significant event happened in Sam's life towards the end of summer 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: What significant event happened in Sam's life towards the end of summer 2023?",2,temporal,speaker_b
+conv-49_qa_26,train,conv-49,26,Evan,Sam,Which year did Evan start taking care of his health seriously?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which year did Evan start taking care of his health seriously?",2,temporal,speaker_a
+conv-49_qa_27,train,conv-49,27,Evan,Sam,What motivates Evan to take care of his health?,"Speaker A: Evan
+Speaker B: Sam
+Question: What motivates Evan to take care of his health?",1,single_hop,speaker_a
+conv-49_qa_28,train,conv-49,28,Evan,Sam,What electronic device could Evan gift Sam to help him keep up with his fitness goals?,"Speaker A: Evan
+Speaker B: Sam
+Question: What electronic device could Evan gift Sam to help him keep up with his fitness goals?",3,multi_hop,both
+conv-49_qa_29,train,conv-49,29,Evan,Sam,What kind of writing does Sam do to relax and cope with his health issues?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kind of writing does Sam do to relax and cope with his health issues?",1,single_hop,speaker_b
+conv-49_qa_30,train,conv-49,30,Evan,Sam,"Who did Evan meet on his trip to Canada, and who did he come back from Canada with?","Speaker A: Evan
+Speaker B: Sam
+Question: Who did Evan meet on his trip to Canada, and who did he come back from Canada with?",1,single_hop,speaker_a
+conv-49_qa_31,train,conv-49,31,Evan,Sam,When Evan get back from a vacation with his SO?,"Speaker A: Evan
+Speaker B: Sam
+Question: When Evan get back from a vacation with his SO?",2,temporal,speaker_a
+conv-49_qa_32,train,conv-49,32,Evan,Sam,How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?,"Speaker A: Evan
+Speaker B: Sam
+Question: How might Evan and Sam's experiences with health and lifestyle changes influence their approach to stress and challenges?",3,multi_hop,both
+conv-49_qa_33,train,conv-49,33,Evan,Sam,What recurring frustration does Evan experience?,"Speaker A: Evan
+Speaker B: Sam
+Question: What recurring frustration does Evan experience?",1,single_hop,speaker_a
+conv-49_qa_34,train,conv-49,34,Evan,Sam,What is the recurring dream that Sam keeps having?,"Speaker A: Evan
+Speaker B: Sam
+Question: What is the recurring dream that Sam keeps having?",1,single_hop,speaker_b
+conv-49_qa_35,train,conv-49,35,Evan,Sam,What accidents has Evan's son faced lately?,"Speaker A: Evan
+Speaker B: Sam
+Question: What accidents has Evan's son faced lately?",1,single_hop,speaker_a
+conv-49_qa_36,train,conv-49,36,Evan,Sam,When was Evan's son injured at soccer?,"Speaker A: Evan
+Speaker B: Sam
+Question: When was Evan's son injured at soccer?",2,temporal,speaker_a
+conv-49_qa_37,train,conv-49,37,Evan,Sam,What kind of foods or recipes has Sam recommended to Evan?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kind of foods or recipes has Sam recommended to Evan?",1,single_hop,both
+conv-49_qa_38,train,conv-49,38,Evan,Sam,What kind of healthy meals did Sam start eating after getting a health scare?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kind of healthy meals did Sam start eating after getting a health scare?",1,single_hop,speaker_b
+conv-49_qa_39,train,conv-49,39,Evan,Sam,What role does nature and the outdoors play in Evan and Sam's mental well-being?,"Speaker A: Evan
+Speaker B: Sam
+Question: What role does nature and the outdoors play in Evan and Sam's mental well-being?",3,multi_hop,both
+conv-49_qa_40,train,conv-49,40,Evan,Sam,How many months lapsed between Sam's first and second doctor's appointment?,"Speaker A: Evan
+Speaker B: Sam
+Question: How many months lapsed between Sam's first and second doctor's appointment?",2,temporal,speaker_b
+conv-49_qa_41,train,conv-49,41,Evan,Sam,When did Evan start taking painting classes?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan start taking painting classes?",2,temporal,speaker_a
+conv-49_qa_42,train,conv-49,42,Evan,Sam,Which classes did Evan join in mid-August 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which classes did Evan join in mid-August 2023?",2,temporal,speaker_a
+conv-49_qa_43,train,conv-49,43,Evan,Sam,How did Evan get into painting?,"Speaker A: Evan
+Speaker B: Sam
+Question: How did Evan get into painting?",1,single_hop,speaker_a
+conv-49_qa_44,train,conv-49,44,Evan,Sam,How often does Sam get health checkups?,"Speaker A: Evan
+Speaker B: Sam
+Question: How often does Sam get health checkups?",3,multi_hop,speaker_b
+conv-49_qa_45,train,conv-49,45,Evan,Sam,What kind of subjects does Evan enjoy painting?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kind of subjects does Evan enjoy painting?",1,single_hop,speaker_a
+conv-49_qa_46,train,conv-49,46,Evan,Sam,Which places in Canada was Evan visiting in July 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which places in Canada was Evan visiting in July 2023?",2,temporal,speaker_a
+conv-49_qa_47,train,conv-49,47,Evan,Sam,How do Evan and Sam use creative outlets to cope with life's challenges?,"Speaker A: Evan
+Speaker B: Sam
+Question: How do Evan and Sam use creative outlets to cope with life's challenges?",3,multi_hop,both
+conv-49_qa_48,train,conv-49,48,Evan,Sam,When did Evan go skiing in Banff?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan go skiing in Banff?",2,temporal,speaker_a
+conv-49_qa_49,train,conv-49,49,Evan,Sam,What new diet and lifestyle change did Sam adopt over time?,"Speaker A: Evan
+Speaker B: Sam
+Question: What new diet and lifestyle change did Sam adopt over time?",1,single_hop,speaker_b
+conv-49_qa_50,train,conv-49,50,Evan,Sam,Who was injured in Evan's family?,"Speaker A: Evan
+Speaker B: Sam
+Question: Who was injured in Evan's family?",1,single_hop,speaker_a
+conv-49_qa_51,train,conv-49,51,Evan,Sam,What kind of hobbies does Evan pursue?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kind of hobbies does Evan pursue?",1,single_hop,speaker_a
+conv-49_qa_52,train,conv-49,52,Evan,Sam,"What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?","Speaker A: Evan
+Speaker B: Sam
+Question: What challenges does Sam face in his quest for a healthier lifestyle, and how does he address them?",3,multi_hop,speaker_b
+conv-49_qa_53,train,conv-49,53,Evan,Sam,Which activity do Evan and Sam plan on doing together during September 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which activity do Evan and Sam plan on doing together during September 2023?",2,temporal,both
+conv-49_qa_54,train,conv-49,54,Evan,Sam,When did Evan and Sam decide to paint together?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan and Sam decide to paint together?",2,temporal,both
+conv-49_qa_55,train,conv-49,55,Evan,Sam,What personal health incidents does Evan face in 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: What personal health incidents does Evan face in 2023?",1,single_hop,speaker_a
+conv-49_qa_56,train,conv-49,56,Evan,Sam,What recurring adventure does Evan have with strangers?,"Speaker A: Evan
+Speaker B: Sam
+Question: What recurring adventure does Evan have with strangers?",1,single_hop,speaker_a
+conv-49_qa_57,train,conv-49,57,Evan,Sam,What is Sam's persistent problem with his phone?,"Speaker A: Evan
+Speaker B: Sam
+Question: What is Sam's persistent problem with his phone?",1,single_hop,speaker_b
+conv-49_qa_58,train,conv-49,58,Evan,Sam,Which US state was Sam travelling in during October 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which US state was Sam travelling in during October 2023?",3,multi_hop,speaker_b
+conv-49_qa_59,train,conv-49,59,Evan,Sam,When did Evan start lifting weights?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan start lifting weights?",2,temporal,speaker_a
+conv-49_qa_60,train,conv-49,60,Evan,Sam,When did Sam and his friend decide to try kayaking?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Sam and his friend decide to try kayaking?",2,temporal,speaker_b
+conv-49_qa_61,train,conv-49,61,Evan,Sam,Which new activity does Sam take up in October 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which new activity does Sam take up in October 2023?",2,temporal,speaker_b
+conv-49_qa_62,train,conv-49,62,Evan,Sam,What kind of stress was Sam dealing with in October 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kind of stress was Sam dealing with in October 2023?",2,temporal,speaker_b
+conv-49_qa_63,train,conv-49,63,Evan,Sam,What health scares did Sam and Evan experience?,"Speaker A: Evan
+Speaker B: Sam
+Question: What health scares did Sam and Evan experience?",1,single_hop,both
+conv-49_qa_64,train,conv-49,64,Evan,Sam,When was Sam in the ER?,"Speaker A: Evan
+Speaker B: Sam
+Question: When was Sam in the ER?",2,temporal,speaker_b
+conv-49_qa_65,train,conv-49,65,Evan,Sam,Which ailment does Sam have to face due to his weight?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which ailment does Sam have to face due to his weight?",1,single_hop,speaker_b
+conv-49_qa_66,train,conv-49,66,Evan,Sam,Does Evan live close to a beach or mountains?,"Speaker A: Evan
+Speaker B: Sam
+Question: Does Evan live close to a beach or mountains?",3,multi_hop,speaker_a
+conv-49_qa_67,train,conv-49,67,Evan,Sam,When did Evan lose his job?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan lose his job?",2,temporal,speaker_a
+conv-49_qa_68,train,conv-49,68,Evan,Sam,When did Evan and Sam planned a trip to the beach together?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan and Sam planned a trip to the beach together?",2,temporal,both
+conv-49_qa_69,train,conv-49,69,Evan,Sam,"What was Sam doing on December 4, 2023?","Speaker A: Evan
+Speaker B: Sam
+Question: What was Sam doing on December 4, 2023?",2,temporal,speaker_b
+conv-49_qa_70,train,conv-49,70,Evan,Sam,Which two significant life events occur in Evan's life in December 2023 with his partner?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which two significant life events occur in Evan's life in December 2023 with his partner?",1,single_hop,speaker_a
+conv-49_qa_71,train,conv-49,71,Evan,Sam,How long did Evan and his partner date before getting married?,"Speaker A: Evan
+Speaker B: Sam
+Question: How long did Evan and his partner date before getting married?",2,temporal,speaker_a
+conv-49_qa_72,train,conv-49,72,Evan,Sam,Which major holiday season conincides with Evan's wedding?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which major holiday season conincides with Evan's wedding?",3,multi_hop,speaker_a
+conv-49_qa_73,train,conv-49,73,Evan,Sam,Which activity did Sam resume in December 2023 after a long time?,"Speaker A: Evan
+Speaker B: Sam
+Question: Which activity did Sam resume in December 2023 after a long time?",1,single_hop,speaker_b
+conv-49_qa_74,train,conv-49,74,Evan,Sam,When is Evan planning a big family reunion?,"Speaker A: Evan
+Speaker B: Sam
+Question: When is Evan planning a big family reunion?",2,temporal,speaker_a
+conv-49_qa_75,train,conv-49,75,Evan,Sam,When did Evan's son fall off his bike?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan's son fall off his bike?",2,temporal,speaker_a
+conv-49_qa_76,train,conv-49,76,Evan,Sam,When did Evan announce his marriage to his extended family?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan announce his marriage to his extended family?",2,temporal,speaker_a
+conv-49_qa_77,train,conv-49,77,Evan,Sam,When did Evan finish the painting that's hanging in the exhibit?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan finish the painting that's hanging in the exhibit?",2,temporal,speaker_a
+conv-49_qa_78,train,conv-49,78,Evan,Sam,How does Evan spend his time with his bride after the wedding?,"Speaker A: Evan
+Speaker B: Sam
+Question: How does Evan spend his time with his bride after the wedding?",1,single_hop,speaker_a
+conv-49_qa_79,train,conv-49,79,Evan,Sam,Who did Evan tell about his marriage?,"Speaker A: Evan
+Speaker B: Sam
+Question: Who did Evan tell about his marriage?",1,single_hop,speaker_a
+conv-49_qa_80,train,conv-49,80,Evan,Sam,When will Evan and his partner have their honeymoon in Canada?,"Speaker A: Evan
+Speaker B: Sam
+Question: When will Evan and his partner have their honeymoon in Canada?",2,temporal,speaker_a
+conv-49_qa_81,train,conv-49,81,Evan,Sam,When did Evan have a drunken night with his friends?,"Speaker A: Evan
+Speaker B: Sam
+Question: When did Evan have a drunken night with his friends?",2,temporal,speaker_a
+conv-49_qa_82,train,conv-49,82,Evan,Sam,What is a stress reliever for Evan?,"Speaker A: Evan
+Speaker B: Sam
+Question: What is a stress reliever for Evan?",1,single_hop,speaker_a
+conv-49_qa_83,train,conv-49,83,Evan,Sam,What is a stress reliever for Sam?,"Speaker A: Evan
+Speaker B: Sam
+Question: What is a stress reliever for Sam?",1,single_hop,speaker_b
+conv-49_qa_84,train,conv-49,84,Evan,Sam,What type of car did Evan get after his old Prius broke down?,"Speaker A: Evan
+Speaker B: Sam
+Question: What type of car did Evan get after his old Prius broke down?",4,fallback_ambiguous,speaker_a
+conv-49_qa_85,train,conv-49,85,Evan,Sam,How did Evan get into watercolor painting?,"Speaker A: Evan
+Speaker B: Sam
+Question: How did Evan get into watercolor painting?",4,fallback_ambiguous,speaker_a
+conv-49_qa_86,train,conv-49,86,Evan,Sam,What did Evan start doing a few years back as a stress-buster?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan start doing a few years back as a stress-buster?",4,fallback_ambiguous,speaker_a
+conv-49_qa_87,train,conv-49,87,Evan,Sam,What advice did Evan give Sam about finding a passion?,"Speaker A: Evan
+Speaker B: Sam
+Question: What advice did Evan give Sam about finding a passion?",4,fallback_ambiguous,both
+conv-49_qa_88,train,conv-49,88,Evan,Sam,"Where did Evan take his family for a road trip on 24 May, 2023?","Speaker A: Evan
+Speaker B: Sam
+Question: Where did Evan take his family for a road trip on 24 May, 2023?",4,fallback_ambiguous,speaker_a
+conv-49_qa_89,train,conv-49,89,Evan,Sam,What did Evan find relaxing about his road trip to Jasper?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan find relaxing about his road trip to Jasper?",4,fallback_ambiguous,speaker_a
+conv-49_qa_90,train,conv-49,90,Evan,Sam,What habit is Sam trying to change in terms of diet?,"Speaker A: Evan
+Speaker B: Sam
+Question: What habit is Sam trying to change in terms of diet?",4,fallback_ambiguous,speaker_b
+conv-49_qa_91,train,conv-49,91,Evan,Sam,What new suggestion did Evan give to Sam regarding his soda and candy consumption?,"Speaker A: Evan
+Speaker B: Sam
+Question: What new suggestion did Evan give to Sam regarding his soda and candy consumption?",4,fallback_ambiguous,both
+conv-49_qa_92,train,conv-49,92,Evan,Sam,What did Sam agree to try instead of soda and candy?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Sam agree to try instead of soda and candy?",4,fallback_ambiguous,speaker_b
+conv-49_qa_93,train,conv-49,93,Evan,Sam,What frustrating issue did Sam face at the supermarket?,"Speaker A: Evan
+Speaker B: Sam
+Question: What frustrating issue did Sam face at the supermarket?",4,fallback_ambiguous,speaker_b
+conv-49_qa_94,train,conv-49,94,Evan,Sam,What novel is Evan reading that he finds gripping?,"Speaker A: Evan
+Speaker B: Sam
+Question: What novel is Evan reading that he finds gripping?",4,fallback_ambiguous,speaker_a
+conv-49_qa_95,train,conv-49,95,Evan,Sam,What kind of water does Evan suggest Sam try as an alternative to soda?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kind of water does Evan suggest Sam try as an alternative to soda?",4,fallback_ambiguous,both
+conv-49_qa_96,train,conv-49,96,Evan,Sam,What does the smartwatch help Evan with?,"Speaker A: Evan
+Speaker B: Sam
+Question: What does the smartwatch help Evan with?",4,fallback_ambiguous,speaker_a
+conv-49_qa_97,train,conv-49,97,Evan,Sam,What does the bonsai tree symbolize for Evan?,"Speaker A: Evan
+Speaker B: Sam
+Question: What does the bonsai tree symbolize for Evan?",4,fallback_ambiguous,speaker_a
+conv-49_qa_98,train,conv-49,98,Evan,Sam,Why did Evan decide to get the bonsai tree?,"Speaker A: Evan
+Speaker B: Sam
+Question: Why did Evan decide to get the bonsai tree?",4,fallback_ambiguous,speaker_a
+conv-49_qa_99,train,conv-49,99,Evan,Sam,"According to Sam, what is more important than perfection?","Speaker A: Evan
+Speaker B: Sam
+Question: According to Sam, what is more important than perfection?",4,fallback_ambiguous,speaker_b
+conv-49_qa_100,train,conv-49,100,Evan,Sam,What did Evan suggest Sam to check out for insights into his dream?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan suggest Sam to check out for insights into his dream?",4,fallback_ambiguous,both
+conv-49_qa_101,train,conv-49,101,Evan,Sam,What did Evan mention he had been searching for fruitlessly for half an hour?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan mention he had been searching for fruitlessly for half an hour?",4,fallback_ambiguous,speaker_a
+conv-49_qa_102,train,conv-49,102,Evan,Sam,What class is Sam taking to learn how to make healthier meals?,"Speaker A: Evan
+Speaker B: Sam
+Question: What class is Sam taking to learn how to make healthier meals?",4,fallback_ambiguous,speaker_b
+conv-49_qa_103,train,conv-49,103,Evan,Sam,"What dish did Sam make on 18 August, 2023 that turned out flavorful?","Speaker A: Evan
+Speaker B: Sam
+Question: What dish did Sam make on 18 August, 2023 that turned out flavorful?",4,fallback_ambiguous,speaker_b
+conv-49_qa_104,train,conv-49,104,Evan,Sam,"What kind of recipe did Evan request from Sam on 19 August, 2023?","Speaker A: Evan
+Speaker B: Sam
+Question: What kind of recipe did Evan request from Sam on 19 August, 2023?",4,fallback_ambiguous,both
+conv-49_qa_105,train,conv-49,105,Evan,Sam,"What food did Sam share a photo of on 19 August, 2023?","Speaker A: Evan
+Speaker B: Sam
+Question: What food did Sam share a photo of on 19 August, 2023?",4,fallback_ambiguous,speaker_b
+conv-49_qa_106,train,conv-49,106,Evan,Sam,What type of painting classes did Evan start taking in 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: What type of painting classes did Evan start taking in 2023?",4,fallback_ambiguous,speaker_a
+conv-49_qa_107,train,conv-49,107,Evan,Sam,What did Evan start painting years ago due to being inspired by a friend's gift?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan start painting years ago due to being inspired by a friend's gift?",4,fallback_ambiguous,speaker_a
+conv-49_qa_108,train,conv-49,108,Evan,Sam,What nature concept do watercolor painting classes emphasize according to Evan?,"Speaker A: Evan
+Speaker B: Sam
+Question: What nature concept do watercolor painting classes emphasize according to Evan?",4,fallback_ambiguous,speaker_a
+conv-49_qa_109,train,conv-49,109,Evan,Sam,What type of landscapes does Evan love painting the most?,"Speaker A: Evan
+Speaker B: Sam
+Question: What type of landscapes does Evan love painting the most?",4,fallback_ambiguous,speaker_a
+conv-49_qa_110,train,conv-49,110,Evan,Sam,What fun activity did Evan mention doing in July 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: What fun activity did Evan mention doing in July 2023?",4,fallback_ambiguous,speaker_a
+conv-49_qa_111,train,conv-49,111,Evan,Sam,What injury did Evan suffer from in August 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: What injury did Evan suffer from in August 2023?",4,fallback_ambiguous,speaker_a
+conv-49_qa_112,train,conv-49,112,Evan,Sam,What sports activity has Evan been doing to stay active while dealing with the knee injury?,"Speaker A: Evan
+Speaker B: Sam
+Question: What sports activity has Evan been doing to stay active while dealing with the knee injury?",4,fallback_ambiguous,speaker_a
+conv-49_qa_113,train,conv-49,113,Evan,Sam,What suggestion did Sam give to Evan to help with his knee issue?,"Speaker A: Evan
+Speaker B: Sam
+Question: What suggestion did Sam give to Evan to help with his knee issue?",4,fallback_ambiguous,both
+conv-49_qa_114,train,conv-49,114,Evan,Sam,What did Evan suggest Sam try as a calming hobby?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan suggest Sam try as a calming hobby?",4,fallback_ambiguous,both
+conv-49_qa_115,train,conv-49,115,Evan,Sam,What did Evan recommend Sam acquire to get started with painting?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan recommend Sam acquire to get started with painting?",4,fallback_ambiguous,both
+conv-49_qa_116,train,conv-49,116,Evan,Sam,What activity does Evan do to keep himself busy while healing his knee?,"Speaker A: Evan
+Speaker B: Sam
+Question: What activity does Evan do to keep himself busy while healing his knee?",4,fallback_ambiguous,speaker_a
+conv-49_qa_117,train,conv-49,117,Evan,Sam,What painting did Evan share with Sam in October?,"Speaker A: Evan
+Speaker B: Sam
+Question: What painting did Evan share with Sam in October?",4,fallback_ambiguous,both
+conv-49_qa_118,train,conv-49,118,Evan,Sam,What kind of writing does Sam enjoy as a form of expression?,"Speaker A: Evan
+Speaker B: Sam
+Question: What kind of writing does Sam enjoy as a form of expression?",4,fallback_ambiguous,speaker_b
+conv-49_qa_119,train,conv-49,119,Evan,Sam,What electronics issue has been frustrating Sam lately?,"Speaker A: Evan
+Speaker B: Sam
+Question: What electronics issue has been frustrating Sam lately?",4,fallback_ambiguous,speaker_b
+conv-49_qa_120,train,conv-49,120,Evan,Sam,What activity did Evan start one year ago?,"Speaker A: Evan
+Speaker B: Sam
+Question: What activity did Evan start one year ago?",4,fallback_ambiguous,speaker_a
+conv-49_qa_121,train,conv-49,121,Evan,Sam,What advice did Evan give to Sam to avoid injuries while starting weightlifting?,"Speaker A: Evan
+Speaker B: Sam
+Question: What advice did Evan give to Sam to avoid injuries while starting weightlifting?",4,fallback_ambiguous,both
+conv-49_qa_122,train,conv-49,122,Evan,Sam,Where did Sam and his mate plan to try kayaking?,"Speaker A: Evan
+Speaker B: Sam
+Question: Where did Sam and his mate plan to try kayaking?",4,fallback_ambiguous,speaker_b
+conv-49_qa_123,train,conv-49,123,Evan,Sam,What digestive issue did Sam experience lately?,"Speaker A: Evan
+Speaker B: Sam
+Question: What digestive issue did Sam experience lately?",4,fallback_ambiguous,speaker_b
+conv-49_qa_124,train,conv-49,124,Evan,Sam,What adventurous theme is emerging in Evan's life as mentioned by Sam?,"Speaker A: Evan
+Speaker B: Sam
+Question: What adventurous theme is emerging in Evan's life as mentioned by Sam?",4,fallback_ambiguous,both
+conv-49_qa_125,train,conv-49,125,Evan,Sam,What does Evan mention about his progress at the gym to Sam?,"Speaker A: Evan
+Speaker B: Sam
+Question: What does Evan mention about his progress at the gym to Sam?",4,fallback_ambiguous,both
+conv-49_qa_126,train,conv-49,126,Evan,Sam,How did Evan start his transformation journey two years ago?,"Speaker A: Evan
+Speaker B: Sam
+Question: How did Evan start his transformation journey two years ago?",4,fallback_ambiguous,speaker_a
+conv-49_qa_127,train,conv-49,127,Evan,Sam,What gift did Evan receive from a close friend?,"Speaker A: Evan
+Speaker B: Sam
+Question: What gift did Evan receive from a close friend?",4,fallback_ambiguous,speaker_a
+conv-49_qa_128,train,conv-49,128,Evan,Sam,Why had Evan been going through a tough time lately?,"Speaker A: Evan
+Speaker B: Sam
+Question: Why had Evan been going through a tough time lately?",4,fallback_ambiguous,speaker_a
+conv-49_qa_129,train,conv-49,129,Evan,Sam,How does Evan describe the island he grew up on?,"Speaker A: Evan
+Speaker B: Sam
+Question: How does Evan describe the island he grew up on?",4,fallback_ambiguous,speaker_a
+conv-49_qa_130,train,conv-49,130,Evan,Sam,What was the main reason for Evan's frustration with his new Prius breaking down?,"Speaker A: Evan
+Speaker B: Sam
+Question: What was the main reason for Evan's frustration with his new Prius breaking down?",4,fallback_ambiguous,speaker_a
+conv-49_qa_131,train,conv-49,131,Evan,Sam,How did Sam suggest Evan view the setback with his broken Prius?,"Speaker A: Evan
+Speaker B: Sam
+Question: How did Sam suggest Evan view the setback with his broken Prius?",4,fallback_ambiguous,both
+conv-49_qa_132,train,conv-49,132,Evan,Sam,What did Sam suggest Evan try for stress relief and flexibility?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Sam suggest Evan try for stress relief and flexibility?",4,fallback_ambiguous,both
+conv-49_qa_133,train,conv-49,133,Evan,Sam,What did Sam offer Evan regarding yoga?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Sam offer Evan regarding yoga?",4,fallback_ambiguous,both
+conv-49_qa_134,train,conv-49,134,Evan,Sam,What news did Evan share with Sam on 9th December 2023?,"Speaker A: Evan
+Speaker B: Sam
+Question: What news did Evan share with Sam on 9th December 2023?",4,fallback_ambiguous,both
+conv-49_qa_135,train,conv-49,135,Evan,Sam,What family event is Evan planning for next summer?,"Speaker A: Evan
+Speaker B: Sam
+Question: What family event is Evan planning for next summer?",4,fallback_ambiguous,speaker_a
+conv-49_qa_136,train,conv-49,136,Evan,Sam,What is the motto of Evan's family?,"Speaker A: Evan
+Speaker B: Sam
+Question: What is the motto of Evan's family?",4,fallback_ambiguous,speaker_a
+conv-49_qa_137,train,conv-49,137,Evan,Sam,"According to Evan, what is important for Sam to believe in concerning his weight?","Speaker A: Evan
+Speaker B: Sam
+Question: According to Evan, what is important for Sam to believe in concerning his weight?",4,fallback_ambiguous,both
+conv-49_qa_138,train,conv-49,138,Evan,Sam,Who helped Evan get the painting published in the exhibition?,"Speaker A: Evan
+Speaker B: Sam
+Question: Who helped Evan get the painting published in the exhibition?",4,fallback_ambiguous,speaker_a
+conv-49_qa_139,train,conv-49,139,Evan,Sam,What did Sam recently start enjoying to clear his head?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Sam recently start enjoying to clear his head?",4,fallback_ambiguous,speaker_b
+conv-49_qa_140,train,conv-49,140,Evan,Sam,What did Sam suggest Evan should do with his keys?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Sam suggest Evan should do with his keys?",4,fallback_ambiguous,both
+conv-49_qa_141,train,conv-49,141,Evan,Sam,How did Evan feel when he painted the piece with the bird flying over it?,"Speaker A: Evan
+Speaker B: Sam
+Question: How did Evan feel when he painted the piece with the bird flying over it?",4,fallback_ambiguous,speaker_a
+conv-49_qa_142,train,conv-49,142,Evan,Sam,What did Evan suggest Sam should keep doing to find his own version of love?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan suggest Sam should keep doing to find his own version of love?",4,fallback_ambiguous,both
+conv-49_qa_143,train,conv-49,143,Evan,Sam,How did Evan describe the process of creating the painting with the bird flying over it?,"Speaker A: Evan
+Speaker B: Sam
+Question: How did Evan describe the process of creating the painting with the bird flying over it?",4,fallback_ambiguous,speaker_a
+conv-49_qa_144,train,conv-49,144,Evan,Sam,What did Evan want to share with his work friends?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan want to share with his work friends?",4,fallback_ambiguous,speaker_a
+conv-49_qa_145,train,conv-49,145,Evan,Sam,What did Evan share with Sam after their hiking trip?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan share with Sam after their hiking trip?",4,fallback_ambiguous,both
+conv-49_qa_146,train,conv-49,146,Evan,Sam,What did Evan offer to share with Sam after talking about healthy snacks?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan offer to share with Sam after talking about healthy snacks?",4,fallback_ambiguous,both
+conv-49_qa_147,train,conv-49,147,Evan,Sam,"What did Evan and his partner share with their extended family on January 5, 2024?","Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan and his partner share with their extended family on January 5, 2024?",4,fallback_ambiguous,speaker_a
+conv-49_qa_148,train,conv-49,148,Evan,Sam,What was Evan limiting himself to on his new diet?,"Speaker A: Evan
+Speaker B: Sam
+Question: What was Evan limiting himself to on his new diet?",4,fallback_ambiguous,speaker_a
+conv-49_qa_149,train,conv-49,149,Evan,Sam,What sports activity did Evan and his partner try in a recent weekend?,"Speaker A: Evan
+Speaker B: Sam
+Question: What sports activity did Evan and his partner try in a recent weekend?",4,fallback_ambiguous,speaker_a
+conv-49_qa_150,train,conv-49,150,Evan,Sam,What advice did Evan suggest Sam seek from a doctor?,"Speaker A: Evan
+Speaker B: Sam
+Question: What advice did Evan suggest Sam seek from a doctor?",4,fallback_ambiguous,both
+conv-49_qa_151,train,conv-49,151,Evan,Sam,What suggestions did Evan give for low-impact exercises?,"Speaker A: Evan
+Speaker B: Sam
+Question: What suggestions did Evan give for low-impact exercises?",4,fallback_ambiguous,speaker_a
+conv-49_qa_152,train,conv-49,152,Evan,Sam,What movie did Sam watch that motivated him to keep up with his routine?,"Speaker A: Evan
+Speaker B: Sam
+Question: What movie did Sam watch that motivated him to keep up with his routine?",4,fallback_ambiguous,speaker_b
+conv-49_qa_153,train,conv-49,153,Evan,Sam,What activity helped Evan with stress and flexibility?,"Speaker A: Evan
+Speaker B: Sam
+Question: What activity helped Evan with stress and flexibility?",4,fallback_ambiguous,speaker_a
+conv-49_qa_154,train,conv-49,154,Evan,Sam,What did Evan share a photo of that was taken on a camping trip?,"Speaker A: Evan
+Speaker B: Sam
+Question: What did Evan share a photo of that was taken on a camping trip?",4,fallback_ambiguous,speaker_a
+conv-49_qa_155,train,conv-49,155,Evan,Sam,Why did Evan apologize to his partner?,"Speaker A: Evan
+Speaker B: Sam
+Question: Why did Evan apologize to his partner?",4,fallback_ambiguous,speaker_a
+conv-49_qa_156,train,conv-49,156,Evan,Sam,How does Evan describe being out on the water while kayaking and watching the sunset?,"Speaker A: Evan
+Speaker B: Sam
+Question: How does Evan describe being out on the water while kayaking and watching the sunset?",4,fallback_ambiguous,speaker_a
+conv-50_qa_1,train,conv-50,1,Calvin,Dave,When did Calvin first travel to Tokyo?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin first travel to Tokyo?",2,temporal,speaker_a
+conv-50_qa_2,train,conv-50,2,Calvin,Dave,What items did Calvin buy in March 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What items did Calvin buy in March 2023?",1,single_hop,speaker_a
+conv-50_qa_3,train,conv-50,3,Calvin,Dave,When did Dave see Aerosmith perform live?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Dave see Aerosmith perform live?",2,temporal,speaker_b
+conv-50_qa_4,train,conv-50,4,Calvin,Dave,Which bands has Dave enjoyed listening to?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which bands has Dave enjoyed listening to?",1,single_hop,speaker_b
+conv-50_qa_5,train,conv-50,5,Calvin,Dave,Which country do Calvin and Dave want to meet in?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which country do Calvin and Dave want to meet in?",3,multi_hop,both
+conv-50_qa_6,train,conv-50,6,Calvin,Dave,What are Dave's dreams?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What are Dave's dreams?",1,single_hop,speaker_b
+conv-50_qa_7,train,conv-50,7,Calvin,Dave,Which types of cars does Dave like the most?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which types of cars does Dave like the most?",1,single_hop,speaker_b
+conv-50_qa_8,train,conv-50,8,Calvin,Dave,Does Dave's shop employ a lot of people?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Does Dave's shop employ a lot of people?",3,multi_hop,speaker_b
+conv-50_qa_9,train,conv-50,9,Calvin,Dave,When did Dave start his car maintenance shop?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Dave start his car maintenance shop?",2,temporal,speaker_b
+conv-50_qa_10,train,conv-50,10,Calvin,Dave,When did a mishap occur with Calvin's musical gear and favorite mic?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did a mishap occur with Calvin's musical gear and favorite mic?",2,temporal,speaker_a
+conv-50_qa_11,train,conv-50,11,Calvin,Dave,When did Calvin's place get flooded in Tokyo?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin's place get flooded in Tokyo?",2,temporal,speaker_a
+conv-50_qa_12,train,conv-50,12,Calvin,Dave,What mishaps has Calvin run into?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What mishaps has Calvin run into?",1,single_hop,speaker_a
+conv-50_qa_13,train,conv-50,13,Calvin,Dave,When was Calvin's concert in Tokyo?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When was Calvin's concert in Tokyo?",2,temporal,speaker_a
+conv-50_qa_14,train,conv-50,14,Calvin,Dave,Would Calvin enjoy performing at the Hollywood Bowl?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Would Calvin enjoy performing at the Hollywood Bowl?",3,multi_hop,speaker_a
+conv-50_qa_15,train,conv-50,15,Calvin,Dave,When did Calvin meet with the creative team for his new album?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin meet with the creative team for his new album?",2,temporal,speaker_a
+conv-50_qa_16,train,conv-50,16,Calvin,Dave,Why does Dave regularly visit parks?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Why does Dave regularly visit parks?",1,single_hop,speaker_b
+conv-50_qa_17,train,conv-50,17,Calvin,Dave,When did Dave take a trip to mountainous regions?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Dave take a trip to mountainous regions?",2,temporal,speaker_b
+conv-50_qa_18,train,conv-50,18,Calvin,Dave,When did Calvin have a car incident?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin have a car incident?",2,temporal,speaker_a
+conv-50_qa_19,train,conv-50,19,Calvin,Dave,How many times has Calvin had to deal with insurance paperwork?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How many times has Calvin had to deal with insurance paperwork?",1,single_hop,speaker_a
+conv-50_qa_20,train,conv-50,20,Calvin,Dave,Which places or events has Calvin visited in Tokyo?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which places or events has Calvin visited in Tokyo?",1,single_hop,speaker_a
+conv-50_qa_21,train,conv-50,21,Calvin,Dave,Who inspired Dave's passion for car engineering?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Who inspired Dave's passion for car engineering?",1,single_hop,speaker_b
+conv-50_qa_22,train,conv-50,22,Calvin,Dave,Does Calvin wish to become more popular?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Does Calvin wish to become more popular?",3,multi_hop,speaker_a
+conv-50_qa_23,train,conv-50,23,Calvin,Dave,Does Calvin want to expand his brand?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Does Calvin want to expand his brand?",1,single_hop,speaker_a
+conv-50_qa_24,train,conv-50,24,Calvin,Dave,What is Dave's main passion?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What is Dave's main passion?",1,single_hop,speaker_b
+conv-50_qa_25,train,conv-50,25,Calvin,Dave,Can Dave work with engines?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Can Dave work with engines?",1,single_hop,speaker_b
+conv-50_qa_26,train,conv-50,26,Calvin,Dave,When did Dave host a card-playing night with his friends?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Dave host a card-playing night with his friends?",2,temporal,speaker_b
+conv-50_qa_27,train,conv-50,27,Calvin,Dave,When did Calvin record a podcast with his friends?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin record a podcast with his friends?",2,temporal,speaker_a
+conv-50_qa_28,train,conv-50,28,Calvin,Dave,Which city was Calvin visiting in August 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which city was Calvin visiting in August 2023?",2,temporal,speaker_a
+conv-50_qa_29,train,conv-50,29,Calvin,Dave,What does Calvin do to relax?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What does Calvin do to relax?",1,single_hop,speaker_a
+conv-50_qa_30,train,conv-50,30,Calvin,Dave,What are Dave's hobbies other than fixing cars?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What are Dave's hobbies other than fixing cars?",1,single_hop,speaker_b
+conv-50_qa_31,train,conv-50,31,Calvin,Dave,What kind of music does Dave listen to?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What kind of music does Dave listen to?",1,single_hop,speaker_b
+conv-50_qa_32,train,conv-50,32,Calvin,Dave,Where was Dave in the last two weeks of August 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Where was Dave in the last two weeks of August 2023?",2,temporal,speaker_b
+conv-50_qa_33,train,conv-50,33,Calvin,Dave,Where did Dave return from with new knowledge of different techniques of car restoration?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Where did Dave return from with new knowledge of different techniques of car restoration?",1,single_hop,speaker_b
+conv-50_qa_34,train,conv-50,34,Calvin,Dave,What was Dave doing in San Francisco?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What was Dave doing in San Francisco?",1,single_hop,speaker_b
+conv-50_qa_35,train,conv-50,35,Calvin,Dave,When did Dave return from San Francisco?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Dave return from San Francisco?",2,temporal,speaker_b
+conv-50_qa_36,train,conv-50,36,Calvin,Dave,When did Calvin book flight tickets to Boston?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin book flight tickets to Boston?",2,temporal,speaker_a
+conv-50_qa_37,train,conv-50,37,Calvin,Dave,When was Calvin's album released?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When was Calvin's album released?",2,temporal,speaker_a
+conv-50_qa_38,train,conv-50,38,Calvin,Dave,Does Calvin love music tours?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Does Calvin love music tours?",3,multi_hop,speaker_a
+conv-50_qa_39,train,conv-50,39,Calvin,Dave,When did Dave have a great jam session with his band?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Dave have a great jam session with his band?",2,temporal,speaker_b
+conv-50_qa_40,train,conv-50,40,Calvin,Dave,Would Dave prefer working on a Dodge Charger or a Subaru Forester?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Would Dave prefer working on a Dodge Charger or a Subaru Forester?",3,multi_hop,speaker_b
+conv-50_qa_41,train,conv-50,41,Calvin,Dave,What was the artists Calvin used to listen to when he was a kid?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What was the artists Calvin used to listen to when he was a kid?",1,single_hop,speaker_a
+conv-50_qa_42,train,conv-50,42,Calvin,Dave,Which of their family member do Calvin and Dave have nostalgic memories about?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which of their family member do Calvin and Dave have nostalgic memories about?",1,single_hop,both
+conv-50_qa_43,train,conv-50,43,Calvin,Dave,"Based on the conversation, did Calvin and Dave have a meeting in Boston between August and November 2023? Answer in yes or no.","Speaker A: Calvin
+Speaker B: Dave
+Question: Based on the conversation, did Calvin and Dave have a meeting in Boston between August and November 2023? Answer in yes or no.",3,multi_hop,both
+conv-50_qa_44,train,conv-50,44,Calvin,Dave,"Which city was Calvin at on October 3, 2023?","Speaker A: Calvin
+Speaker B: Dave
+Question: Which city was Calvin at on October 3, 2023?",2,temporal,speaker_a
+conv-50_qa_45,train,conv-50,45,Calvin,Dave,When did Calvin met with local artists in Boston?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin met with local artists in Boston?",2,temporal,speaker_a
+conv-50_qa_46,train,conv-50,46,Calvin,Dave,What shared activities do Dave and Calvin have?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What shared activities do Dave and Calvin have?",1,single_hop,both
+conv-50_qa_47,train,conv-50,47,Calvin,Dave,What is Dave's favorite activity?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What is Dave's favorite activity?",1,single_hop,speaker_b
+conv-50_qa_48,train,conv-50,48,Calvin,Dave,How many car shows has Dave attended?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How many car shows has Dave attended?",1,single_hop,speaker_b
+conv-50_qa_49,train,conv-50,49,Calvin,Dave,What was Dave doing in the first weekend of October 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What was Dave doing in the first weekend of October 2023?",2,temporal,speaker_b
+conv-50_qa_50,train,conv-50,50,Calvin,Dave,"When Dave was a child, what did he and his father do in the garage?","Speaker A: Calvin
+Speaker B: Dave
+Question: When Dave was a child, what did he and his father do in the garage?",1,single_hop,speaker_b
+conv-50_qa_51,train,conv-50,51,Calvin,Dave,When did Calvin buy his second Ferrari?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin buy his second Ferrari?",2,temporal,speaker_a
+conv-50_qa_52,train,conv-50,52,Calvin,Dave,When did Calvin and Frank Ocean start collaborating?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin and Frank Ocean start collaborating?",2,temporal,speaker_a
+conv-50_qa_53,train,conv-50,53,Calvin,Dave,When did Calvin plan on travelling to Tokyo the second time?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin plan on travelling to Tokyo the second time?",2,temporal,speaker_a
+conv-50_qa_54,train,conv-50,54,Calvin,Dave,Who supports Calvin in tough times?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Who supports Calvin in tough times?",1,single_hop,speaker_a
+conv-50_qa_55,train,conv-50,55,Calvin,Dave,What does help Calvin stay connected to the creative process?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What does help Calvin stay connected to the creative process?",1,single_hop,speaker_a
+conv-50_qa_56,train,conv-50,56,Calvin,Dave,When did Calvin visit some of the sights in Boston with a former high school friend?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin visit some of the sights in Boston with a former high school friend?",2,temporal,speaker_a
+conv-50_qa_57,train,conv-50,57,Calvin,Dave,Which cities did Dave travel to in 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which cities did Dave travel to in 2023?",1,single_hop,speaker_b
+conv-50_qa_58,train,conv-50,58,Calvin,Dave,Which hobby did Dave pick up in October 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which hobby did Dave pick up in October 2023?",2,temporal,speaker_b
+conv-50_qa_59,train,conv-50,59,Calvin,Dave,Which events in Dave's life inspired him to take up auto engineering?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which events in Dave's life inspired him to take up auto engineering?",1,single_hop,speaker_b
+conv-50_qa_60,train,conv-50,60,Calvin,Dave,How many Ferraris does Calvin own?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How many Ferraris does Calvin own?",1,single_hop,speaker_a
+conv-50_qa_61,train,conv-50,61,Calvin,Dave,What gifts has Calvin received from his artist friends?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What gifts has Calvin received from his artist friends?",1,single_hop,speaker_a
+conv-50_qa_62,train,conv-50,62,Calvin,Dave,How long did Dave's work on the Ford Mustang take?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How long did Dave's work on the Ford Mustang take?",2,temporal,speaker_b
+conv-50_qa_63,train,conv-50,63,Calvin,Dave,How long was the car modification workshop in San Francisco?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How long was the car modification workshop in San Francisco?",2,temporal,unknown
+conv-50_qa_64,train,conv-50,64,Calvin,Dave,What style of guitars does Calvin own?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What style of guitars does Calvin own?",1,single_hop,speaker_a
+conv-50_qa_65,train,conv-50,65,Calvin,Dave,What activities has Dave participated in with his friends?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What activities has Dave participated in with his friends?",1,single_hop,speaker_b
+conv-50_qa_66,train,conv-50,66,Calvin,Dave,When did Dave take a photo of a Boston clock tower?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Dave take a photo of a Boston clock tower?",2,temporal,speaker_b
+conv-50_qa_67,train,conv-50,67,Calvin,Dave,Do all of Dave's car restoration projects go smoothly?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Do all of Dave's car restoration projects go smoothly?",1,single_hop,speaker_b
+conv-50_qa_68,train,conv-50,68,Calvin,Dave,Where was Calvin located in the last week of October 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Where was Calvin located in the last week of October 2023?",2,temporal,speaker_a
+conv-50_qa_69,train,conv-50,69,Calvin,Dave,When did Dave find the car he repaired and started sharing in his blog?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Dave find the car he repaired and started sharing in his blog?",2,temporal,speaker_b
+conv-50_qa_70,train,conv-50,70,Calvin,Dave,When did Dave buy a vintage camera?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Dave buy a vintage camera?",2,temporal,speaker_b
+conv-50_qa_71,train,conv-50,71,Calvin,Dave,When did Calvin attend a gala in Boston?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin attend a gala in Boston?",2,temporal,speaker_a
+conv-50_qa_72,train,conv-50,72,Calvin,Dave,How long did Calvin plan to stay in Japan?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How long did Calvin plan to stay in Japan?",4,fallback_ambiguous,speaker_a
+conv-50_qa_73,train,conv-50,73,Calvin,Dave,Which band was Dave's favorite at the music festival in April 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which band was Dave's favorite at the music festival in April 2023?",4,fallback_ambiguous,speaker_b
+conv-50_qa_74,train,conv-50,74,Calvin,Dave,Where did Calvin attend a music festival in April 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Where did Calvin attend a music festival in April 2023?",4,fallback_ambiguous,speaker_a
+conv-50_qa_75,train,conv-50,75,Calvin,Dave,What advice did Calvin receive from the producer at the music festival?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What advice did Calvin receive from the producer at the music festival?",4,fallback_ambiguous,speaker_a
+conv-50_qa_76,train,conv-50,76,Calvin,Dave,"What is Dave's new business venture as of 1 May, 2023?","Speaker A: Calvin
+Speaker B: Dave
+Question: What is Dave's new business venture as of 1 May, 2023?",4,fallback_ambiguous,speaker_b
+conv-50_qa_77,train,conv-50,77,Calvin,Dave,What type of cars does Dave work on at his shop?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What type of cars does Dave work on at his shop?",4,fallback_ambiguous,speaker_b
+conv-50_qa_78,train,conv-50,78,Calvin,Dave,What did Calvin receive as a gift from another artist?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What did Calvin receive as a gift from another artist?",4,fallback_ambiguous,speaker_a
+conv-50_qa_79,train,conv-50,79,Calvin,Dave,What was the necklace Calvin received meant to remind him of?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What was the necklace Calvin received meant to remind him of?",4,fallback_ambiguous,speaker_a
+conv-50_qa_80,train,conv-50,80,Calvin,Dave,What does Dave do when he feels his creativity is frozen?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What does Dave do when he feels his creativity is frozen?",4,fallback_ambiguous,speaker_b
+conv-50_qa_81,train,conv-50,81,Calvin,Dave,How does Calvin plan to jumpstart his inspiration?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How does Calvin plan to jumpstart his inspiration?",4,fallback_ambiguous,speaker_a
+conv-50_qa_82,train,conv-50,82,Calvin,Dave,What did Calvin manage to save during the flood incident?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What did Calvin manage to save during the flood incident?",4,fallback_ambiguous,speaker_a
+conv-50_qa_83,train,conv-50,83,Calvin,Dave,What did Dave open in May 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What did Dave open in May 2023?",4,fallback_ambiguous,speaker_b
+conv-50_qa_84,train,conv-50,84,Calvin,Dave,What gives Dave a sense of achievement and purpose?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What gives Dave a sense of achievement and purpose?",4,fallback_ambiguous,speaker_b
+conv-50_qa_85,train,conv-50,85,Calvin,Dave,What fuels Calvin's soul?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What fuels Calvin's soul?",4,fallback_ambiguous,speaker_a
+conv-50_qa_86,train,conv-50,86,Calvin,Dave,What is Dave doing to relax on weekends?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What is Dave doing to relax on weekends?",4,fallback_ambiguous,speaker_b
+conv-50_qa_87,train,conv-50,87,Calvin,Dave,What sports activity is Calvin planning to try after the tour with Frank Ocean?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What sports activity is Calvin planning to try after the tour with Frank Ocean?",4,fallback_ambiguous,speaker_a
+conv-50_qa_88,train,conv-50,88,Calvin,Dave,"What was Calvin excited to do after getting his car fixed on 7 July, 2023?","Speaker A: Calvin
+Speaker B: Dave
+Question: What was Calvin excited to do after getting his car fixed on 7 July, 2023?",4,fallback_ambiguous,speaker_a
+conv-50_qa_89,train,conv-50,89,Calvin,Dave,What did Calvin and his friends arrange for in the park?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What did Calvin and his friends arrange for in the park?",4,fallback_ambiguous,speaker_a
+conv-50_qa_90,train,conv-50,90,Calvin,Dave,What kind of music has Calvin been creating lately?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What kind of music has Calvin been creating lately?",4,fallback_ambiguous,speaker_a
+conv-50_qa_91,train,conv-50,91,Calvin,Dave,How does Calvin describe his process of adding electronic elements to his songs?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How does Calvin describe his process of adding electronic elements to his songs?",4,fallback_ambiguous,speaker_a
+conv-50_qa_92,train,conv-50,92,Calvin,Dave,What car brand does Calvin own that he is proud of?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What car brand does Calvin own that he is proud of?",4,fallback_ambiguous,speaker_a
+conv-50_qa_93,train,conv-50,93,Calvin,Dave,What is Calvin's biggest current goal?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What is Calvin's biggest current goal?",4,fallback_ambiguous,speaker_a
+conv-50_qa_94,train,conv-50,94,Calvin,Dave,What is Dave's advice to Calvin regarding his dreams?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What is Dave's advice to Calvin regarding his dreams?",4,fallback_ambiguous,both
+conv-50_qa_95,train,conv-50,95,Calvin,Dave,"What workshop did Dave get picked for on 11 August, 2023?","Speaker A: Calvin
+Speaker B: Dave
+Question: What workshop did Dave get picked for on 11 August, 2023?",4,fallback_ambiguous,speaker_b
+conv-50_qa_96,train,conv-50,96,Calvin,Dave,What kind of modifications has Dave been working on in the car mod workshop?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What kind of modifications has Dave been working on in the car mod workshop?",4,fallback_ambiguous,speaker_b
+conv-50_qa_97,train,conv-50,97,Calvin,Dave,What type of car did Dave work on during the workshop?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What type of car did Dave work on during the workshop?",4,fallback_ambiguous,speaker_b
+conv-50_qa_98,train,conv-50,98,Calvin,Dave,What does Dave say is important for making his custom cars unique?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What does Dave say is important for making his custom cars unique?",4,fallback_ambiguous,speaker_b
+conv-50_qa_99,train,conv-50,99,Calvin,Dave,How did the audience in Tokyo react when Calvin sang one of his songs?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How did the audience in Tokyo react when Calvin sang one of his songs?",4,fallback_ambiguous,speaker_a
+conv-50_qa_100,train,conv-50,100,Calvin,Dave,How did Calvin meet Frank Ocean?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How did Calvin meet Frank Ocean?",4,fallback_ambiguous,speaker_a
+conv-50_qa_101,train,conv-50,101,Calvin,Dave,Where did Calvin and Frank Ocean record a song together?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Where did Calvin and Frank Ocean record a song together?",4,fallback_ambiguous,speaker_a
+conv-50_qa_102,train,conv-50,102,Calvin,Dave,What did Calvin and his friends record in August 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What did Calvin and his friends record in August 2023?",4,fallback_ambiguous,speaker_a
+conv-50_qa_103,train,conv-50,103,Calvin,Dave,Where did Calvin start shooting a video for his new album?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Where did Calvin start shooting a video for his new album?",4,fallback_ambiguous,speaker_a
+conv-50_qa_104,train,conv-50,104,Calvin,Dave,What design is featured on Calvin's guitar?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What design is featured on Calvin's guitar?",4,fallback_ambiguous,speaker_a
+conv-50_qa_105,train,conv-50,105,Calvin,Dave,Why did Calvin get his guitar customized with a shiny finish?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Why did Calvin get his guitar customized with a shiny finish?",4,fallback_ambiguous,speaker_a
+conv-50_qa_106,train,conv-50,106,Calvin,Dave,What color glow did Calvin customize his guitar with?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What color glow did Calvin customize his guitar with?",4,fallback_ambiguous,speaker_a
+conv-50_qa_107,train,conv-50,107,Calvin,Dave,Where did Dave come back from with insights on car modification on 1st September 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Where did Dave come back from with insights on car modification on 1st September 2023?",4,fallback_ambiguous,speaker_b
+conv-50_qa_108,train,conv-50,108,Calvin,Dave,What emotion does Dave mention feeling when he sees the relief of someone whose car he fixed?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What emotion does Dave mention feeling when he sees the relief of someone whose car he fixed?",4,fallback_ambiguous,speaker_b
+conv-50_qa_109,train,conv-50,109,Calvin,Dave,What did Calvin book a flight ticket for on 1st September 2023?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What did Calvin book a flight ticket for on 1st September 2023?",4,fallback_ambiguous,speaker_a
+conv-50_qa_110,train,conv-50,110,Calvin,Dave,What is Calvin excited about after the tour?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What is Calvin excited about after the tour?",4,fallback_ambiguous,speaker_a
+conv-50_qa_111,train,conv-50,111,Calvin,Dave,What plans do Calvin and Dave have for when Calvin visits Boston?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What plans do Calvin and Dave have for when Calvin visits Boston?",4,fallback_ambiguous,both
+conv-50_qa_112,train,conv-50,112,Calvin,Dave,Which Disney movie did Dave mention as one of his favorites?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which Disney movie did Dave mention as one of his favorites?",4,fallback_ambiguous,speaker_b
+conv-50_qa_113,train,conv-50,113,Calvin,Dave,How does Dave feel about the reactions of people when they see the finished restoration project?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How does Dave feel about the reactions of people when they see the finished restoration project?",4,fallback_ambiguous,speaker_b
+conv-50_qa_114,train,conv-50,114,Calvin,Dave,What activity did Calvin enjoy during his summer drives?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What activity did Calvin enjoy during his summer drives?",4,fallback_ambiguous,speaker_a
+conv-50_qa_115,train,conv-50,115,Calvin,Dave,Which song from the childhood of Calvin brings back memories of a road trip with his dad?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which song from the childhood of Calvin brings back memories of a road trip with his dad?",4,fallback_ambiguous,speaker_a
+conv-50_qa_116,train,conv-50,116,Calvin,Dave,What project did Calvin work on to chill out?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What project did Calvin work on to chill out?",4,fallback_ambiguous,speaker_a
+conv-50_qa_117,train,conv-50,117,Calvin,Dave,What car did Dave work on in the junkyard?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What car did Dave work on in the junkyard?",4,fallback_ambiguous,speaker_b
+conv-50_qa_118,train,conv-50,118,Calvin,Dave,What does Dave find satisfying about restoring old cars?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What does Dave find satisfying about restoring old cars?",4,fallback_ambiguous,speaker_b
+conv-50_qa_119,train,conv-50,119,Calvin,Dave,What do Calvin and Dave use to reach their goals?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What do Calvin and Dave use to reach their goals?",4,fallback_ambiguous,both
+conv-50_qa_120,train,conv-50,120,Calvin,Dave,What does working on cars represent for Dave?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What does working on cars represent for Dave?",4,fallback_ambiguous,speaker_b
+conv-50_qa_121,train,conv-50,121,Calvin,Dave,What does Dave aim to do with his passion for cars?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What does Dave aim to do with his passion for cars?",4,fallback_ambiguous,speaker_b
+conv-50_qa_122,train,conv-50,122,Calvin,Dave,"What did Calvin recently get that is a ""masterpiece on wheels""?","Speaker A: Calvin
+Speaker B: Dave
+Question: What did Calvin recently get that is a ""masterpiece on wheels""?",4,fallback_ambiguous,speaker_a
+conv-50_qa_123,train,conv-50,123,Calvin,Dave,Who headlined the music festival that Dave attended in October?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Who headlined the music festival that Dave attended in October?",4,fallback_ambiguous,speaker_b
+conv-50_qa_124,train,conv-50,124,Calvin,Dave,How does Calvin stay motivated when faced with setbacks?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How does Calvin stay motivated when faced with setbacks?",4,fallback_ambiguous,speaker_a
+conv-50_qa_125,train,conv-50,125,Calvin,Dave,"What activity does Dave find fulfilling, similar to Calvin's passion for music festivals?","Speaker A: Calvin
+Speaker B: Dave
+Question: What activity does Dave find fulfilling, similar to Calvin's passion for music festivals?",4,fallback_ambiguous,both
+conv-50_qa_126,train,conv-50,126,Calvin,Dave,Where did Calvin and Dave meet Frank Ocean to start collaborating?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Where did Calvin and Dave meet Frank Ocean to start collaborating?",4,fallback_ambiguous,both
+conv-50_qa_127,train,conv-50,127,Calvin,Dave,Which part of Tokyo is described as Tokyo's Times Square by Calvin?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which part of Tokyo is described as Tokyo's Times Square by Calvin?",4,fallback_ambiguous,speaker_a
+conv-50_qa_128,train,conv-50,128,Calvin,Dave,What specific location in Tokyo does Calvin mention being excited to explore?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What specific location in Tokyo does Calvin mention being excited to explore?",4,fallback_ambiguous,speaker_a
+conv-50_qa_129,train,conv-50,129,Calvin,Dave,What dish does Dave recommend Calvin to try in Tokyo?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What dish does Dave recommend Calvin to try in Tokyo?",4,fallback_ambiguous,both
+conv-50_qa_130,train,conv-50,130,Calvin,Dave,What does Calvin find energizing during the tour?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What does Calvin find energizing during the tour?",4,fallback_ambiguous,speaker_a
+conv-50_qa_131,train,conv-50,131,Calvin,Dave,How does Calvin balance his job and personal life?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How does Calvin balance his job and personal life?",4,fallback_ambiguous,speaker_a
+conv-50_qa_132,train,conv-50,132,Calvin,Dave,What inspired Calvin's recent music?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What inspired Calvin's recent music?",4,fallback_ambiguous,speaker_a
+conv-50_qa_133,train,conv-50,133,Calvin,Dave,How does Calvin describe his music in relation to capturing feelings?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How does Calvin describe his music in relation to capturing feelings?",4,fallback_ambiguous,speaker_a
+conv-50_qa_134,train,conv-50,134,Calvin,Dave,Why did Dave start working on cars?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Why did Dave start working on cars?",4,fallback_ambiguous,speaker_b
+conv-50_qa_135,train,conv-50,135,Calvin,Dave,What is the toughest part of car restoration according to Dave?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What is the toughest part of car restoration according to Dave?",4,fallback_ambiguous,speaker_b
+conv-50_qa_136,train,conv-50,136,Calvin,Dave,What does Calvin believe makes an artist create something extraordinary?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What does Calvin believe makes an artist create something extraordinary?",4,fallback_ambiguous,speaker_a
+conv-50_qa_137,train,conv-50,137,Calvin,Dave,When did Dave sell the car he restored last year?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Dave sell the car he restored last year?",4,fallback_ambiguous,speaker_b
+conv-50_qa_138,train,conv-50,138,Calvin,Dave,When did Calvin first get interested in cars?,"Speaker A: Calvin
+Speaker B: Dave
+Question: When did Calvin first get interested in cars?",4,fallback_ambiguous,speaker_a
+conv-50_qa_139,train,conv-50,139,Calvin,Dave,How did Calvin feel about performing with someone he admires?,"Speaker A: Calvin
+Speaker B: Dave
+Question: How did Calvin feel about performing with someone he admires?",4,fallback_ambiguous,speaker_a
+conv-50_qa_140,train,conv-50,140,Calvin,Dave,What realization did the nightclub experience bring to Calvin?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What realization did the nightclub experience bring to Calvin?",4,fallback_ambiguous,speaker_a
+conv-50_qa_141,train,conv-50,141,Calvin,Dave,What do Dave and Calvin agree on regarding their pursuits?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What do Dave and Calvin agree on regarding their pursuits?",4,fallback_ambiguous,both
+conv-50_qa_142,train,conv-50,142,Calvin,Dave,Which city is featured in the photograph Dave showed Calvin?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Which city is featured in the photograph Dave showed Calvin?",4,fallback_ambiguous,both
+conv-50_qa_143,train,conv-50,143,Calvin,Dave,What did Calvin do recently at his Japanese house?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What did Calvin do recently at his Japanese house?",4,fallback_ambiguous,speaker_a
+conv-50_qa_144,train,conv-50,144,Calvin,Dave,What did Dave recently start a blog about?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What did Dave recently start a blog about?",4,fallback_ambiguous,speaker_b
+conv-50_qa_145,train,conv-50,145,Calvin,Dave,What is Dave's way to share his passion with others?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What is Dave's way to share his passion with others?",4,fallback_ambiguous,speaker_b
+conv-50_qa_146,train,conv-50,146,Calvin,Dave,What type of videos does Calvin usually watch on his television?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What type of videos does Calvin usually watch on his television?",4,fallback_ambiguous,speaker_a
+conv-50_qa_147,train,conv-50,147,Calvin,Dave,What type of music has Dave been getting into lately?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What type of music has Dave been getting into lately?",4,fallback_ambiguous,speaker_b
+conv-50_qa_148,train,conv-50,148,Calvin,Dave,What tools does Calvin use to boost his motivation for music?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What tools does Calvin use to boost his motivation for music?",4,fallback_ambiguous,speaker_a
+conv-50_qa_149,train,conv-50,149,Calvin,Dave,What type of content does Dave post on his blog that inspired others to start their own DIY projects?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What type of content does Dave post on his blog that inspired others to start their own DIY projects?",4,fallback_ambiguous,speaker_b
+conv-50_qa_150,train,conv-50,150,Calvin,Dave,What kind of impact does Dave's blog on car mods have on people?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What kind of impact does Dave's blog on car mods have on people?",4,fallback_ambiguous,speaker_b
+conv-50_qa_151,train,conv-50,151,Calvin,Dave,"Who did Calvin invite to see him perform in Boston on 13 November, 2023?","Speaker A: Calvin
+Speaker B: Dave
+Question: Who did Calvin invite to see him perform in Boston on 13 November, 2023?",4,fallback_ambiguous,speaker_a
+conv-50_qa_152,train,conv-50,152,Calvin,Dave,What hobby did Calvin take up recently?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What hobby did Calvin take up recently?",4,fallback_ambiguous,speaker_a
+conv-50_qa_153,train,conv-50,153,Calvin,Dave,What new item did Dave buy recently?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What new item did Dave buy recently?",4,fallback_ambiguous,speaker_b
+conv-50_qa_154,train,conv-50,154,Calvin,Dave,What type of photos does Dave like to capture with his new camera?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What type of photos does Dave like to capture with his new camera?",4,fallback_ambiguous,speaker_b
+conv-50_qa_155,train,conv-50,155,Calvin,Dave,What event did Calvin attend in Boston?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What event did Calvin attend in Boston?",4,fallback_ambiguous,speaker_a
+conv-50_qa_156,train,conv-50,156,Calvin,Dave,What did Calvin discuss with the cool artist he met at the gala?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What did Calvin discuss with the cool artist he met at the gala?",4,fallback_ambiguous,speaker_a
+conv-50_qa_157,train,conv-50,157,Calvin,Dave,Where did Dave take a stunning photo of a waterfall?,"Speaker A: Calvin
+Speaker B: Dave
+Question: Where did Dave take a stunning photo of a waterfall?",4,fallback_ambiguous,speaker_b
+conv-50_qa_158,train,conv-50,158,Calvin,Dave,What positive impact does Calvin mention nature has on tough times?,"Speaker A: Calvin
+Speaker B: Dave
+Question: What positive impact does Calvin mention nature has on tough times?",4,fallback_ambiguous,speaker_a

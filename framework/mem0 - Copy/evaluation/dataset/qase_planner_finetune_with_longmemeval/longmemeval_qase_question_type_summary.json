@@ -1,0 +1,40 @@
+{
+  "source_longmemeval_file": "C:\\Viettel\\data\\raw\\longmemeval\\longmemeval_oracle.json",
+  "locomo_train_file": "C:\\Viettel\\framework\\mem0 - Copy\\evaluation\\dataset\\qase_planner_finetune\\qase_planner_train_last5.jsonl",
+  "longmemeval_output": "C:\\Viettel\\framework\\mem0 - Copy\\evaluation\\dataset\\qase_planner_finetune\\longmemeval_qase_question_type.jsonl",
+  "combined_output": "C:\\Viettel\\framework\\mem0 - Copy\\evaluation\\dataset\\qase_planner_finetune\\qase_planner_train_last5_plus_longmemeval_question_type.jsonl",
+  "note": "Use the combined file only for question_type training. Do not use it for target_speaker training.",
+  "mapping": {
+    "single-session-user": "single_hop",
+    "single-session-assistant": "single_hop",
+    "single-session-preference": "single_hop",
+    "temporal-reasoning": "temporal",
+    "knowledge-update": "temporal",
+    "multi-session": "multi_hop"
+  },
+  "abstention_rule": "question_id ending with _abs -> fallback_ambiguous",
+  "longmemeval_rows": 500,
+  "locomo_train_rows": 778,
+  "combined_rows": 1278,
+  "longmemeval_qase_counts": {
+    "temporal": 199,
+    "fallback_ambiguous": 30,
+    "multi_hop": 121,
+    "single_hop": 150
+  },
+  "combined_qase_counts": {
+    "temporal": 364,
+    "single_hop": 290,
+    "multi_hop": 171,
+    "fallback_ambiguous": 453
+  },
+  "longmemeval_raw_counts": {
+    "temporal-reasoning": 133,
+    "multi-session": 133,
+    "knowledge-update": 78,
+    "single-session-preference": 30,
+    "single-session-assistant": 56,
+    "single-session-user": 70
+  },
+  "longmemeval_abstention_count": 30
+}
