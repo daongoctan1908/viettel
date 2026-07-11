@@ -21,6 +21,10 @@ env/
 # Large local evaluation artifacts
 framework/mem0 - Copy/evaluation/models/
 framework/mem0 - Copy/evaluation/results/*
+framework/mem0 - Copy/evaluation/dataset/locomo10_last5.json
+framework/mem0 - Copy/evaluation/dataset/qase_planner_finetune/
+framework/mem0 - Copy/evaluation/dataset/qase_planner_finetune_with_longmemeval/
+framework/mem0 - Copy/evaluation/export_qase_planner_finetune_data.py
 
 # Keep small report artifacts from the best run
 !framework/mem0 - Copy/evaluation/results/

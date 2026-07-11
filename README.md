@@ -21,14 +21,9 @@ C:/Viettel
 |   |   |-- evaluation/
 |   |   |   |-- dataset/
 |   |   |   |   |-- locomo10.json
-|   |   |   |   |-- locomo10_last5.json
-|   |   |   |   |-- qase_planner_finetune/
-|   |   |   |   `-- qase_planner_finetune_with_longmemeval/
 |   |   |   |-- metrics/
 |   |   |   |   |-- llm_judge.py
 |   |   |   |   `-- utils.py
-|   |   |   |-- models/
-|   |   |   |   `-- qase_planner_distilroberta/
 |   |   |   |-- results/
 |   |   |   |   |-- evaluation_mem0_semantic_top7_5conv_judge5/
 |   |   |   |   |-- evaluation_mem0_qase_clean_bm25_profile_v1_5conv_judge5_best_result/
@@ -38,7 +33,6 @@ C:/Viettel
 |   |   |   |-- api_clients.py
 |   |   |   |-- demo_qase_live_chat.py
 |   |   |   |-- evaluate_unified_memory.py
-|   |   |   |-- export_qase_planner_finetune_data.py
 |   |   |   |-- mem0_question_aware_budget.py
 |   |   |   |-- paper_update_memory.py
 |   |   |   |-- prompts.py
@@ -140,11 +134,9 @@ Trong đó:
 
 Sau khi chấm điểm, QASE dùng largest-gap cutoff để cắt final memory pack. Các nhóm đơn giản như single-hop và temporal có ngưỡng cắt thấp hơn để tạo context gọn hơn; multi-hop và fallback/ambiguous giữ evidence rộng hơn.
 
-## Dữ Liệu, Model Và Kết Quả
+## Dữ Liệu Và Kết Quả
 
-Dataset chính nằm trong `framework/mem0 - Copy/evaluation/dataset/`. `locomo10.json` chứa 10 conversations của LoCoMo, còn `locomo10_last5.json` là subset 5 conversations cuối dùng cho một số thử nghiệm phụ. Hai thư mục `qase_planner_finetune/` và `qase_planner_finetune_with_longmemeval/` chứa dữ liệu train/test cho planner model thử nghiệm.
-
-Planner model thử nghiệm nằm trong `framework/mem0 - Copy/evaluation/models/qase_planner_distilroberta/`. Model này dùng DistilRoBERTa để thử phân loại question type và target speaker. Tuy nhiên, cấu hình QASE chính vẫn dùng rule-based planner.
+Dataset chính nằm trong `framework/mem0 - Copy/evaluation/dataset/`. `locomo10.json` chứa 10 conversations của LoCoMo.
 
 Kết quả được giữ trong `framework/mem0 - Copy/evaluation/results/`. Các thư mục kết quả chính:
 
@@ -252,7 +244,6 @@ Các hạn chế chính:
 
 Các hướng phát triển:
 
-- thay rule-based planner bằng model phân loại câu hỏi nhỏ được train trên dữ liệu đa dạng hơn;
 - cải thiện multi-hop bằng controlled expansion hoặc multi-step retrieval;
 - nghiên cứu memory theo nhiều tầng, ví dụ short-term/session/long-term memory;
 - đánh giá thêm trên nhiều dataset và nhiều LLM khác nhau.
